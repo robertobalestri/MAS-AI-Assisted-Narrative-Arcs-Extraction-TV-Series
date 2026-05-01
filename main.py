@@ -8,7 +8,7 @@ from src.ai_models.ai_models import get_llm
 from src.path_handler import PathHandler
 import os
 import json
-
+import agentops
 from src.langgraph_narrative_arcs_extraction.narrative_arc_graph import extract_narrative_arcs
 from src.ai_models.ai_models import LLMType
 from src.plot_processing.plot_summarizing import create_season_summary
@@ -17,6 +17,8 @@ from src.plot_processing.process_suggested_arcs import process_suggested_arcs
 from dotenv import load_dotenv
 
 load_dotenv(override=True)
+
+agentops.init()
 
 # Set up logging
 logger = setup_logging(__name__)

@@ -12,8 +12,4 @@ data/FIABA/
 *.log
 new_frontend/
 agent_logs/
-agent_logs
-
-.vscode
-.vscode/
-.cursorrules
+.git -*

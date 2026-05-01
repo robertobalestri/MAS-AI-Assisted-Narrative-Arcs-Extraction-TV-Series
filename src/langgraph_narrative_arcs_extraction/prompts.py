@@ -17,7 +17,7 @@ NARRATIVE_ARC_GUIDELINES = dedent("""
 
 2. **Title Creation:**
     - **Be Specific**: Titles must be clear and focused, including main characters if necessary.
-    - **Avoid Vague Titles**: E.g., "Character X's Struggles".
+    - **Avoid Vague Titles**: E.g., "Character X's Struggles", "Difficulties in the castle", "Difficulties in the workplace".
     - **Include Key Details**: Reference main characters and the central conflict/theme.
     - **Anthology Format**: "[Genre] Case: [Specific Case Name]" (e.g., "Procedural Case: The Missing Heir").
 
@@ -56,7 +56,7 @@ NARRATIVE_ARC_GUIDELINES = dedent("""
 DETAILED_OUTPUT_JSON_FORMAT = dedent("""
 [
     {
-        "title": "Specific Arc title",
+        "title": "Specific Arc title. AVOID vague titles",
         "arc_type": "Soap Arc/Genre-Specific Arc/Anthology Arc",
         "description": "Brief season-wide description of the arc",
         "single_episode_progression_string": "Arc progression in this episode with key plot points.",
@@ -174,7 +174,7 @@ ARC_DEDUPLICATOR_PROMPT = ChatPromptTemplate.from_template(
 {guidelines}
 
 **Deduplication Rules:**
-1. Only merge arcs if they describe  the same storyline.
+1. Only merge arcs if they describe  the same exact storyline.
 2. Keep arcs separate if they:
    - Focus on different aspects of a character's journey
    - Involve different character relationships
@@ -370,7 +370,7 @@ SOAP_AND_GENRE_ARC_EXTRACTOR_PROMPT = ChatPromptTemplate.from_template(
 5. Be exhaustive and thorough.
 6. Be sure to include every already existing season arc in the output (this is very important)
 7. For already existing season arcs, mantain their title and adapt the description to your new knowledge.
-
+8. Try to include all the arcs representing relationships development (of all types) between characters that are important enough for the narrative. 
 **Return the arcs as a JSON array:**
 {output_json_format}
 """

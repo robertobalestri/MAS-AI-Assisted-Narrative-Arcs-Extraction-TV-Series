@@ -1,106 +1,98 @@
 [
   {
-    "title": "Medical Case: Annie's Large Tumor",
+    "title": "Annie Connors' Tumor Case",
     "arc_type": "Anthology Arc",
-    "description": "The interns handle the complex case of Annie Connors, a patient with a large tumor who has avoided medical care due to fear. The arc explores the challenges of diagnosing and planning treatment, the dynamics among the interns, and the emotional impact of patient outcomes.",
+    "description": "The interns face the complex medical and ethical challenges of treating Annie Connors, a patient with a large tumor. The arc highlights the personal and professional growth of the interns as they navigate the difficulties of the case, which ends tragically with Annie's death during surgery.",
     "main_characters": "Annie Connors; Alex Karev; Miranda Bailey",
-    "interfering_episode_characters": "Cristina Yang; George O'Malley; Preston Burke",
-    "single_episode_progression_string": "The interns meet Annie Connors, who has a large tumor. Alex makes an insensitive comment about Annie's condition, which she overhears. Annie's mother explains Annie's fear of hospitals. Annie agrees to surgery but requests Alex not be involved. During surgery, a blood vessel bursts, and there isn't enough blood. Annie dies despite efforts to save her."
+    "interfering_episode_characters": "Cristina Yang; George O'Malley; Preston Burke; Meredith Grey; Derek Shepherd; Izzie Stevens",
+    "single_episode_progression_string": "Bailey introduces Annie Connors and her large tumor to the interns. Alex makes an insensitive comment about Annie, which she overhears. Annie's mother explains Annie's fear of hospitals. Annie agrees to the surgery but requests Alex not be involved. During the surgery, a blood vessel bursts, and Annie passes away despite efforts to save her."
   },
   {
-    "title": "Medical Case: Edwards' Parkinson's Surgery",
+    "title": "Edward's Brain Surgery and Ethical Dilemmas",
     "arc_type": "Anthology Arc",
-    "description": "Meredith and Derek handle a challenging case involving Edwards, a patient with Parkinson's disease, who must be convinced to undergo brain surgery to alleviate his symptoms. The surgery ultimately succeeds, leading to a significant improvement in Edwards' condition.",
-    "main_characters": "Meredith Grey; Derek Shepherd; Edwards",
-    "interfering_episode_characters": "Bailey; Edwards' daughter",
-    "single_episode_progression_string": "Meredith speaks with Edwards' daughter about the surgery. Edwards refuses the surgery initially. Meredith relates to Edwards' daughter, leading Edwards to reconsider. Edwards agrees to the surgery. Derek and Meredith successfully insert the probe during the surgery. Edwards experiences a significant reduction in tremors post-surgery."
+    "description": "Meredith and Derek navigate the ethical and emotional complexities of convincing Edward, a patient with Parkinson's disease, to undergo a risky brain surgery that could alleviate his tremors. The arc explores the challenges of patient consent and the impact of medical decisions on family dynamics.",
+    "main_characters": "Meredith Grey; Derek Shepherd; Edward",
+    "interfering_episode_characters": "Miranda Bailey; Edward's Daughter",
+    "single_episode_progression_string": "Edward is introduced to the interns and Bailey. Edward's daughter pleads with him to reconsider surgery. Meredith relates to the daughter's concerns. Derek and Meredith perform the surgery. Edwards' tremors stop after the probe is inserted. Edwards is joyful and claps his hands. Meredith assists Edward in walking to his daughter."
   },
   {
-    "title": "Medical Case: Jimmy's Stroke",
+    "title": "Izzie's Surgical Growth: Jimmy's Heart Emergency",
     "arc_type": "Anthology Arc",
-    "description": "Izzie navigates the challenges of handling critical medical cases, showcasing her growth and quick decision-making skills in high-pressure situations.",
-    "main_characters": "Izzie",
-    "interfering_episode_characters": "Jimmy; Jimmy's wife; Burke",
-    "single_episode_progression_string": "Jimmy suffers a stroke. Izzie operates immediately. Suction fails during the procedure. Izzie uses her hands to remove the clot. Izzie massages the heart until his pulse returns."
-  },
-  {
-    "title": "Meredith Grey's Journey: Balancing Legacy and Love",
-    "arc_type": "Soap Arc",
-    "description": "Meredith Grey navigates her first year as a surgical intern at Seattle Grace Hospital, balancing the challenges of her new job with personal relationships, including a complicated dynamic with Dr. Derek Shepherd. Her journey is marked by her struggle to step out of her mother's shadow, renowned surgeon Ellis Grey, and prove herself in the medical field while dealing with her mother's Alzheimer's diagnosis.",
-    "main_characters": "Meredith Grey; Derek Shepherd",
-    "interfering_episode_characters": "Cristina Yang; Miranda Bailey",
-    "single_episode_progression_string": "Meredith admits to Derek that she's avoiding him. Derek confronts Meredith about their complicated relationship. Meredith considers ending things with Derek. Meredith decides to break up with Derek. Derek and Meredith share a tender moment in the rain."
-  },
-  {
-    "title": "Intern Dynamics: Friendship and Rivalry",
-    "arc_type": "Soap Arc",
-    "description": "The group of new interns, including Meredith Grey, Cristina Yang, George O'Malley, and Isobel Stevens, form bonds and navigate the competitive and high-pressure environment of Seattle Grace Hospital. Their friendships are tested by professional rivalries, personal secrets, and the demands of their medical training, leading to growth and conflict.",
-    "main_characters": "Meredith Grey; Cristina Yang; George O'Malley; Isobel Stevens",
-    "interfering_episode_characters": "Derek Shepherd; Alex Karev; Miranda Bailey; Preston Burke",
-    "single_episode_progression_string": "George spills coffee on himself while trying to bring Meredith coffee. Izzie teases George about liking Meredith. Meredith and Derek have a tense conversation about their complicated relationship. Cristina reassures Meredith about her relationship with Derek. Alex makes a derogatory comment about a patient, leading to his removal from surgery. Izzie performs an emergency procedure on a patient, showcasing her skills. Meredith decides to break up with Derek. Alex and Cristina argue about their treatment in the hospital. George awkwardly tries to flirt with Meredith."
-  },
-  {
-    "title": "Dr. Derek Shepherd: Balancing Leadership and Love",
-    "arc_type": "Soap Arc",
-    "description": "Dr. Derek Shepherd, a skilled neurosurgeon, navigates the complexities of his professional responsibilities at Seattle Grace Hospital while dealing with personal entanglements, including his unexpected connection with intern Meredith Grey. His leadership and expertise are tested as he mentors the new interns and faces challenges in his personal life.",
-    "main_characters": "Derek Shepherd; Meredith Grey",
-    "interfering_episode_characters": "Miranda Bailey; Cristina Yang",
-    "single_episode_progression_string": "Derek accuses Meredith of avoiding him. Meredith admits she's involved with an attending. Derek suggests Meredith should decide if he should leave. Meredith hesitates but confirms she's late. Derek decides to wait. Meredith decides to break up with Derek. Derek and Meredith share a tender moment in the rain."
-  },
-  {
-    "title": "Izzie Stevens: Overcoming Past and Professional Growth",
-    "arc_type": "Soap Arc",
-    "description": "Izzie Stevens navigates the challenges of establishing herself as a competent doctor while confronting the resurfacing of her past modeling career. Her journey involves overcoming personal insecurities and proving her professional capabilities.",
+    "description": "Izzie faces a critical moment in her surgical career when she must perform an emergency procedure on a patient, Jimmy, who suffers a stroke. Despite her initial hesitation, she successfully removes a clot and saves his life, marking a significant step in her development as a surgeon.",
     "main_characters": "Izzie Stevens",
-    "interfering_episode_characters": "Alex Karev; George O'Malley; Miranda Bailey",
-    "single_episode_progression_string": "Izzie is assigned to get a CT scan for Annie. Izzie suggests an X-Ray for Jimmy and comforts his wife. Izzie performs an emergency procedure on Jimmy's heart. Izzie argues with Alex about missing pages and destroys his pager."
+    "interfering_episode_characters": "Jimmy; Jimmy's wife; Preston Burke; Alex Karev",
+    "single_episode_progression_string": "Jimmy suffers a stroke. Izzie decides to operate despite feeling unprepared. Izzie removes the clot manually and massages the heart. Jimmy's pulse returns, and he survives."
   },
   {
-    "title": "Alex Karev: Confronting Prejudices and Professional Growth",
+    "title": "Meredith and Derek's Professional and Personal Entanglement",
     "arc_type": "Soap Arc",
-    "description": "Alex Karev faces challenges in overcoming his prejudices and growing as a medical professional. His interactions with patients and colleagues reveal his struggle to balance skepticism with empathy, particularly in cases involving patient care and professional conduct.",
-    "main_characters": "Alex Karev",
-    "interfering_episode_characters": "Annie Connors; Dr. Burke; Izzie Stevens; George O'Malley",
-    "single_episode_progression_string": "Alex spills coffee on himself. He makes a derogatory comment about Annie's weight, unaware she can hear him. Annie requests Alex not be involved in her surgery after overhearing his comments. Burke warns Alex about potential legal consequences. Alex is removed from the surgery team. Alex realizes his pager battery is dead, causing him to miss important pages. Alex rushes to get blood for Annie's surgery but arrives too late."
+    "description": "Meredith Grey and Derek Shepherd navigate a complex relationship that begins with a one-night stand and evolves as they work together at Seattle Grace Hospital. Their personal history complicates their professional interactions, especially as Meredith strives to prove her competence amidst Derek's favoritism and the eventual arrival of his estranged wife, Addison.",
+    "main_characters": "Meredith Grey; Derek Shepherd",
+    "interfering_episode_characters": "Miranda Bailey; Cristina Yang",
+    "single_episode_progression_string": "Meredith avoids Derek in the parking lot. Derek accuses Meredith of avoiding him. Meredith admits to avoiding Derek due to complications. Derek suggests Meredith should end their relationship if it's too complicated. Meredith decides to break up with Derek. Meredith asks Derek to stop giving her favors."
   },
   {
-    "title": "Cristina Yang: Balancing Ambition and Relationships",
+    "title": "Interns' Journey and Growth",
     "arc_type": "Soap Arc",
-    "description": "Cristina Yang navigates her ambition to excel in her surgical career while managing her personal relationships, particularly with Dr. Burke. Her journey involves balancing her drive for success with the complexities of her romantic and professional interactions.",
-    "main_characters": "Cristina Yang; Dr. Burke",
-    "interfering_episode_characters": "Meredith Grey; Dr. Bailey",
-    "single_episode_progression_string": "Cristina reassures Meredith about her relationship with Derek. Cristina expresses her desire to be involved in Annie's case to Burke. Burke asks Cristina to find Annie's mother and family history. Cristina rudely discusses the patient's history in front of Burke. Burke tells Cristina he won't do her any more favors. Burke asks Cristina what their relationship is. Cristina questions if he really needs a label. Burke tells her to lock the door."
+    "description": "A group of new interns, Meredith, Cristina, George, and Izzie, form a bond as they navigate the challenges of their medical internship. Their evolving friendships provide emotional support and camaraderie, helping them tackle complex medical cases and personal dilemmas. The season showcases their growth through handling difficult cases, supporting each other, and overcoming personal and professional challenges.",
+    "main_characters": "Meredith Grey; Cristina Yang; George O'Malley; Izzie Stevens",
+    "interfering_episode_characters": "Alex Karev; Derek Shepherd; Miranda Bailey; Preston Burke",
+    "single_episode_progression_string": "George spills coffee on himself while trying to bring Meredith coffee. Izzie and George argue about waiting for Meredith. Izzie teases George about liking Meredith. Cristina reassures Meredith about her relationship with Derek. Alex's comments about Annie are overheard, causing tension. Izzie performs a critical procedure on Jimmy, saving his life. Alex misses pages due to a dead pager battery, leading to conflict with Izzie. Annie's surgery fails, and Alex is left reflecting on his actions."
   },
   {
-    "title": "George O'Malley: Navigating Insecurities and Growth",
+    "title": "George O'Malley's Romantic Struggles",
     "arc_type": "Soap Arc",
-    "description": "George O'Malley faces challenges in overcoming his insecurities and establishing himself as a competent intern at Seattle Grace Hospital. His journey involves navigating personal and professional growth, often marked by awkward interactions and self-doubt.",
-    "main_characters": "George O'Malley",
-    "interfering_episode_characters": "Meredith Grey; Izzie Stevens; Annie Connors; Preston Burke",
-    "single_episode_progression_string": "George spills coffee on himself while trying to impress Meredith. Izzie teases George about his feelings for Meredith. George awkwardly flirts with Meredith but is interrupted. George talks to Annie about his procrastination in asking someone out. George makes a mistake during surgery and is reprimanded by Burke. George attempts to talk to Meredith with beers but realizes he missed his chance."
+    "description": "George O'Malley, one of the surgical interns, struggles with his unrequited feelings for Meredith Grey, which complicates his interactions with his peers and affects his confidence both personally and professionally.",
+    "main_characters": "George O'Malley; Meredith Grey",
+    "interfering_episode_characters": "Izzie Stevens; Alex Karev",
+    "single_episode_progression_string": "George spills coffee on himself while trying to bring Meredith a drink. Izzie teases George about liking Meredith, which he denies. George awkwardly tries to flirt with Meredith, but she gets paged and leaves. George goes to Meredith's room with beers to talk, but she's not there, realizing he missed his chance."
   },
   {
-    "title": "Bailey's Mentorship: Shaping Future Surgeons",
+    "title": "Cristina Yang and Preston Burke's Professional and Personal Balance",
+    "arc_type": "Soap Arc",
+    "description": "Cristina Yang and Preston Burke navigate the complexities of their romantic relationship while maintaining their professional roles at Seattle Grace Hospital. Their interactions reflect the ongoing tension between personal desires and professional duties, as they work together on medical cases and confront the need to define their relationship.",
+    "main_characters": "Cristina Yang; Preston Burke",
+    "interfering_episode_characters": "Meredith Grey; Miranda Bailey",
+    "single_episode_progression_string": "Cristina reassures Meredith about her relationship with Derek. Cristina expresses her desire to be involved in Annie's case. Burke asks Cristina to find Annie's mother and family history. Cristina rudely discusses the patient's history, prompting Burke to question their relationship status. Burke tells Cristina to lock the door, indicating a desire for privacy."
+  },
+  {
+    "title": "Bailey's Mentorship and Leadership",
     "arc_type": "Genre-Specific Arc",
-    "description": "Dr. Miranda Bailey, known as 'The Nazi,' establishes her authority as a resident overseeing the new interns. Her strict yet effective mentorship style challenges the interns to rise to the demands of their roles, shaping their development as future surgeons.",
+    "description": "Miranda Bailey, known for her strict yet effective leadership, mentors the new interns at Seattle Grace Hospital. She balances her professional responsibilities while navigating hospital power dynamics and shaping the interns' development as surgeons.",
     "main_characters": "Miranda Bailey",
-    "interfering_episode_characters": "Derek Shepherd; Meredith Grey; Alex Karev; Cristina Yang; Izzie Stevens; George O'Malley",
-    "single_episode_progression_string": "Bailey instructs the interns to stay composed during Annie Connors' case. Bailey reminds Alex to use 'Ms.' when addressing patients. Bailey warns Derek about favoritism towards Meredith. Bailey questions Annie's will to live and the procedure's worth. Bailey comments on needing strong backs for Annie's surgery."
+    "interfering_episode_characters": "Meredith Grey; Derek Shepherd; Alex Karev; Cristina Yang; George O'Malley; Izzie Stevens",
+    "single_episode_progression_string": "Bailey introduces Annie Connors to the interns and emphasizes the importance of composure. Bailey warns Meredith about the implications of Derek's favoritism. Bailey questions Derek's decision-making in the elevator. Bailey instructs the interns on the necessity of strong teamwork during Annie's surgery."
   },
   {
-    "title": "Power Struggles at Seattle Grace",
+    "title": "Cristina Yang's Ambition and Emotional Detachment",
     "arc_type": "Genre-Specific Arc",
-    "description": "The arc explores the underlying power dynamics and professional rivalries at Seattle Grace Hospital, particularly focusing on the ambitions and tensions between Dr. Derek Shepherd and Dr. Preston Burke as they navigate their careers and vie for influence within the hospital.",
-    "main_characters": "Derek Shepherd; Preston Burke",
-    "interfering_episode_characters": "Miranda Bailey; Alex Karev",
-    "single_episode_progression_string": "Derek and Burke discuss different approaches to Annie's treatment, highlighting their professional rivalry. Bailey questions Derek's decision-making, suggesting favoritism, which adds to the tension. Derek reminds Bailey of his authority, reinforcing the power dynamics. Burke warns Alex about potential legal issues, asserting his control over the situation. Burke and Derek's differing opinions on patient care underscore their competitive ambitions."
+    "description": "Cristina Yang, a driven surgical intern, focuses on achieving surgical excellence while navigating professional rivalries and emotional detachment. Her ambition often leads to conflicts with peers and mentors, as she struggles to balance her career goals with empathy and personal relationships.",
+    "main_characters": "Cristina Yang",
+    "interfering_episode_characters": "Alex Karev; Meredith Grey; Preston Burke",
+    "single_episode_progression_string": "Cristina reassures Meredith about her relationship with Derek. Cristina argues with Alex about being removed from surgery. Cristina rudely discusses Annie's history with Burke. Burke asks Cristina about their relationship status."
   },
   {
-    "title": "Professional Rivalries and Teamwork in the OR",
+    "title": "Alex Karev's Professional Rivalries and Personal Growth",
     "arc_type": "Genre-Specific Arc",
-    "description": "The interns at Seattle Grace Hospital face professional rivalries and the need for teamwork as they navigate the high-pressure environment of the operating room. The season highlights conflicts between Meredith and Alex over patient care, as well as the collaboration between Izzie and Cristina on challenging cases, reflecting the ongoing theme of balancing competition with cooperation.",
-    "main_characters": "Meredith Grey; Alex Karev; Izzie Stevens; Cristina Yang",
-    "interfering_episode_characters": "Miranda Bailey; Derek Shepherd; Preston Burke; George O'Malley",
-    "single_episode_progression_string": "Meredith suggests using an inter-spinal catheter during surgery. Bailey warns Derek about favoritism towards Meredith. Alex's insensitive comments about Annie lead to his removal from the surgery. Izzie performs an emergency procedure on Jimmy. Alex misses pages due to a dead pager battery, causing tension with Izzie. Annie's surgery fails, and Alex is left to reflect on his actions."
+    "description": "Alex Karev, a surgical intern known for his competitive nature and brash demeanor, often finds himself in professional rivalries with his peers. Throughout the season, he works on developing his skills and improving his bedside manner.",
+    "main_characters": "Alex Karev",
+    "interfering_episode_characters": "Annie Connors; Preston Burke; Izzie Stevens; George O'Malley; Meredith Grey; Miranda Bailey",
+    "single_episode_progression_string": "Alex spills coffee on himself. Alex makes a derogatory comment about Annie, which she overhears, leading to his removal from the surgery. Alex realizes his pager's battery is dead after missing important pages. Alex is reprimanded by Burke for his unprofessional behavior. Alex attempts to make amends by rushing to get blood for Annie's surgery but arrives too late."
+  },
+  {
+    "title": "Navigating Professional Challenges and Growth",
+    "arc_type": "Genre-Specific Arc",
+    "description": "The interns at Seattle Grace Hospital face the challenges of working within a hierarchical medical environment. They strive to grow professionally by making critical decisions, learning from their mistakes, and taking responsibility for their actions. Through interactions with senior staff and navigating complex cases, they develop both professionally and personally.",
+    "main_characters": "Meredith Grey; Izzie Stevens; Alex Karev; George O'Malley; Cristina Yang",
+    "interfering_episode_characters": "Miranda Bailey; Derek Shepherd; Preston Burke",
+    "single_episode_progression_string": "Bailey instructs the interns to stay composed for Annie Connors' case. Izzie performs an emergency procedure on Jimmy's heart. Alex is removed from Annie's surgery due to his behavior. Meredith suggests using an inter-spinal catheter for Edward. George makes a mistake during Annie's surgery. Annie's surgery fails, and she passes away."
+  },
+  {
+    "title": "Meredith's Professional and Ethical Growth",
+    "arc_type": "Genre-Specific Arc",
+    "description": "Meredith Grey navigates her surgical internship, facing professional challenges and ethical dilemmas. This arc explores her growth as she deals with high-pressure situations, learns from mistakes, and grapples with the ethical implications of her actions, particularly concerning her relationship with Derek Shepherd.",
+    "main_characters": "Meredith Grey; Derek Shepherd",
+    "interfering_episode_characters": "Miranda Bailey; Cristina Yang; Alex Karev",
+    "single_episode_progression_string": "Meredith wakes up late and is reminded of her complicated relationship with Derek. Derek confronts Meredith about avoiding him, and she admits it's due to their complicated relationship. Bailey warns Meredith about the perception of favoritism due to her relationship with Derek. Meredith assists in a surgery and asks Derek to stop giving her favors. Meredith decides to break up with Derek to focus on her professional growth."
   }
 ]
