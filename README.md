@@ -18,7 +18,6 @@ pip install -r requirements.txt
 ```bash
 cd frontend
 npm install
-npm run dev
 ```
 
 ## Data Structure Requirements
@@ -59,17 +58,21 @@ The current codebase includes:
 
 ## Running the Application
 
-1. Start the backend:
+1. Start the analysis with the terminal:
 ```bash
 python main.py
 ```
 
-2. Start the API server:
+Wait for its completion.
+
+When it's done, you can open the web interface to explore the results: first start the API server:
 ```bash
 uvicorn api.api_main:app --reload
 ```
-
-3. The frontend should already be running from the setup steps (if not, run `npm run dev` in the frontend directory)
+Then start the frontend from the frontend folder:
+```bash
+npm run dev
+```
 
 ## Note
 Currently, the system only supports Azure OpenAI for LLM operations and Azure Cohere for embeddings. Support for other providers may be added in future updates.
