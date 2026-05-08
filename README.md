@@ -27,10 +27,10 @@ A Python-based system for extracting, analyzing and visualizing narrative arcs f
 pip install -r requirements.txt
 ```
 
-Npm install the node modules from the frontend folder. Then npm run dev.
+Install the frontend node modules from the `frontend` folder.
 
-Run main.py to make all happens.
+Start the backend API with `uvicorn api.api_main:app --reload`.
 
-When ready, to visualize, run "uvicorn api.api_main:app --reload"
+Then, from the `frontend` folder, run `npm run dev`.
 
-from the cmd prompt goes to the frontend folder and run "npm run dev"
+Series analysis is now triggered from the frontend through the backend.

@@ -1,134 +1,430 @@
 Meredith enters the locker room.
-Meredith puts a notice for a roommate on the bulletin board.
-George parks his car and heads to the hospital.
-George realizes he forgot his badge and has to go back.
-While retrieving the badge, George accidentally honks his horn.
+Meredith puts a roommate notice on the bulletin board.
+George parks George's car.
+George begins to enter the hospital.
+George forgets George's badge.
+George has to go back.
+George accidentally honks George's horn while George retrieves George's badge.
 Izzie calls for an elevator.
-When the doors open, Izzie sees it is full of men who are staring at Izzie.
-This makes Izzie uncomfortable.
-Cristina arrives at the hospital on her motorcycle.
-Cristina almost runs over George as Cristina parks and then runs inside.
-The interns are putting on their scrubs.
-Meredith places her leopard print shoes in her locker.
-Meredith talks to an intern who wants to be Meredith's roommate.
-However, Meredith feels the intern is not a good fit and declines.
-Izzie asks Meredith why Meredith puts up roommate posters if Meredith doesn't want a roommate.
-Meredith agrees to something.
-Cristina interrupts and points out that Meredith has a coffee meant for Bailey, calling it a bribe.
-George mentions that George's mom irons George's scrubs and hints George wants to be Meredith's roommate, but Meredith disagrees.
-Izzie also tries to ask to be Meredith's roommate, but Meredith refuses.
-Meredith states that Meredith wants two strangers who Meredith doesn't have to interact with.
-Bailey arrives and gives the interns their tasks.
-As Bailey goes upstairs, Meredith asks to help Bailey in the operating room and offers Bailey a mocha latte.
-The interns quickly surround Bailey, arguing that if Meredith gets to assist, they should too.
-Bailey responds that their job is to make their resident happy, which Bailey is not.
-Bailey takes the mocha latte and leaves, saying they won't get to use a scalpel until Bailey is as happy as Mary Poppins.
-Meredith then goes to the elevator, where Derek is also waiting.
-Derek realizes that Seattle has ferry boats, which Derek didn't know after living there for six weeks.
-When the doors open, Derek introduces himself as being from New York.
-After the doors close, Meredith tells Derek that Meredith won't go out with Derek.
-Derek replies that Derek never asked but inquires if Meredith wants to.
-Meredith declines and states that Meredith won't sleep with Derek because Derek is Meredith's boss.
-Derek brushes Meredith off, and Meredith accuses Derek of sexual harassment.
-Meredith asserts that Meredith is setting a boundary, and Derek jokingly asks if Meredith needs a marker.
-Meredith glares at Derek, drops Meredith's folders, and they kiss until the doors open.
-Afterward, Meredith picks up Meredith's folders and leaves.
-Meredith then enters a trauma room where a nurse informs Meredith about a rape victim found in the park with serious injuries.
-Meredith begins to lose focus when Meredith notices that the victim's shoes are identical to Meredith's. A nurse calls Meredith's name, bringing Meredith back to reality. Meredith then starts giving orders. The rape victim is currently in surgery. Derek mentions that Allison will need a long recovery and rehabilitation. Derek is surprised that Allison survived after what happened to her. Burke observes that Allison fought back. Derek responds that Allison did well since the rape kit showed no evidence of assault. Burke refers to Allison as a warrior, but Meredith corrects Burke, saying her name is Allison. Burke discovers the cause of the injury but is unsure what it is. Burke asks the others in the room, and Meredith states it is the rapist's penis, causing the doctors to mumble in disgust. As Derek and Burke finish scrubbing up, Derek and Burke talk about Allison's recovery. Burke suggests they go for a drink later. Burke wants to know why Derek moved from New York to Seattle. Derek replies that there is nothing to explain; Webber made Derek an offer Derek couldn't refuse, and then Derek leaves. George boasts to Cristina about being on the code team, but Cristina tells George to stop talking. Cristina has a B.A. from Smith, a PhD from Berkeley, and an M.D.
-Cristina has a B.A. from Smith, a PhD from Berkeley, and an M.D. from Stanford.
-Cristina is working on labs and says it will take Cristina all day to finish them.
-Miranda Bailey hears this and tells Cristina to start working.
-Cristina tries to explain that Cristina wasn't complaining, but Miranda interrupts Cristina.
-Miranda mentions that Miranda has an intern who has been reassigned and that Cristina should show the intern how Cristina works.
+The elevator opens.
+The elevator is full of men.
+The men stare at Izzie.
+The men make Izzie uncomfortable.
+Cristina arrives at the hospital on Cristina's motorcycle.
+Cristina almost runs over George.
+Cristina parks Cristina's motorcycle.
+Cristina runs to the hospital.
+The interns put on the interns' scrubs.
+Meredith puts Meredith's leopard-print shoes in Meredith's locker.
+Meredith talks to an intern.
+The intern wants to become Meredith's roommate.
+Meredith does not think the intern is the right fit.
+Meredith says no.
+Izzie asks Meredith why Meredith puts up roommate posters when Meredith seems not to want any roommates.
+Meredith says Meredith does want roommates.
+Cristina interrupts.
+Cristina sees that Meredith has a coffee in Meredith's hand.
+The coffee is for Bailey.
+Cristina calls Meredith's action bribing.
+George says that George's mom irons George's scrubs.
+George says George wants out.
+George hints that George wants to be Meredith's roommate.
+Meredith does not think that being roommates with George is a good idea.
+Izzie tries to ask to be Meredith's roommate.
+Meredith says Meredith only wants two strangers.
+Meredith says Meredith does not have to talk to the two strangers.
+Meredith says Meredith does not have to be nice to the two strangers.
+Bailey arrives.
+Bailey assigns the interns the interns' tasks.
+Bailey goes up the stairs.
+Meredith asks Bailey if Meredith could assist Bailey in the OR.
+Meredith offers Bailey a mocha latte.
+The interns immediately crowd Bailey.
+The interns say that if Meredith gets to cut, all the interns should get to cut.
+Bailey says cutting is not the interns' job.
+Bailey says the interns' job is to make Bailey's resident happy.
+Bailey says Bailey is not happy.
+Bailey takes the mocha latte.
+Bailey leaves.
+Bailey says the interns will not hold a scalpel until Bailey is as happy as Mary Poppins.
+Meredith heads to an elevator.
+Derek is also waiting at the elevator.
+Derek notes that Seattle has ferry boats.
+Derek says Derek did not know that because Derek has only been living in Seattle for six weeks.
+The elevator doors open.
+Derek says Derek is from New York.
+The elevator doors close.
+Meredith says Meredith will not go out with Derek.
+Derek says Derek never asked.
+Derek asks Meredith if Meredith wants to go out with Derek.
+Meredith says Meredith will not sleep with Derek because Derek is Meredith's boss.
+Derek dismisses Meredith's concern.
+Meredith says Derek is sexually harassing Meredith.
+Meredith says Meredith is drawing a line.
+Derek asks Meredith if Meredith needs a marker.
+Meredith stares at Derek.
+Meredith drops Meredith's folders.
+Meredith and Derek make out until the elevator doors open.
+Meredith picks up Meredith's folders.
+Meredith leaves.
+Meredith arrives at a trauma room.
+The nurse says the staff has a rape victim.
+The nurse says the rape victim was found down at the park.
+The nurse says the rape victim has major injuries.
+Meredith starts to zone out.
+Meredith sees that the rape victim's shoes are the same as Meredith's shoes.
+A nurse calls Meredith.
+Meredith snaps out of Meredith's daze.
+Meredith starts giving orders.
+Allison is in surgery.
+Derek says Allison will spend a lot of time in recovery and rehab.
+Derek says Derek is shocked that Allison is alive after what the rapist did to Allison.
+Burke notes that Allison tried to fight back.
+Derek replies that Allison kicked the rapist's ass because the rape kit was negative.
+Burke calls Allison a warrior.
+Meredith says Allison's name is Allison.
+Burke says Burke found the cause of the rupture.
+Burke says Burke does not know what the cause is.
+Burke asks the room.
+Meredith replies that the cause is the rapist's penis.
+The doctors mumble in disgust.
+Derek and Burke scrub out.
+Derek and Burke discuss Allison's recovery.
+Burke says Derek and Burke should get a drink later.
+Burke says Derek can tell Burke why Derek left New York for Seattle.
+Derek says there is nothing to tell.
+Derek says Webber made Derek an offer that Derek could not refuse.
+Derek leaves.
+George brags to Cristina about being on the code team.
+Cristina tells George to stop talking.
+Cristina says Cristina has a B.A. from Smith.
+Cristina says Cristina has a PhD from Berkeley.
+Cristina says Cristina has an M.D. from Stanford.
+Cristina says Cristina is delivering labs.
+Cristina says getting through the labs will take Cristina all day.
+Bailey overhears Cristina.
+Bailey tells Cristina that Cristina should get started.
+Cristina tries to say Cristina was not complaining.
+Bailey overrides Cristina.
+Bailey says Bailey has a reassigned intern.
+Bailey says Cristina should show the reassigned intern how Bailey does things.
 The intern introduces himself as Alex Karev.
-Cristina remembers that Alex called Meredith a nurse, so Cristina tells Alex that Cristina dislikes him.
-Alex replies that Alex feels the same way as Alex and Cristina walk away.
-George O'Malley's pager goes off, and George leaves too.
-George runs down a corridor with the code team following him.
-The patient is in critical condition and has no heartbeat.
-George starts giving orders and tells a nurse to charge the paddles.
-Izzie Stevens tells Ms. Lu, a Chinese woman, that Ms. Lu needs six stitches.
+Cristina remembers that Alex Karev is the one who called Meredith a nurse.
+Cristina tells Alex Karev that Cristina hates Alex Karev on principle.
+Alex Karev says Alex Karev does too.
+Cristina and Alex Karev walk away.
+George's pager beeps.
+George leaves.
+George runs along a corridor.
+The code team follows George.
+The patient is crashing.
+The patient is asystolic.
+George begins to give orders.
+George tells a nurse to charge the paddles.
+Izzie tells Ms. Lu that Ms. Lu needs six stitches.
 Izzie asks Ms. Lu if Ms. Lu is allergic to any medication.
-Ms. Lu responds in Cantonese, asking if Izzie speaks Cantonese and requesting help.
-Izzie then asks Ms. Lu if Ms. Lu knows any English.
-Ms. Lu replies in Cantonese, saying Ms. Lu's daughter is outside with worse injuries, while Ms. Lu has only hurt Ms. Lu's arm.
-Izzie asks if anyone in the room speaks Chinese, but no one responds.
-Meanwhile, Meredith Grey arrives at Richard Webber's office. Patricia Clarkson is there and realizes the box contains the rapist's penis. Patricia asks to see it but quickly changes her mind. Richard enters and mentions he heard Meredith's mother, Ellis Grey, is leaving Mayo Clinic. Meredith explains Ellis is just taking a break. Meredith tells Richard she was instructed to bring the "penis box" to him. Richard corrects Meredith, stating the police need it. Richard explains that until the police take custody, Meredith must keep it because all medical items must stay with the person who collected them. Cristina Yang and Alex Karev give lab results to a family. Cristina and Alex inform the patient about a disorder called multinucleate cell angiohistiocytoma. Cristina and Alex explain it is not a cancerous sarcoma and is a very rare but minor disease. The family feels relieved and one member hugs Cristina. Cristina glares at Alex, who is smiling at her. Meredith places a box on a counter where George O'Malley is working. George asks Meredith what it is. Meredith tells George he does not want to know, but George insists he does. Meredith then reveals it is a penis box, and George regrets asking. Cristina and Alex walk by.
-Cristina Yang complains about being hugged all the time.
-Alex Karev responds that it is because Cristina is an ovarian sister.
-Cristina feels insulted.
-George O'Malley points out that Meredith Grey is carrying a penis in a jar.
-Cristina looks at it, makes a joke, and leaves.
-George asks Meredith if she is okay.
-Meredith explains that Allison has the same uncomfortable shoes she is wearing.
-Meredith mentions that she rarely wears those shoes, but chose to wear them that day.
-Meredith thinks the situation is foolish.
-George believes he understands Meredith's needs, but Meredith disagrees.
-George offers Meredith a choice: join him or stay unhappy.
-George and Meredith are outside the nursery, observing the babies.
-George's pager goes off, and George informs Meredith that it's an emergency, so George leaves.
-While watching the babies, Meredith notices one baby's face turning blue.
-Meredith enters the nursery to check on the baby.
-A pediatric intern arrives and asks Meredith what she is doing.
+Ms. Lu says something in Cantonese.
+Ms. Lu asks whether Izzie knows how to speak Cantonese.
+Ms. Lu asks Izzie to help Ms. Lu.
+Izzie asks Ms. Lu if Ms. Lu knows any English.
+Ms. Lu replies to Izzie in more Cantonese.
+Ms. Lu says Ms. Lu's daughter is outside with even worse injuries.
+Ms. Lu says Ms. Lu has only hurt Ms. Lu's arm.
+Izzie asks the room if anybody speaks Chinese.
+Nobody answers.
+Meredith arrives at the Chief's office.
+Patricia is there.
+Patricia realizes the box has the rapist's penis.
+Patricia asks if Patricia can see the rapist's penis.
+Patricia immediately changes Patricia's mind.
+Richard comes in.
+Richard says Richard heard that Meredith's mother is leaving Mayo.
+Meredith explains that Meredith's mother is only taking a break.
+Meredith says Meredith was told to bring the penis box to Richard.
+Richard corrects Meredith.
+Richard says the police need the penis box.
+Richard says that until the police take the penis box, Meredith needs to take the penis box with Meredith.
+Richard says all medical matter must stay with the person who collected the medical matter until the medical matter is placed into police custody.
+Cristina and Alex give lab results to a family.
+Cristina and Alex tell the family that the patient has a disorder called multinucleate cell angiohistiocytoma.
+Cristina and Alex tell the family that the disorder is not a cancerous sarcoma.
+Cristina and Alex tell the family that the disorder is a very rare but minor disease.
+Cristina and Alex tell the family that the patient will be discharged that day.
+The family is relieved.
+A family member hugs Cristina.
+Cristina glares at Alex.
+Alex smiles at Cristina.
+Meredith places Meredith's penis box on a counter.
+George is working at the counter.
+George asks Meredith what the penis box is.
+Meredith tells George that George does not want to know.
+George says George really wants to know.
+Meredith tells George what the penis box is.
+George regrets wanting to know.
+Cristina and Alex walk by Meredith and George.
+Cristina complains about why Cristina gets hugged all the time.
+Alex tells Cristina that the reason is that Cristina is an ovarian sister.
+Cristina is insulted.
+George says that Meredith is carrying a penis around in a jar.
+Cristina looks at the penis.
+Cristina makes a joke about the penis.
+Cristina leaves.
+George asks Meredith if Meredith is okay.
+Meredith explains to George that Allison has the same shoes Meredith was wearing.
+Meredith says that the shoes are uncomfortable.
+Meredith says that Meredith barely wears the shoes.
+Meredith says that Meredith wore the shoes that day.
+Meredith says that the whole thing is stupid.
+George says that George knows what Meredith needs.
+George says that Meredith can come with George or Meredith can be miserable.
+George and Meredith are outside the nursery.
+George and Meredith look at the babies.
+George tells Meredith that the page is a code.
+Meredith watches the babies.
+One baby's face turns blue.
+Meredith goes in.
+Meredith checks on the baby.
+A peds intern walks in.
+The peds intern asks Meredith what Meredith is doing.
 Meredith explains that the baby has a murmur.
-The intern acknowledges this but surprises Meredith by saying the baby turned blue.
-The pediatric intern then tells Meredith that Meredith is not authorized to be there.
-Meredith inquires about tests, but the pediatric intern reassures Meredith that it is benign and will resolve with age.
-Meredith is told to leave, and Meredith does.
-Izzie brings Cristina, thinking Izzie can translate for Ms. Lu.
-Ms. Lu keeps saying Ms. Lu's daughter is outside with a head injury, and Ms. Lu wants to help, but Ms. Lu can't.
-Cristina explains Cristina is from Beverly Hills and only knows some Chinese from a menu.
-Cristina also mentions Cristina is Korean and then leaves.
-Burke asks Richard why Richard invited Derek to Seattle Grace.
-Richard explains that Derek was Richard's former student.
-Burke realizes there might be another reason and mentions that Burke wants to be Chief of Surgery.
-Richard responds that Richard won't be leaving anytime soon, and Burke storms off.
-Meanwhile, Cristina is talking to Alex.
-Cristina asks Alex how they will get OR time.
-Cristina gathers Cristina's files and gives some to Alex, telling Alex to hurry.
-Cristina and Alex leave together.
-Cristina and Alex provide lab results to several patients.
-Cristina feels annoyed after one patient hugs Cristina.
-George rushes into a patient room with the code team.
-The patient flatlines, and George has to call the time of death.
-Meredith asks some interns about their favorite 80s music group.
-When the interns answer incorrectly, Meredith walks away.
-While Meredith is looking at Allison, Derek approaches Meredith.
-Derek tells Meredith that the rapist will eventually need medical care and that Meredith has evidence against him.
-Meredith inquires about her family, and Derek informs Meredith that Meredith's parents are dead and that Meredith has no siblings.
-Derek then asks Meredith if Meredith is okay, and Meredith replies that Meredith is fine.
-Meredith also asks Burke about a baby Meredith saw turning blue in pediatrics.
-Burke states that Burke cannot proceed without a pediatric consult.
-Izzie is busy bandaging a man's hand.
-The man tries to flirt with Izzie, but Izzie realizes the man is drunk.
-The man mentions that he thinks he recognizes Izzie from a magazine.
-Izzie acknowledges this and tells the man to leave.
-Ms. Lu arrives and sits down.
-Izzie starts stitching Ms. Lu's arm while Ms. Lu continues speaking in Chinese.
-Izzie remains silent.
-Meanwhile, Meredith is talking to Cristina in the lobby.
-After a while, Meredith and Cristina notice a truck entering the parking lot.
-Meredith and Cristina go outside and see a man whose clothes are soaked in blood, especially around his crotch. The man collapses, and doctors and nurses rush to help him. Meredith realizes the man is the rapist. Inside, Meredith calls for security and shows Miranda Bailey the rapist. Miranda Bailey tells Meredith to take the rapist to OR 1 and to inform Richard Webber about the situation. While the rapist is in surgery, Cristina and Meredith discuss Allison and the rapist. Miranda Bailey asks why they don't reattach the penis. Meredith explains they can't reattach it because it wasn't a clean cut, and Allison's digestive juices damaged it. Meredith mentions the rapist will have to use a bag to urinate for a long time. Cristina adds that the rapist will never be able to have sex again, which Cristina thinks is unfortunate. Miranda Bailey sarcastically suggests they should take a moment to mourn, and then Meredith and Cristina return to their work. Richard Webber leaves an operating room and tells Preston Burke they have the rapist. The conversation shifts when Preston Burke asks why he can't be Chief. Richard Webber replies that he only does what is necessary and nothing more. Then, Richard Webber walks away. Derek Shepherd is worried about Allison's recovery. Izzie Stevens finishes stitching Ms. Lu. Izzie tries to communicate with Ms. Lu in Chinese but cannot understand.
-Izzie Stevens tells Ms. Lu that Izzie has other patients, and Ms. Lu leaves. Alex Karev mentions that Alex has a headache. Cristina Yang jokingly hopes it is a brain tumor so Cristina can scrub in and confront Alex. Izzie enters and says Izzie has been suturing all day. George O'Malley points out that at least Izzie is helping people. Alex adds that Izzie is practicing medicine. Izzie starts to talk about Ms. Lu, but Cristina ignores Izzie. Meredith Grey arrives and informs them that the police cannot take the penis, so Meredith must keep it overnight. They all express their frustrations about being interns. Miranda Bailey enters with an eager expression, and the interns exit. Meredith sees the baby's parents, Mr. and Mrs. Johnson, and expresses her worries about their child. The pediatric intern tells Meredith that Meredith overstepped by suggesting the heart murmur might not be harmless. The pediatric intern then gets Dr. Kay, her resident. Dr. Kay asks what the issue is, and Mr. and Mrs. Johnson say they want treatment if their child is sick. Dr. Kay inquires who informed them of this, and the pediatric intern replies it was Meredith. When Dr. Kay asks if Meredith is allowed to be there, Preston Burke confirms he authorized Meredith's presence. Preston Burke questions the pediatric intern about her certainty regarding the murmur's benign nature. The pediatric intern states she is 75% sure.
-Preston Burke then mentions that the baby is now under Preston Burke's care and introduces himself to Mr. and Mrs. Johnson. The pediatric intern asks Dr. Kay if Preston Burke can take patients, and Dr. Kay confirms Preston Burke can since Preston Burke is an attending physician. Preston Burke introduces himself to Mr. and Mrs. Johnson and gives Meredith Grey some instructions. Izzie Stevens finishes her suturing for the day. Izzie Stevens sees Ms. Lu, who calls Izzie Stevens outside. There, Izzie Stevens meets a girl named Ahn. Ahn has a large cut on her forehead. Izzie Stevens offers to help and examines Ahn's injury. Ahn explains that a machine broke in the factory and hurt Ahn. Izzie Stevens suggests they go inside, but Ahn refuses. Ahn is scared of going to jail because Ahn doesn't have a green card. Izzie Stevens tells Ahn to wait while Izzie Stevens gets supplies. Meredith Grey asks Preston Burke about a baby. Preston Burke tells Meredith Grey it has a birth defect. Meredith Grey thanks Preston Burke for his help. Preston Burke warns Meredith Grey that if Meredith Grey does something like that again, Preston Burke will make Meredith Grey's residency very difficult. Meanwhile, George O'Malley is trying to resuscitate a patient. Cristina Yang keeps giving lab results to a patient.
-Ahn hugs Izzie Stevens several times.
-Izzie Stevens gathers supplies to stitch Ahn's forehead.
-Derek Shepherd sits next to Allison's bedside.
-George O'Malley announces the time of death for a patient who has flatlined.
-Izzie Stevens stitches Ahn's forehead and mentions Izzie Stevens could have done a better job with more light.
-Ahn reassures Izzie Stevens that it looks good.
-Izzie Stevens instructs Ahn and the accompanying person to return in five days to remove the stitches and gives them Izzie Stevens' pager number.
-Izzie Stevens warns them not to tell anyone Izzie Stevens helped them, as it could cost Izzie Stevens' job.
-As Ahn and the accompanying person start to leave, Ms. Lu returns and thanks Izzie Stevens in her language before leaving.
-Preston Burke asks Miranda Bailey if Preston Burke is too confident.
-Miranda Bailey replies no, but Preston Burke feels Miranda Bailey is not being honest.
-Preston Burke tells Miranda Bailey that anything Miranda Bailey says in the next thirty seconds is free.
-Miranda Bailey starts listing all the bad things about a person.
-Preston Burke tries to interrupt, but Miranda Bailey insists she is not finished.
-In the locker room, Cristina Yang says she needs a drink, a man, and a massage.
-George O'Malley mentions he lost five patients, but Cristina Yang tells George O'Malley that most patients in code are already dead by the time George O'Malley arrives.
-Cristina Yang then leaves.
-Meredith Grey sits in a rocking chair in the nursery.
-A pediatric intern expresses that the pediatric intern thought the pediatric intern was correct. Meredith Grey responds that interns are usually wrong. The pediatric intern then asks Meredith Grey if Meredith Grey feels scared. When Meredith Grey confirms that Meredith Grey does, the pediatric intern feels relieved that the pediatric intern is not alone in the fear. Meredith Grey asks Derek Shepherd about Allison's condition. Derek Shepherd replies that there has been no change. Derek Shepherd shares that Derek Shepherd has four sisters, and if Derek Shepherd were in a coma, all four sisters would be there. Derek Shepherd talks about Derek Shepherd's relationship, but the discussion shifts back to Allison, who feels alone. As they speak, Allison's condition worsens. Derek Shepherd instructs the team to prepare the operating room for an emergency craniotomy. After the surgery, Derek Shepherd updates Meredith Grey about Allison. Meredith Grey asks if Allison will survive, and Derek Shepherd replies that Allison will be fine if Allison wakes up. Derek Shepherd then asks Preston Burke about the drink that Derek Shepherd and Preston Burke had discussed. Preston Burke declines, stating that Derek Shepherd is just competition for Chief of Surgery, and Preston Burke walks away. Meredith Grey works on a paper about a penis box with Patricia's help. Richard Webber tries to say "penis" but struggles. Richard Webber mentions that it shouldn't be awkward since Richard Webber is a doctor, but Richard Webber used to change Meredith Grey's diapers. Richard Webber then gives the penis box to the police, and Meredith Grey leaves.
-Meanwhile, the Johnson baby is in surgery. Preston Burke explains the procedure to the team. Preston Burke starts to open the baby's chest and tells Meredith Grey to scrub in, as Preston Burke will let Meredith Grey hold the clamp. Meredith Grey goes to the scrub room. Derek Shepherd enters the rapist's room and hits the end of the bed, waking the man. Derek Shepherd informs the rapist that Miranda Bailey stopped the rapist's bleeding, but the police took the rapist's penis. Derek Shepherd then leaves. The rapist realizes he is handcuffed to the bed. Cristina Yang and Alex Karev provide more test results. Cristina Yang tells a patient that the patient's tumor is benign, so the patient can go home. The patient hugs the patient's husband, who then approaches Cristina Yang. Cristina Yang quickly pushes Alex Karev in front of her. Alex Karev receives the hug, and Cristina Yang leaves, feeling satisfied. Preston Burke operates on the baby while Meredith Grey holds the clamp. The interns are watching the babies in the nursery. Meredith Grey tells Izzie Stevens and George O'Malley they can move in, and Izzie Stevens and George O'Malley get excited and hug each other. Allison starts to wake up, and Derek Shepherd greets Allison. Meredith Grey goes to the elevator where Derek Shepherd is waiting.
-George O'Malley mentions that George O'Malley has a strong interest in ferry boats. After thinking about it, Cristina Yang decides to take the stairs instead. Derek Shepherd feels sorry for Cristina Yang's lack of self-control. Meredith Grey leaves the hospital to join George O'Malley, Izzie Stevens, and Cristina Yang.
+The peds intern says that the peds intern knows.
+Meredith is shocked.
+Meredith tells the peds intern that the baby turned blue.
+The peds intern tells Meredith that Meredith is not authorized to be there.
+Meredith asks the peds intern if the peds intern is going to do any tests.
+The peds intern says that the condition is benign.
+The peds intern says that the condition goes away with age.
+The peds intern tells Meredith to leave.
+Izzie brings Cristina.
+Izzie thinks that Cristina knows Chinese.
+Izzie asks Cristina if Cristina could translate for Ms. Lu.
+Ms. Lu keeps reiterating that Ms. Lu's daughter is outside with a gash on Ms. Lu's daughter's head.
+Ms. Lu wants to help stitch up Ms. Lu's daughter.
+Ms. Lu cannot help stitch up Ms. Lu's daughter.
+Cristina says that Cristina is from Beverly Hills.
+Cristina says that the only Chinese Cristina knows is from a Mr. Chou's menu.
+Cristina informs Izzie and Ms. Lu that Cristina is Korean.
+Burke asks Richard why Richard asked Derek to come to Seattle Grace.
+Richard tells Burke that the reason is that Derek is an old student of Richard's.
+Burke realizes that there could be another reason.
+Burke says that Chief of Surgery is Burke's.
+Richard says that Richard will not be leaving for a while.
+Burke storms off.
+Cristina talks to Alex.
+Alex asks how Cristina and Alex will get OR time.
+Cristina gets Cristina's files.
+Cristina hands some files to Alex.
+Cristina tells Alex to be quick.
+Cristina and Alex leave.
+Cristina and Alex give lab results to multiple patients.
+Cristina gets annoyed after patients hug Cristina.
+George runs to a patient room.
+The patient flatlines.
+George has to call time of death.
+Meredith asks some interns what the interns' favorite 80s group is.
+The interns answer incorrectly.
+Meredith looks at Allison.
+Derek comes over to Meredith.
+Derek tells Meredith that the rapist will eventually seek medical attention.
+Derek tells Meredith that Meredith has evidence that will nail the rapist.
+Meredith asks Derek where the rapist's family is.
+Derek says that the rapist has no family because the rapist's parents are both dead.
+Derek says that the rapist has no siblings.
+Derek asks Meredith if Meredith is okay.
+Meredith says that Meredith is fine.
+Meredith asks Burke about the baby Meredith saw going blue up in peds.
+Burke says that without a peds consult Burke cannot do anything.
+Izzie finishes bandaging up a man's hand.
+The man tries to flirt with Izzie.
+Izzie knows that the man is drunk.
+The man says that the man thinks the man knows Izzie from the magazine.
+Izzie says that Izzie knows.
+Izzie tells the man to leave.
+Ms. Lu sits down.
+Izzie begins to stitch up Ms. Lu's arm.
+Ms. Lu continues to speak Chinese.
+Izzie does not say anything.
+Meredith talks to Cristina in the lobby.
+Meredith and Cristina talk for a while.
+Meredith and Cristina see a truck swerve into the parking lot.
+Meredith and Cristina both go outside.
+Meredith and Cristina see a man.
+The man's clothes are soaked in blood.
+The blood is mainly around the man's crotch.
+The man collapses.
+Doctors and nurses crowd around the man.
+Meredith realizes that the man is the rapist.
+Meredith and the others get inside.
+Meredith calls for security.
+Meredith shows Bailey the rapist.
+Bailey instructs Meredith to take the rapist to OR 1.
+Bailey instructs Meredith to inform Richard that Meredith and Bailey have the rapist.
+The rapist is in surgery.
+Cristina and Meredith talk about Allison and the rapist.
+Bailey asks why Bailey and the others do not reattach the penis.
+Meredith says that Meredith and the others cannot reattach the penis without a clean cut.
+Meredith says that Allison's digestive juices did not leave much to work with.
+Meredith says that the rapist will be peeing out of a bag for a long time.
+Cristina notes that the rapist will not be able to ever have sex again.
+Cristina says that the loss is a shame.
+Bailey sarcastically says that Bailey and the others should take a moment to grieve.
+Bailey and the others return to operating again.
+Richard scrubs out of an OR.
+Richard tells Burke that Richard and the others have the rapist.
+The conversation quickly changes.
+Burke asks Richard why Burke cannot be Chief.
+Richard tells Burke that Burke only does what is necessary and nothing more.
+Richard walks away.
+Derek looks at Allison.
+Derek is worried about Allison's recovery.
+Izzie is done with Ms. Lu's stitches.
+Ms. Lu says something in Chinese again.
+Izzie says that Izzie cannot understand Ms. Lu.
+Izzie says that Izzie has other patients.
+Ms. Lu leaves.
+Alex says that Alex has a headache.
+Cristina says that Cristina hopes Alex has a brain tumor.
+Cristina says that if Cristina gets to scrub in, Cristina will rip Alex's face off.
+Izzie comes in.
+Izzie tells Alex, Cristina, and George that Izzie has been suturing all day.
+George says that at least Izzie is helping people.
+Alex says that at least Izzie is practicing medicine.
+Izzie talks about Ms. Lu.
+Cristina dismisses Izzie.
+Meredith comes in.
+Meredith says that the police cannot come for the penis.
+Meredith says that Meredith has to keep the penis for the night.
+Meredith, Izzie, George, Alex, and Cristina complain about being interns.
+Bailey comes in.
+Bailey looks expectant.
+Meredith, Izzie, George, Alex, and Cristina leave.
+Meredith sees the parents of the baby Meredith is worried about.
+Meredith shares Meredith's concerns with Mr. Johnson and Mrs. Johnson.
+The peds intern tells Meredith that Meredith is out of line.
+The peds intern says that Meredith told Mr. Johnson and Mrs. Johnson that the murmur might not be benign.
+The peds intern gets Dr. Kay.
+Dr. Kay asks what is wrong.
+Mr. Johnson and Mrs. Johnson say that if the Johnson baby is sick, Mr. Johnson and Mrs. Johnson want the Johnson baby treated.
+Dr. Kay asks who told Mr. Johnson and Mrs. Johnson that.
+The peds intern says that Meredith told Mr. Johnson and Mrs. Johnson.
+Dr. Kay asks Meredith if Meredith is authorized to be there.
+Burke says that Burke authorized Meredith.
+Burke asks the peds intern if the peds intern is 100% sure that the murmur is benign.
+The peds intern says that the peds intern is 75% sure.
+Burke says that the Johnson baby is on Burke's service now.
+Burke introduces Burke to Mr. Johnson and Mrs. Johnson.
+The peds intern asks Dr. Kay if Burke can steal patients.
+Dr. Kay says that Burke can steal patients because Burke is an attending.
+Burke gives Meredith instructions.
+After Izzie is done with suturing for the day, Izzie sees Ms. Lu.
+Ms. Lu beckons Izzie outside.
+Izzie sees Ms. Lu with a girl named Ahn.
+Ahn has a big laceration on Ahn's forehead.
+Izzie comes over.
+Izzie says that Izzie will help.
+Izzie examines Ahn's laceration.
+Ahn explains that a machine broke in the factory.
+Ahn says that the machine injured Ahn.
+Izzie tells Ms. Lu and Ahn to come inside.
+Ahn refuses.
+Ahn says that Ahn does not have a green card.
+Ahn says that Ahn is afraid that Ahn will go to jail.
+Izzie tells Ms. Lu and Ahn to wait.
+Izzie gets supplies.
+Meredith asks Burke about the Johnson baby.
+Burke says that the problem is a birth defect.
+Meredith thanks Burke for helping Meredith.
+Burke says that if Meredith does something like that again, Burke will make Meredith's residency hell on earth.
+George is attempting to resuscitate a patient.
+Cristina continues to deliver lab results to a patient.
+The patient hugs Cristina repeatedly.
+Izzie gets supplies to stitch up Ahn's forehead.
+Derek is sitting by Allison's bedside.
+George calls time of death on a patient that flatlined.
+Izzie stitches up Ahn's forehead.
+Izzie says that Izzie could have done better with more light.
+Ahn says that the stitches are good.
+Izzie tells Ms. Lu and Ahn to come back in five days.
+Izzie says that Izzie can remove the stitches in five days.
+Izzie gives Ms. Lu and Ahn Izzie's pager number.
+Izzie says that Ms. Lu and Ahn cannot tell anybody that Izzie helped Ms. Lu and Ahn.
+Izzie says that Izzie could lose Izzie's job.
+Ms. Lu and Ahn start to walk away.
+Ms. Lu comes back.
+Ms. Lu thanks Izzie in Ms. Lu's own language.
+Burke asks Bailey if Burke is too confident.
+Bailey says no.
+Burke senses that Bailey is lying.
+Burke tells Bailey that anything Bailey says in the next thirty seconds is free.
+Bailey immediately starts listing negative things about Burke.
+Burke tries to interrupt Bailey.
+Bailey says that Bailey is not done.
+In the locker room, Cristina complains that Cristina needs a drink, a man, and a massage.
+George says that George lost five patients.
+Cristina tells George that most code patients are already dead before George gets there.
+Meredith is in a rocking chair in the nursery.
+The peds intern says that the peds intern thought that the peds intern was right.
+Meredith says that interns are almost never right.
+The peds intern asks Meredith if Meredith feels terrified.
+Meredith says yes.
+The peds intern says that the peds intern is glad that it is not just the peds intern.
+Meredith asks Derek how Allison is doing.
+Derek says that there is no change.
+Derek says that Derek has four sisters.
+Derek says that if Derek were in a coma, Derek's four sisters would all be there.
+Derek discusses Derek and Meredith's relationship.
+The conversation turns back to Allison.
+Derek says that Allison has nobody.
+Meredith and Derek are talking.
+Allison starts to crash.
+Derek says to prepare the OR for an emergency craniotomy.
+After surgery, Derek informs Meredith about Allison.
+Meredith asks if Allison will survive.
+Derek says that Allison will be fine if Allison wakes up.
+Derek asks Burke about the drink that Derek and Burke were discussing.
+Burke says that Burke does not want to.
+Burke tells Derek that Derek is only competition for Chief of Surgery.
+Burke walks away.
+Meredith signs a paper regarding the penis box.
+Patricia helps Meredith.
+Richard tries to say the word penis.
+Richard says that the word should not be weird because Richard is a doctor.
+Richard says that Richard used to change Meredith's diapers.
+Richard hands the penis box to the police.
+The Johnson baby is in surgery.
+Burke explains the procedure to the room.
+Burke begins to crack the Johnson baby's chest.
+Burke tells Meredith to scrub in.
+Burke says that Burke will let Meredith hold the clamp.
+Meredith immediately goes to the scrub room.
+Derek storms into the rapist's room.
+Derek whacks the end of the bed.
+Derek wakes the rapist.
+Derek tells the rapist that Bailey stopped the rapist's bleeding.
+Derek tells the rapist that the rapist's penis was given to the cops.
+Derek leaves the rapist's room.
+The rapist realizes that the rapist is cuffed to the bed.
+Cristina and Alex give more results.
+Cristina tells a patient that the patient's tumor was benign.
+Cristina tells the patient that the patient can go home.
+The patient hugs the patient's husband.
+The patient's husband then goes for Cristina.
+Cristina acts fast.
+Cristina shoves Alex into the patient's husband's way.
+Alex gets the hug.
+Cristina leaves, pleased with Cristina.
+Burke is operating on the baby.
+Meredith holds the clamp.
+The interns are looking at the babies in the nursery.
+Meredith then tells Izzie and George that Izzie and George can move in.
+Izzie and George are excited.
+Izzie and George start hugging each other.
+Allison begins to wake up.
+Derek welcomes Allison back.
+Meredith walks over to an elevator.
+Derek is waiting at the elevator.
+Derek says that Derek has an intense thing for ferry boats.
+After looking at Derek, Meredith changes Meredith's mind.
+Meredith says that Meredith will take the stairs instead.
+Derek pities Meredith for Meredith's lack of self-control.
+Meredith leaves the hospital to catch up with George, Izzie, and Cristina.

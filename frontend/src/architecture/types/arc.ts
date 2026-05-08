@@ -39,11 +39,6 @@ export interface ArcCluster {
   cluster_persistence?: number;
 }
 
-export interface ApiResponse<T> {
-  data: T;
-  error?: string;
-}
-
 export interface ProgressionMapping {
   season: string;
   episode: string;

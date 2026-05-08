@@ -21,6 +21,7 @@ import {
   Badge,
 } from '@chakra-ui/react';
 import { DeleteIcon, StarIcon } from '@chakra-ui/icons';
+import { isApiSuccess } from '@/architecture/types/api';
 import type { ProgressionMapping } from '@/architecture/types';
 import { ApiClient } from '@/services/api/ApiClient';
 
@@ -66,7 +67,7 @@ export const ArcProgressionEditModal: React.FC<ArcProgressionEditModalProps> = (
       if (arcId) {
         try {
           const response = await api.getArcById(arcId);
-          if (response.data) {
+          if (isApiSuccess(response)) {
             setArcTitle(response.data.title);
           }
         } catch (error) {
@@ -105,8 +106,8 @@ export const ArcProgressionEditModal: React.FC<ArcProgressionEditModalProps> = (
     setIsGenerating(true);
     try {
       const arcResponse = await api.getArcById(arcId);
-      if (!arcResponse.data) {
-        throw new Error('Failed to fetch arc details');
+      if (!isApiSuccess(arcResponse)) {
+        throw new Error(arcResponse.error);
       }
 
       const response = await api.generateProgression(
@@ -120,7 +121,7 @@ export const ArcProgressionEditModal: React.FC<ArcProgressionEditModalProps> = (
 
       console.log('Generation response:', response);
 
-      if (response.error) {
+      if ('error' in response) {
         toast({
           title: 'No Progression',
           description: response.error,
@@ -130,16 +131,14 @@ export const ArcProgressionEditModal: React.FC<ArcProgressionEditModalProps> = (
         return;
       }
 
-      if (response.data) {
-        setContent(response.data.content);
-        setInterferingCharacters(response.data.interfering_characters || []);
-        toast({
-          title: 'Content generated',
-          description: 'LLM has generated progression content and characters',
-          status: 'success',
-          duration: 3000,
-        });
-      }
+      setContent(response.content);
+      setInterferingCharacters(response.interfering_characters || []);
+      toast({
+        title: 'Content generated',
+        description: 'LLM has generated progression content and characters',
+        status: 'success',
+        duration: 3000,
+      });
     } catch (error) {
       console.error('Generation error:', error);
       toast({

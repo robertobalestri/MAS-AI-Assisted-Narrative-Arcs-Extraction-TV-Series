@@ -7,22 +7,6 @@ import {
   useDisclosure,
   useToast,
   Text,
-  Badge,
-  Grid,
-  FormControl,
-  FormLabel,
-  SimpleGrid,
-  Checkbox,
-  Modal,
-  ModalOverlay,
-  ModalContent,
-  ModalHeader,
-  ModalBody,
-  ModalFooter,
-  ModalCloseButton,
-  Input,
-  Textarea,
-  Select,
   AlertDialog,
   AlertDialogBody,
   AlertDialogFooter,
@@ -30,12 +14,11 @@ import {
   AlertDialogContent,
   AlertDialogOverlay,
 } from '@chakra-ui/react';
-import { AddIcon, DeleteIcon, RepeatIcon } from '@chakra-ui/icons';
+import { AddIcon } from '@chakra-ui/icons';
 import { ArcTimeline } from './ArcTimeline';
 import { NewArcModal } from '../modals/NewArcModal';
 import { ArcMergeModal } from '../modals/ArcMergeModal';
 import { ArcFilters } from '../filters/ArcFilters';
-import { useArcStore } from '@/store/arcStore';
 import { useApi } from '@/hooks/useApi';
 import { ApiClient } from '@/services/api/ApiClient';
 import type { 
@@ -67,7 +50,6 @@ export const NarrativeArcManager: React.FC<NarrativeArcManagerProps> = ({
   const [selectedSeason, setSelectedSeason] = useState('');
   const [isMergeMode, setIsMergeMode] = useState(false);
   const [selectedForMerge, setSelectedForMerge] = useState<NarrativeArc[]>([]);
-  const [availableCharacters, setAvailableCharacters] = useState<string[]>([]);
   const [selectedCharacters, setSelectedCharacters] = useState<string[]>([]);
   const [includeInterferingCharacters, setIncludeInterferingCharacters] = useState(false);
   const [selectedArcTypes, setSelectedArcTypes] = useState<ArcType[]>([]);
@@ -75,10 +57,6 @@ export const NarrativeArcManager: React.FC<NarrativeArcManagerProps> = ({
   const [selectedArc, setSelectedArc] = useState<NarrativeArc | null>(null);
   const [selectedEpisode, setSelectedEpisode] = useState('');
   const [editingArc, setEditingArc] = useState<NarrativeArc | null>(null);
-  const [editArcTitle, setEditArcTitle] = useState('');
-  const [editArcDescription, setEditArcDescription] = useState('');
-  const [editArcType, setEditArcType] = useState('');
-  const [editMainCharacters, setEditMainCharacters] = useState<string[]>([]);
   const [characters, setCharacters] = useState<Character[]>([]);
   const [isGenerateAllDialogOpen, setIsGenerateAllDialogOpen] = useState(false);
   const [selectedArcForGeneration, setSelectedArcForGeneration] = useState<NarrativeArc | null>(null);
@@ -111,7 +89,7 @@ export const NarrativeArcManager: React.FC<NarrativeArcManagerProps> = ({
   } = useDisclosure();
 
   const toast = useToast();
-  const { request, isLoading } = useApi();
+  const { request } = useApi();
   const api = new ApiClient();
 
   // Get unique seasons from episodes
@@ -267,39 +245,7 @@ export const NarrativeArcManager: React.FC<NarrativeArcManagerProps> = ({
 
   const handleEditArc = (arc: NarrativeArc) => {
     setEditingArc(arc);
-    setEditArcTitle(arc.title);
-    setEditArcDescription(arc.description);
-    setEditArcType(arc.arc_type);
-    setEditMainCharacters(arc.main_characters);
     onArcEditModalOpen();
-  };
-
-  const handleSaveArcChanges = async () => {
-    if (!editingArc) return;
-
-    try {
-      await request(() => api.updateArc(editingArc.id, {
-        title: editArcTitle,
-        description: editArcDescription,
-        arc_type: editArcType,
-        main_characters: editMainCharacters.join(';')
-      }));
-
-      toast({
-        title: 'Arc updated',
-        status: 'success',
-        duration: 3000,
-      });
-      onArcUpdated();
-      onArcEditModalClose();
-    } catch (error) {
-      toast({
-        title: 'Error updating arc',
-        description: error instanceof Error ? error.message : 'Unknown error',
-        status: 'error',
-        duration: 5000,
-      });
-    }
   };
 
   const handleDeleteArc = async () => {
@@ -499,18 +445,16 @@ export const NarrativeArcManager: React.FC<NarrativeArcManagerProps> = ({
 
         // Generate progression
         console.log(`Generating progression for S${ep.season}E${ep.episode}`);
-        const response = await request(() => 
-          api.generateProgression(
-            arc.id,
-            series,
-            ep.season,
-            ep.episode,
-            arc.title,
-            arc.description
-          )
+        const response = await api.generateProgression(
+          arc.id,
+          series,
+          ep.season,
+          ep.episode,
+          arc.title,
+          arc.description
         );
 
-        if (response && 'content' in response && response.content !== "NO_PROGRESSION") {
+        if (response.content && response.content !== "NO_PROGRESSION") {
           try {
             if (existingProgression) {
               // Update existing progression
@@ -539,7 +483,7 @@ export const NarrativeArcManager: React.FC<NarrativeArcManagerProps> = ({
           } catch (error) {
             console.error(`Error ${existingProgression ? 'updating' : 'creating'} progression for S${ep.season}E${ep.episode}:`, error);
           }
-        } else if (response && response.content === "NO_PROGRESSION") {
+        } else if (response.content === "NO_PROGRESSION") {
           noProgressionCount++;
         }
       }

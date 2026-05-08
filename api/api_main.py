@@ -15,6 +15,7 @@ import sys
 from pathlib import Path
 from src.narrative_storage_management.llm_service import LLMService
 from src.path_handler import PathHandler
+from api.library_routes import router as library_router, ingestion_service
 
 # Set up logging at the very beginning
 logger = setup_logging(__name__)
@@ -27,6 +28,7 @@ import logging
 logging.getLogger("uvicorn.access").handlers = []
 
 app = FastAPI(title="Narrative Arcs Dashboard API")
+app.include_router(library_router)
 
 # Configure CORS
 app.add_middleware(
@@ -199,7 +201,9 @@ async def get_series():
     try:
         with db_manager.session_scope() as session:
             result = session.exec(select(NarrativeArc.series).distinct())
-            return list(result)
+            database_series = set(result)
+        library_series = {item["code"] for item in ingestion_service.list_series()}
+        return sorted(database_series.union(library_series))
     except Exception as e:
         logger.error(f"Error getting series: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))

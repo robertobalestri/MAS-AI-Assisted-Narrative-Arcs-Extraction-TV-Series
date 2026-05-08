@@ -1,122 +1,194 @@
 [
   {
-    "title": "Meredith's Heart Surgery Dilemma",
+    "title": "Medical Case: Mrs. Patterson's Post-Op Heart Rupture",
     "arc_type": "Anthology Arc",
-    "description": "Meredith Grey faces a critical challenge during her first heart surgery when she accidentally nods off, leading to potential complications and a review of her actions.",
-    "main_characters": "Meredith Grey; Preston Burke",
-    "interfering_episode_characters": "Richard Webber; George O'Malley; Derek Shepherd; Mr. Patterson; Miranda Bailey",
-    "single_episode_progression_string": "Meredith participates in heart surgery and nods off while holding the heart. She worries about damaging the heart due to a torn glove. Mrs. Patterson experiences complications post-surgery. Meredith confesses to Burke about the glove. Burke and Meredith face a review with the chief and legal team."
+    "description": "A post-operative cardiac emergency puts Meredith Grey and Preston Burke under scrutiny when heart surgery patient Mrs. Patterson suffers a rupture after surgery. Meredith fears she caused the injury during the operation, but the case evolves into an investigation of the true medical cause and the consequences of her delayed disclosure.",
+    "main_characters": "Meredith Grey; Preston Burke; Mrs. Patterson",
+    "interfering_episode_characters": "Richard Webber; Mr. Patterson; Nurse Tyler; George O'Malley; Cristina Yang; hospital lawyer",
+    "single_episode_progression_string": "During Mrs. Patterson's heart surgery, Meredith nods off while holding the heart and later notices that her fingernail punctured her glove, leading her to fear she injured the patient. George reassures Meredith that the patient is probably fine, and Meredith delays telling Burke. Mrs. Patterson later develops swelling and sudden bleeding at the sternum, and Burke rushes her back to the OR. Meredith finally discloses the glove puncture. Burke finds a ventricular wall rupture far larger than a fingernail injury. Richard Webber orders chart copies and a legal review after speaking with Mr. Patterson. Meredith tries to explain Mrs. Patterson's abnormally thin heart walls to Mr. Patterson, who rejects the explanation. In the meeting with Richard and the hospital lawyer, Meredith admits she failed to report the possible contact immediately, and Burke helps establish that the rupture was caused by fragile heart tissue related to extreme weight loss rather than Meredith's fingernail."
   },
   {
-    "title": "Mrs. Drake's Surgical Error and Hospital Liability",
+    "title": "Medical Case: Mrs. Drake's Retained Surgical Towel",
     "arc_type": "Anthology Arc",
-    "description": "The arc follows the discovery of a surgical error from a past operation on Mrs. Drake, leading to a potential liability issue for the hospital and ethical dilemmas for the doctors involved.",
-    "main_characters": "George O'Malley; Richard Webber; Miranda Bailey; Preston Burke",
-    "interfering_episode_characters": "Cristina Yang; Meredith Grey",
-    "single_episode_progression_string": "George identifies hyperinflated lungs in Mrs. Drake. Richard and Bailey perform surgery and find a towel left inside her chest. Cristina discovers Burke was involved in the previous surgery. Richard emphasizes the hospital's liability. Burke decides to confess about the previous mistake."
+    "description": "Mrs. Drake's chronic breathing problems lead to surgery that uncovers a retained surgical towel from a prior operation, triggering a hospital-error investigation and forcing Preston Burke to confront his connection to the original case before ultimately apologizing to Mrs. Drake.",
+    "main_characters": "Mrs. Drake; George O'Malley; Preston Burke",
+    "interfering_episode_characters": "Richard Webber; Miranda Bailey; Cristina Yang",
+    "single_episode_progression_string": "George reviews Mrs. Drake's scans, discusses her symptoms, and prepares her for surgery after learning she quit smoking years earlier and that her prior operation never felt right. During surgery, Richard Webber and Miranda Bailey discover a retained towel inside Mrs. Drake from the earlier procedure. Bailey assigns Cristina Yang to retrieve the records, and she finds that Preston Burke was the surgical fellow on the original case. George remains Mrs. Drake's main point of contact as she learns about the mistake. Bailey gives Burke the file. Burke later admits his past failure to report the retained towel and apologizes to Mrs. Drake."
   },
   {
-    "title": "Jerry Frost's Pain Management and Surgical Complications",
+    "title": "Medical Case: Jerry Frost's Chronic Pain Reveals a Subdural Hemorrhage",
     "arc_type": "Anthology Arc",
-    "description": "Derek Shepherd and Alex Karev manage Jerry Frost, a patient with chronic back pain and a history of drug addiction, leading to complications that require immediate surgical intervention.",
+    "description": "Jerry Frost is admitted for severe chronic pain, but his addiction history causes skepticism about the legitimacy of his symptoms. When a violent collapse exposes a life-threatening brain bleed, the case forces the doctors to confront both emergency neurosurgical care and the dangers of bias in treating addicted patients.",
+    "main_characters": "Jerry Frost; Derek Shepherd; Alex Karev",
+    "interfering_episode_characters": "Izzie Stevens",
+    "single_episode_progression_string": "Jerry Frost presents with chronic back pain and requests specific narcotics, leading Alex to dismiss him as drug-seeking while Derek insists his pain must still be treated seriously. Alex delays the ordered central line, and Derek later finds Jerry Frost in worsening distress. Derek and Alex confront Jerry Frost about his addiction and move to discharge him. Jerry Frost becomes agitated, falls, strikes his head, and loses consciousness. Derek reviews the CT with Alex and Izzie, identifies a subdural hemorrhage, and takes Jerry Frost to surgery with Alex and Izzie assisting. After the operation, Alex arranges a psychology consult to address Jerry Frost's addiction recovery."
+  },
+  {
+    "title": "Medical Case: Mr. Sterman's Post-Obstruction Recovery",
+    "arc_type": "Anthology Arc",
+    "description": "Izzie Stevens manages Mr. Sterman's recovery after a bowel obstruction, monitoring the return of bowel function while their conversations reveal contrasting views about medicine, work, and personal life. The case resolves once his recovery milestones are finally met.",
+    "main_characters": "Izzie Stevens; Mr. Sterman",
+    "interfering_episode_characters": "",
+    "single_episode_progression_string": "Izzie checks on Mr. Sterman's recovery, asking whether he is tolerating clear fluids, using the bathroom, and passing gas. Mr. Sterman falsely claims he has passed gas, then admits he is lying and reveals that he once attended medical school before leaving during clinical training. Their conversation turns to whether a doctor can balance career and family. Later, Mr. Sterman jokes that Izzie should invite him to the party if he poops. By the end of the episode, Mr. Sterman reports to Izzie that he has finally had a bowel movement."
+  },
+  {
+    "title": "Meredith Grey And Derek Shepherd's Secret Seattle Grace Romance Unravels Amid Professional Fallout And The Revelation Of Derek's Marriage",
+    "arc_type": "Soap Arc",
+    "description": "After a one-night stand, Meredith Grey discovers that Derek Shepherd is not just a romantic interest but a celebrated attending surgeon at Seattle Grace, turning their attraction into a secret and professionally risky relationship shaped by a steep power imbalance. As their romance deepens inside the hospital, Derek's authority over cases, careers, and operating room opportunities becomes entangled with his feelings for Meredith, raising concerns about favoritism, blurring the line between mentorship and intimacy, and fueling suspicion and jealousy among her peers. At the same time, Derek presents himself as a man who left New York behind without fully disclosing why he came to Seattle. Meredith struggles to prove herself on merit while investing emotionally in him, only for the relationship's hidden fault line to be exposed when Addison arrives and reveals that Derek is still married.",
+    "main_characters": "Meredith Grey; Derek Shepherd",
+    "interfering_episode_characters": "George O'Malley; Izzie Stevens; Cristina Yang; Miranda Bailey",
+    "single_episode_progression_string": "Derek notices Meredith is off after surgery, asks how the case went, and later asks her to dinner. Meredith keeps him at a distance while dealing with exhaustion and guilt. Derek reveals he knows about the party at her house, showing how their private lives are bleeding into the hospital social circle. After the party spirals and Meredith comes home drunk, Derek waits outside for her. Meredith and Derek flirt, kiss, and have sex in his car. Bailey sees them together."
+  },
+  {
+    "title": "Meredith Grey Navigates Ellis Grey's Legacy At Home And At Seattle Grace Through Richard Webber's Influence",
+    "arc_type": "Soap Arc",
+    "description": "As Meredith Grey begins her surgical career at Seattle Grace, she struggles under the weight of being legendary surgeon Ellis Grey's daughter while privately caring for Ellis as Alzheimer's erases their shared history. Ellis's reputation shapes how Meredith is perceived at the hospital, and Richard Webber's long personal history with Ellis gives Meredith a distinct kind of attention from the Chief, tying her early career to family legacy, institutional authority, and unresolved personal familiarity. At the same time, Meredith's private life is defined by secrecy, caregiving, and unresolved pain in her relationship with Ellis, making her mother's history an inescapable force in both her personal and professional world.",
+    "main_characters": "Meredith Grey; Ellis Grey; Richard Webber",
+    "interfering_episode_characters": "Nursing home representative; Notary's secretary; Nursing home doctor; Preston Burke; hospital lawyer",
+    "single_episode_progression_string": "Meredith goes to Ellis's nursing home to discuss signing over Ellis's estate, finances, and medical care while Ellis is lucid. A nursing home representative pressures Meredith to handle the decisions herself. Meredith arranges for a notary and the home's doctor to witness the signing. When Meredith brings Ellis in to sign, Ellis is in the middle of an Alzheimer's episode, refuses to sign, and cannot complete the process. The notary's secretary halts the signing and tells Meredith to return when Ellis is lucid. Later, Richard Webber directly intervenes in Meredith's professional crisis over Mrs. Patterson and presides over the meeting that determines her status. By the end of the episode, Ellis is lucid enough to sign the documents in front of Meredith."
+  },
+  {
+    "title": "Meredith Grey And Cristina Yang Build A Friendship Through Rivalry",
+    "arc_type": "Soap Arc",
+    "description": "Meredith and Cristina form a defining intern friendship built on mutual respect, sharp honesty, and relentless competition. They gravitate toward each other because they recognize the same ambition and detachment in one another, but their bond is repeatedly tested when professional opportunities, personal secrets, and perceived favoritism put them on opposite sides. Over time, they become each other's most important ally while continuing to compete for status, cases, and surgical recognition.",
+    "main_characters": "Meredith Grey; Cristina Yang",
+    "interfering_episode_characters": "George O'Malley; Preston Burke; Richard Webber; Izzie Stevens",
+    "single_episode_progression_string": "Cristina reacts with jealousy that Meredith got to hold a heart in Burke's surgery and dismisses the task as something a monkey could do. Later, Meredith confides to Cristina and George that she may have damaged Mrs. Patterson's heart and fears being thrown out of the program. Cristina responds with blunt pragmatism and questions why Meredith told Burke. At the party, Meredith and Cristina get drunk and dance together. After Meredith survives the meeting with the chief, the episode ends with Meredith and Cristina cleaning the house together."
+  },
+  {
+    "title": "Meredith Decides To Keep Ellis Grey's House And Open It To George And Izzie",
+    "arc_type": "Soap Arc",
+    "description": "Meredith's inherited family home shifts from a house she plans to sell into a shared refuge for herself and fellow interns George O'Malley and Izzie Stevens. As their medical careers and personal lives intensify, the house becomes the foundation of their found-family dynamic.",
+    "main_characters": "Meredith Grey; George O'Malley; Izzie Stevens; Ellis Grey",
+    "interfering_episode_characters": "Cristina Yang; Miranda Bailey; Notary's secretary; Hank",
+    "single_episode_progression_string": "Meredith arranges for Ellis to sign house-related documents, but the effort initially fails when Ellis is not lucid enough to complete the signing. Meanwhile, Izzie plans a gathering at Meredith's house and expands it far beyond the small event Meredith expected, while George repeatedly warns that Meredith has not approved this. Bailey learns about the party and George ends up including her as well. Meredith returns home to find the house overtaken by a large party and confronts George about it. By the next morning, Meredith, George, Izzie, and Cristina are cleaning up together, and later Ellis signs the documents."
+  },
+  {
+    "title": "Cristina Yang And Preston Burke's Professional Orbit Begins",
+    "arc_type": "Soap Arc",
+    "description": "Cristina Yang's intense focus on surgery draws her repeatedly into Preston Burke's orbit, where professional ambition, competition, and mutual respect begin to form the basis of a deeper connection. As their dynamic develops, professional opportunity, rivalry, and emotional intimacy become increasingly entangled.",
+    "main_characters": "Cristina Yang; Preston Burke",
+    "interfering_episode_characters": "Miranda Bailey; Mrs. Drake; Richard Webber",
+    "single_episode_progression_string": "Cristina watches Burke's heart surgery from the gallery and reacts to being excluded from the case. Burke later brings Cristina coffee, creating an awkward private moment. Cristina discovers Burke's name in Mrs. Drake's old surgical file and brings the information to Bailey. Cristina and Burke then share another guarded exchange about the heart graft complication. Bailey later tells Cristina that Burke had already intended to reveal the truth when the time was right. By the end of the episode, Cristina and Burke have sex in the locker room."
+  },
+  {
+    "title": "Izzie Stevens And Alex Karev's Public Humiliation Rivalry",
+    "arc_type": "Soap Arc",
+    "description": "Izzie and Alex sustain a hostile peer dynamic marked by ridicule, status games, and personal attacks. Alex repeatedly singles Izzie out and tries to reduce her to her modeling past, while Izzie refuses to be shamed and answers his cruelty directly. Their conflict becomes a recurring intern rivalry built on humiliation, defiance, and escalating antagonism.",
+    "main_characters": "Izzie Stevens; Alex Karev",
+    "interfering_episode_characters": "Derek Shepherd; Hank; Jerry Frost; George O'Malley; Cristina Yang",
+    "single_episode_progression_string": "Alex asks about the party and Izzie joins George and Cristina in denying it. Later, Alex needles Izzie while she orders beer and asks for local microbrews and bar nuts. In the hallway, Alex provocatively tells Izzie to ask Hank to get the beers, and Izzie snaps that she did not invite Alex because he is unpleasant. Their conflict is redirected when Derek pulls both of them onto Jerry Frost's emergency case, where they assist together in surgery."
+  },
+  {
+    "title": "Izzie Stevens And Hank Grow Apart As Medicine Takes Over Her Life",
+    "arc_type": "Soap Arc",
+    "description": "Izzie's relationship with Hank deteriorates as her identity as a doctor reshapes her priorities, schedule, and sense of self. What once fit her old life no longer fits the demands of surgical training, and Hank struggles to accept how completely medicine now defines her time and commitments.",
+    "main_characters": "Izzie Stevens; Hank",
+    "interfering_episode_characters": "George O'Malley; Cristina Yang; Meredith Grey; Mr. Sterman; Alex Karev; Derek Shepherd; Jerry Frost",
+    "single_episode_progression_string": "Izzie plans a party so Hank can meet her hospital friends, despite George and Cristina questioning the idea and whether Meredith approved it. While caring for Mr. Sterman, Izzie insists that a person can have both a successful career and a family. But when Jerry Frost's crisis escalates, Izzie stays at the hospital for emergency surgery instead of going to the party. Hank arrives to find Izzie absent, then later confronts her outside the hospital. He rejects the party and the idea of meeting her coworkers, while Izzie explains that her life has changed and her patients come first. Hank leaves."
+  },
+  {
+    "title": "Meredith, George, Izzie, and Cristina Turn Meredith's House into a Dysfunctional Intern Home",
+    "arc_type": "Soap Arc",
+    "description": "As internship consumes their lives, Meredith, George, Izzie, and Cristina form an unstable but lasting bond that extends beyond the hospital. Living in and around Meredith's home, they clash over boundaries, create personal chaos for one another, and repeatedly regroup afterward, slowly becoming a dysfunctional found family.",
+    "main_characters": "Meredith Grey; George O'Malley; Izzie Stevens; Cristina Yang",
+    "interfering_episode_characters": "Miranda Bailey; Alex Karev; Derek Shepherd; Hank",
+    "single_episode_progression_string": "Izzie expands Meredith's intended small gathering into a full party at Meredith's house without permission. George and Cristina object as the guest list keeps growing, and George accidentally ends up inviting Bailey when she overhears. Meredith returns home to find the party already underway, is overwhelmed, but instead of shutting it down joins George and Cristina in drinking and dancing. By the next morning, Meredith, George, Izzie, and Cristina are back together in the wrecked house, dealing with the aftermath and cleaning up as a unit."
+  },
+  {
+    "title": "Izzie Stevens Fights To Be Taken Seriously As A New Intern",
+    "arc_type": "Genre-Specific Arc",
+    "description": "Izzie Stevens begins her surgical internship already marked by others' assumptions about her looks and background. Across the season, she struggles to earn professional respect, takes on humiliating or low-status tasks, and repeatedly has to prove that she belongs in medicine. Her early insecurity and inexperience shape her interactions with supervisors and peers as she tries to establish herself as a capable doctor.",
+    "main_characters": "Izzie Stevens",
+    "interfering_episode_characters": "Mr. Sterman; Hank; Derek Shepherd; Jerry Frost; Alex Karev",
+    "single_episode_progression_string": "In her conversation with Mr. Sterman, Izzie pushes back on the idea that a doctor cannot have both a career and a family. She continues managing his recovery and stays engaged in patient care. When Jerry Frost's condition turns critical, Izzie chooses to remain at the hospital for emergency surgery instead of leaving for the party. Later, she tells Hank that her life has changed and that her patients come first."
+  },
+  {
+    "title": "George O'Malley's Fight For Confidence And Respect",
+    "arc_type": "Genre-Specific Arc",
+    "description": "George O'Malley begins his surgical internship as the least assured of his class and is quickly marked as an easy target for doubt and ridicule. Across the season, he struggles to earn respect from attendings, peers, and himself after early mistakes damage his confidence. His arc follows a difficult climb from humiliation and second-guessing toward professional steadiness, as his compassion with patients and refusal to quit gradually establish that he belongs in the program.",
+    "main_characters": "George O'Malley",
+    "interfering_episode_characters": "Mrs. Drake; Miranda Bailey; Richard Webber; Meredith Grey",
+    "single_episode_progression_string": "Bailey and Webber have George assess Mrs. Drake's films, and George correctly identifies the lung problems and proposes a bullectomy. George explains the procedure to Mrs. Drake, initially makes a wrong assumption about her smoking, then regains trust through honesty and bedside manner. After the retained towel is discovered, Bailey assigns George to stay with Mrs. Drake because she likes him. George also serves as a sounding board for Meredith during the heart complication."
+  },
+  {
+    "title": "Meredith Grey Begins Her Surgical Career While Proving Her Identity And Talent Are Her Own",
+    "arc_type": "Genre-Specific Arc",
+    "description": "In her first year at Seattle Grace, Meredith Grey begins the difficult transition from emotional detachment into adult responsibility as she starts life as a surgeon. Working under intense pressure, she must prove herself in high-stakes cases while living in the shadow of Ellis Grey's legendary reputation and coping with Ellis's worsening condition. At the same time, her personal involvement with Derek Shepherd complicates her professional standing, leading others to question whether her opportunities and successes come from merit, legacy, or favoritism. As Meredith demonstrates strong instincts, resilience, and growing skill, she gradually learns painful lessons about competence, death, accountability, and self-definition.",
+    "main_characters": "Meredith Grey",
+    "interfering_episode_characters": "Preston Burke; George O'Malley; Richard Webber; hospital lawyer; Mr. Patterson; Nurse Tyler; Ellis Grey; Nursing home representative; Derek Shepherd; Cristina Yang; Izzie Stevens",
+    "single_episode_progression_string": "Meredith juggles Ellis Grey's legal and medical affairs before surgery and arrives exhausted for a major cardiac case. While assisting Burke, Meredith briefly falls asleep holding Mrs. Patterson's heart and later discovers her glove was punctured, leading her to fear she caused damage. After George reassures her, she delays reporting it. Mrs. Patterson crashes, and Meredith finally tells Burke as the patient is rushed back to the OR. Burke discovers a ventricular rupture larger than a fingernail puncture, but Meredith still faces scrutiny for failing to report the possible mistake immediately. Meredith reviews the case, realizes the patient's dramatic weight loss may have weakened the heart wall, and presents that explanation in the meeting with Webber and the hospital lawyer. Burke backs her by admitting his own past error. Meredith avoids dismissal but is placed under observation."
+  },
+  {
+    "title": "Seattle Grace Interns Endure Their First Year Of Surgical Training",
+    "arc_type": "Genre-Specific Arc",
+    "description": "Meredith Grey, Cristina Yang, George O'Malley, Izzie Stevens, and Alex Karev begin their careers at Seattle Grace as inexperienced surgical interns and are immediately thrown into an unforgiving training system. From their first day, they face grueling hours, public mistakes, humiliations, harsh supervision, competitive assignments, and constant exposure to life-and-death patient care. Across the season, their professional arc follows their struggle to survive the program, function under pressure, earn credibility, learn from mistakes, and grow from overwhelmed interns into real surgeons capable of handling the hospital's demanding culture.",
+    "main_characters": "Meredith Grey; Cristina Yang; George O'Malley; Izzie Stevens; Alex Karev",
+    "interfering_episode_characters": "Preston Burke; Miranda Bailey; Richard Webber; Derek Shepherd; Mrs. Patterson; Mr. Patterson; Mrs. Drake; Jerry Frost; hospital lawyer; Nurse Tyler; Ellis Grey; Hank",
+    "single_episode_progression_string": "Meredith is exhausted after 48 hours without sleep, nods off while assisting in heart surgery, fears she damaged the patient, and then has to face Burke, Webber, and legal scrutiny when Mrs. Patterson crashes. George is tested on Mrs. Drake's case, learns from Richard and Bailey, and stays involved as the team uncovers a towel left from a prior surgery. Cristina competes for surgical standing, investigates the old case files, and becomes entangled in the professional consequences surrounding Burke. Alex is corrected by Derek for dismissing a pain patient as a drug seeker and is forced to learn a more responsible standard of care. Izzie chooses surgery and patient care over Hank and the party."
+  },
+  {
+    "title": "Miranda Bailey's Intimidating Surgical Training Of The Interns",
+    "arc_type": "Genre-Specific Arc",
+    "description": "Miranda Bailey oversees the interns with strict discipline, blunt authority, and little patience for weakness. She sets the tone of their surgical education by assigning work, enforcing rules, correcting mistakes, and making clear that competence must be earned. Her mentorship is severe and often humiliating, but it defines the standards the interns must survive and meet as they begin their training.",
+    "main_characters": "Miranda Bailey",
+    "interfering_episode_characters": "George O'Malley; Cristina Yang; Richard Webber; Preston Burke; Mrs. Drake",
+    "single_episode_progression_string": "Bailey quizzes George on Mrs. Drake's chest films and asks him to state the diagnosis and treatment plan. She assists Richard during Mrs. Drake's surgery when a retained towel is discovered, then immediately assigns Cristina to investigate the original operation and orders George to remain with Mrs. Drake. Bailey tells Cristina to keep the information quiet while the attendings handle it. She also reveals she knows about the interns' party and puts George on the spot. Later, Bailey gives Burke the file from the earlier surgery and tells Cristina that Burke had already intended to come forward."
+  },
+  {
+    "title": "The Interns Compete For Surgeries, Status, And Survival",
+    "arc_type": "Genre-Specific Arc",
+    "description": "The surgical interns enter a training culture where access to procedures, recognition, and advancement must be earned through performance under pressure. Attendings and residents control opportunities, mistakes carry immediate consequences, and every case becomes a test of skill, nerve, and standing among peers. Competition for surgeries and approval shapes the interns' reputations, alliances, and rivalries.",
+    "main_characters": "Meredith Grey; Cristina Yang; George O'Malley; Alex Karev",
+    "interfering_episode_characters": "Preston Burke; Miranda Bailey; Richard Webber; Derek Shepherd; hospital lawyer; Ellis Grey; Mrs. Patterson; Mrs. Drake",
+    "single_episode_progression_string": "Meredith gets a coveted opportunity to assist Burke and hold a heart during surgery, prompting jealousy from George and Cristina. George is tested on Mrs. Drake's case by Bailey and Webber and is assigned to guide her through treatment, while Cristina is tasked with digging through records tied to the earlier surgical error. Alex is challenged by Derek after dismissing a pain patient as drug-seeking. Meredith realizes she may have damaged Mrs. Patterson's heart after dozing in surgery and hiding a torn glove, then faces the consequences when the patient crashes. Webber and the hospital lawyer review the case as a threat to her future in the program. In the end, Burke admits his own past failure to report a surgical mistake, helping spare Meredith from dismissal, though she is placed under observation for a month."
+  },
+  {
+    "title": "Cristina Yang's Competitive Pursuit Of Surgical Opportunity",
+    "arc_type": "Genre-Specific Arc",
+    "description": "Cristina treats surgical training as a constant competition where skill, speed, and access to the operating room determine worth. She pushes for difficult cases, dismisses distractions, and measures herself against the people around her. As the internship progresses, her intense focus on surgical advancement repeatedly collides with friendship, hierarchy, and the emotional realities of patient care.",
+    "main_characters": "Cristina Yang",
+    "interfering_episode_characters": "Preston Burke; Meredith Grey; Izzie Stevens; Miranda Bailey; Richard Webber",
+    "single_episode_progression_string": "Cristina is angry that Burke did not choose her to assist in surgery and dismisses Izzie's party plans as a waste of time compared with serious surgical work. Burke unexpectedly brings Cristina coffee. Bailey assigns Cristina to investigate Mrs. Drake's old surgical records, and Cristina discovers that Burke was the fellow on the operation where the towel was left behind. She quietly brings that information to Bailey, later probes Burke about Mrs. Patterson's complication, and studies his reaction. When Cristina sees Bailey hand Burke the file, she realizes his direct connection to the retained towel case."
+  },
+  {
+    "title": "Alex Karev's Arrogance Sabotages His Standing As An Intern",
+    "arc_type": "Genre-Specific Arc",
+    "description": "Alex Karev moves through the program with confidence that often hardens into arrogance, impatience, and open contempt for coworkers and patients. Across the arc, his dismissive behavior and snap judgments repeatedly damage his credibility, isolate him from the people around him, and interfere with his growth as a surgeon.",
+    "main_characters": "Alex Karev",
+    "interfering_episode_characters": "Derek Shepherd; Jerry Frost; Izzie Stevens",
+    "single_episode_progression_string": "Alex immediately labels Jerry Frost a junkie, dismisses his pain as fake, and argues against treating him properly despite Derek's warning to err on the side of caution. Derek later berates Alex for his judgmental attitude and points out that Alex only sees an addict instead of a patient with real pain. Alex also needles Izzie about the party and remains abrasive with the others. After Jerry's collapse, Alex assists in surgery and later arranges follow-up care."
+  },
+  {
+    "title": "Preston Burke's Surgical Authority Is Tested by a Current Cardiac Complication and the Exposure of His Past Retained-Sponge Error",
+    "arc_type": "Genre-Specific Arc",
+    "description": "Preston Burke's authority as an elite cardiothoracic surgeon is challenged when a postoperative crisis, intern error, legal scrutiny, and the resurfacing of his own past surgical mistake force him to balance leadership, accountability, and professional self-preservation within Seattle Grace's hierarchy.",
+    "main_characters": "Preston Burke; Richard Webber",
+    "interfering_episode_characters": "Meredith Grey; Miranda Bailey; Cristina Yang; Mrs. Patterson; Mr. Patterson; Mrs. Drake; hospital lawyer",
+    "single_episode_progression_string": "Burke leads Mrs. Patterson's heart surgery and notices Meredith drifting while assisting. When Mrs. Patterson deteriorates post-op, Burke rushes her back to surgery, where Meredith admits she tore her glove during the first operation. Burke reprimands her for withholding that information, then discovers a ventricular wall rupture larger than any fingernail puncture. Richard orders Burke to submit charts and face legal review. Meanwhile, Bailey and Cristina investigate Mrs. Drake's earlier surgery and uncover that Burke was the fellow on the case where a towel was left inside the patient. Bailey gives Burke the file. At the meeting with Richard and the hospital lawyer, Burke defends Meredith by confessing his own role in the earlier retained-sponge case. Burke later apologizes to Mrs. Drake."
+  },
+  {
+    "title": "Seattle Grace's Chain Of Command And Competitive Training Culture",
+    "arc_type": "Genre-Specific Arc",
+    "description": "Seattle Grace operates through a strict medical hierarchy where the Chief, attendings, residents, and interns enforce status through assignments, discipline, public correction, and selective opportunity. As the interns begin their training, they must navigate intimidation, favoritism, competition for surgeries, and the career consequences of mistakes. The hospital's culture teaches them that medical skill alone is not enough; survival also depends on reading power, earning trust, and enduring humiliation inside the system.",
+    "main_characters": "Meredith Grey; Preston Burke; Richard Webber; Miranda Bailey",
+    "interfering_episode_characters": "Cristina Yang; George O'Malley; hospital lawyer; Mrs. Patterson; Mr. Patterson; Mrs. Drake; Derek Shepherd; Alex Karev",
+    "single_episode_progression_string": "Burke gives Meredith a prized role in Mrs. Patterson's heart surgery, and George and Cristina react with jealousy over the opportunity. Bailey quizzes George on Mrs. Drake's case, assigns Cristina to dig through old files, and orders George to stay with the patient. Derek publicly corrects Alex for judging Jerry Frost instead of following instructions. When Mrs. Patterson crashes post-op, Meredith finally tells Burke about the torn glove, and Burke harshly reprimands her. Richard escalates the matter into a formal review with legal, making Meredith's future in the program uncertain. In parallel, Bailey's investigation into Mrs. Drake's retained towel case connects Burke to the earlier surgery. At Meredith's disciplinary meeting, the hospital lawyer presses the liability issue, and Burke publicly admits his own past failure to report the Drake error."
+  },
+  {
+    "title": "The Surgical Interns Learn Through Errors, Pressure, And First Life-Or-Death Cases",
+    "arc_type": "Genre-Specific Arc",
+    "description": "The new surgical interns are initiated into hospital life through hierarchy, humiliation, technical mistakes, emergency judgment calls, and the emotional burden of patient outcomes. Meredith Grey, Cristina Yang, George O'Malley, Izzie Stevens, and Alex Karev learn that becoming surgeons requires not just intelligence, but resilience, accountability, and the ability to function under intense pressure as they move from students toward doctors.",
+    "main_characters": "Meredith Grey; George O'Malley; Izzie Stevens; Cristina Yang; Alex Karev",
+    "interfering_episode_characters": "Preston Burke; Derek Shepherd; Miranda Bailey; Richard Webber; Mrs. Patterson; Mr. Patterson; Mrs. Drake; Jerry Frost; Nurse Tyler; hospital lawyer",
+    "single_episode_progression_string": "Meredith falls asleep while assisting in Burke's heart surgery and later fears she damaged Mrs. Patterson's heart, but delays reporting the torn glove until the patient crashes. George helps manage Mrs. Drake's case, which reveals a towel left behind from an earlier surgery, while Cristina uncovers Burke's connection to that past mistake. Alex is forced by Derek to confront his bias against Jerry Frost's addiction and participate in emergency surgery after Jerry collapses. Izzie remains engaged in patient care and emergency surgery as the interns continue learning under pressure. Meredith ultimately faces formal review, explains the medical factors behind Mrs. Patterson's rupture, and is spared dismissal when Burke admits his own past failure."
+  },
+  {
+    "title": "Derek Shepherd Pushes Alex Karev To Treat Addicted Patients As Real Patients",
+    "arc_type": "Genre-Specific Arc",
+    "description": "Derek's supervision of Alex repeatedly tests Alex's tendency to judge difficult patients before fully treating them. Across the season, Derek challenges Alex's reflexive cynicism and pushes him to separate addiction, attitude, and appearance from actual medical need. Their mentor-trainee dynamic centers on whether Alex can develop the discipline, compassion, and clinical judgment required to care for vulnerable patients without reducing them to labels.",
     "main_characters": "Derek Shepherd; Alex Karev",
     "interfering_episode_characters": "Jerry Frost; Izzie Stevens",
-    "single_episode_progression_string": "Jerry Frost reports chronic back pain and requests specific medications. Derek notices track marks and suspects drug-seeking behavior. Alex and Derek discuss the patient's addiction and pain management. Jerry becomes violent, falls, and sustains a subdural hemorrhage. Derek and Alex perform emergency surgery to address the hemorrhage."
-  },
-  {
-    "title": "Meredith and Derek's Professional and Personal Entanglement",
-    "arc_type": "Soap Arc",
-    "description": "Meredith Grey and Derek Shepherd navigate a complex relationship that begins with a one-night stand and evolves as they work together at Seattle Grace Hospital. Their personal history complicates their professional interactions, especially as Meredith strives to prove her competence amidst Derek's favoritism and the eventual arrival of his estranged wife, Addison.",
-    "main_characters": "Meredith Grey; Derek Shepherd",
-    "interfering_episode_characters": "George O'Malley; Miranda Bailey; Preston Burke; Izzie Stevens; Cristina Yang",
-    "single_episode_progression_string": "Meredith and Derek share a romantic encounter at a party. Derek notices Meredith's change in attitude when George joins them. Meredith declines Derek's dinner invitation. They flirt and have sex in Derek's car."
-  },
-  {
-    "title": "Meredith Grey's Struggle With Ellis Grey's Legacy",
-    "arc_type": "Soap Arc",
-    "description": "Meredith Grey navigates her medical career under the shadow of her mother, Ellis Grey, a legendary surgeon now battling Alzheimer's disease. This arc explores Meredith's struggle to establish her own identity while dealing with the emotional and professional impact of her mother's legacy.",
-    "main_characters": "Meredith Grey",
-    "interfering_episode_characters": "Ellis Grey; Richard Webber; Preston Burke; George O'Malley; Derek Shepherd; Miranda Bailey",
-    "single_episode_progression_string": "Meredith visits her mother at the nursing home and discusses signing over her estate. Meredith feels overwhelmed by her mother's condition and her own professional challenges. Meredith worries about her performance in the OR and the potential impact on her career. Meredith confesses to Burke about the torn glove during surgery. Meredith faces a meeting with the chief about her actions in the OR."
-  },
-  {
-    "title": "Interns' Journey and Growth",
-    "arc_type": "Soap Arc",
-    "description": "A group of new interns, Meredith, Cristina, George, and Izzie, form a bond as they navigate the challenges of their medical internship. Their evolving friendships provide emotional support and camaraderie, helping them tackle complex medical cases and personal dilemmas. The season showcases their growth through handling difficult cases, supporting each other, and overcoming personal and professional challenges.",
-    "main_characters": "Meredith; Cristina; George; Izzie",
-    "interfering_episode_characters": "Burke; Derek; Alex; Bailey",
-    "single_episode_progression_string": "Meredith struggles with exhaustion and fears a surgical mistake. Izzie plans a party at Meredith's house without her consent, causing tension. Cristina and Burke share a moment over coffee, hinting at a developing relationship. George reassures Meredith about her surgical concerns. The interns clean up after the party, reflecting on their chaotic lives."
-  },
-  {
-    "title": "Izzie Stevens' Professional Challenges",
-    "arc_type": "Soap Arc",
-    "description": "Izzie Stevens, an ex-model turned surgical intern, faces professional challenges and biases due to her past. She strives to demonstrate her competence and commitment in the high-pressure environment of Seattle Grace Hospital, advocating for her patients and overcoming personal and professional obstacles.",
-    "main_characters": "Izzie Stevens; Hank",
-    "interfering_episode_characters": "Cristina Yang; George O'Malley; Alex Karev; Meredith Grey",
-    "single_episode_progression_string": "Izzie organizes a party at Meredith's house without her consent. Izzie invites colleagues from various departments, causing tension. Izzie's boyfriend, Hank, arrives at the party and is upset about the large gathering. Izzie and Hank argue about her priorities and his lack of interest in meeting her colleagues. Hank leaves after their argument, highlighting the strain in their relationship."
-  },
-  {
-    "title": "George O'Malley's Journey to Personal and Professional Growth",
-    "arc_type": "Soap Arc",
-    "description": "George O'Malley, an intern at Seattle Grace Hospital, faces challenges with personal frustrations, insecurities, and self-doubt as he navigates his medical career. Throughout the season, he learns to assert himself and gradually demonstrates his abilities to his peers and superiors, leading to significant personal and professional growth.",
-    "main_characters": "George O'Malley",
-    "interfering_episode_characters": "Meredith Grey; Cristina Yang; Izzie Stevens; Richard Webber; Miranda Bailey; Preston Burke",
-    "single_episode_progression_string": "George assists in a heart surgery and feels jealous of Meredith's opportunity. He reassures Meredith about her mistake, showing his supportive nature. George accurately diagnoses Mrs. Drake's condition and suggests a treatment plan. He gains confidence from Mrs. Drake's appreciation of his straightforwardness."
-  },
-  {
-    "title": "Cristina Yang's Ambition: Professional Rivalries and Emotional Detachment",
-    "arc_type": "Soap Arc",
-    "description": "Cristina Yang, a highly ambitious surgical intern, navigates her professional journey with a focus on achieving surgical excellence. Her competitive nature often leads to rivalries with her peers, particularly Alex Karev, as they vie for opportunities and recognition. Simultaneously, Cristina struggles with emotional detachment in her pursuit of career advancement, leading to conflicts with her peers and mentors. The season highlights her ambition, the challenges she faces in balancing her personal and professional relationships, and her ongoing struggle to balance ambition with empathy, as seen in her interactions with patients and her peers.",
-    "main_characters": "Cristina Yang",
-    "interfering_episode_characters": "Alex Karev; Preston Burke; George O'Malley; Izzie Stevens",
-    "single_episode_progression_string": "Cristina dismisses George's jealousy over Meredith holding a heart. Cristina jokes about Izzie's party plans, showing her detachment. Cristina finds the post-op report implicating Burke in a past surgical mistake. Cristina awkwardly interacts with Burke, hinting at their complex relationship. Cristina and Burke have sex in the locker room, highlighting her emotional detachment."
-  },
-  {
-    "title": "Alex Karev's Professional Rivalries and Personal Growth",
-    "arc_type": "Soap Arc",
-    "description": "Alex Karev, a surgical intern known for his competitive nature and brash demeanor, often finds himself in professional rivalries with his peers. Throughout the season, he works on developing his skills and improving his bedside manner, learning to balance his skepticism with empathy.",
-    "main_characters": "Alex Karev",
-    "interfering_episode_characters": "Derek Shepherd; Jerry Frost",
-    "single_episode_progression_string": "Alex is skeptical of a patient suspected of drug-seeking behavior. Derek instructs Alex to treat the patient's pain seriously. Alex is frustrated but follows Derek's orders. Alex assists in surgery for the patient after an accident. Alex sets up a meeting for the patient with a psychologist to help with addiction recovery."
-  },
-  {
-    "title": "Cristina Yang and Preston Burke's Professional and Personal Dynamics",
-    "arc_type": "Soap Arc",
-    "description": "Cristina Yang and Preston Burke, both ambitious surgeons, navigate a complex professional and personal relationship. Their interactions often reflect a blend of competition and mutual respect, as they balance their personal feelings with their professional ambitions.",
-    "main_characters": "Cristina Yang; Preston Burke",
-    "interfering_episode_characters": "Miranda Bailey; Richard Webber",
-    "single_episode_progression_string": "Cristina is tasked with investigating a past surgical mistake involving Burke. Burke gives Cristina a coffee, leading to an awkward interaction. Cristina discovers Burke's involvement in the past surgical mistake. Burke acknowledges the mistake and plans to reveal it. Cristina and Burke have sex in the locker room."
-  },
-  {
-    "title": "Bailey's Mentorship and Leadership",
-    "arc_type": "Genre-Specific Arc",
-    "description": "Miranda Bailey, known as 'The Nazi,' mentors the new interns at Seattle Grace Hospital. Her strict yet effective leadership style helps shape their development as surgeons, while she balances her own professional responsibilities and navigates the hospital's power dynamics.",
-    "main_characters": "Miranda Bailey",
-    "interfering_episode_characters": "George O'Malley; Cristina Yang; Richard Webber; Preston Burke",
-    "single_episode_progression_string": "Bailey reviews patient cases with the interns. She guides George through diagnosing Mrs. Drake's lung condition. Bailey instructs Cristina to gather information on Mrs. Drake's previous surgery. Bailey provides Burke with files about the sponge left inside Mrs. Drake."
-  },
-  {
-    "title": "Navigating Professional Challenges and Mistakes",
-    "arc_type": "Genre-Specific Arc",
-    "description": "The interns at Seattle Grace Hospital face professional challenges and learn to navigate the consequences of their mistakes within the hospital hierarchy. This arc highlights their growth as they confront errors, seek guidance from superiors, and learn to take responsibility for their actions.",
-    "main_characters": "Meredith Grey; Cristina Yang",
-    "interfering_episode_characters": "Richard Webber; Preston Burke; Miranda Bailey; George O'Malley",
-    "single_episode_progression_string": "Meredith struggles with anxiety over her performance and potential consequences from the chief. Cristina investigates a past surgical mistake involving a towel left inside a patient. Meredith confesses to Burke about a potential mistake during surgery. Burke supports Meredith during a meeting with the chief, revealing his own past mistake."
-  },
-  {
-    "title": "Meredith's Professional and Ethical Growth",
-    "arc_type": "Genre-Specific Arc",
-    "description": "Meredith Grey navigates her surgical internship, facing professional challenges and ethical dilemmas. This arc explores her growth as she deals with high-pressure situations, learns from mistakes, and grapples with the ethical implications of her actions.",
-    "main_characters": "Meredith Grey; Preston Burke",
-    "interfering_episode_characters": "George O'Malley; Richard Webber; Derek Shepherd; Miranda Bailey",
-    "single_episode_progression_string": "Meredith holds a heart during surgery and nods off. She worries she might have punctured the heart. Meredith confesses to Burke about the torn glove. Burke finds a rupture in the heart wall. Meredith and Burke are called to meet with legal."
-  },
-  {
-    "title": "Medical Errors and Institutional Accountability",
-    "arc_type": "Genre-Specific Arc",
-    "description": "Seattle Grace Hospital grapples with medical errors and institutional accountability, focusing on the impact of these mistakes on staff and patients. The arc examines how the hospital addresses these challenges to maintain its reputation and ensure patient safety.",
-    "main_characters": "Meredith Grey; Preston Burke",
-    "interfering_episode_characters": "Richard Webber; Miranda Bailey; George O'Malley; Cristina Yang; Izzie Stevens; Alex Karev",
-    "single_episode_progression_string": "Meredith accidentally punctures a patient's heart during surgery. A towel is discovered inside Mrs. Drake from a previous surgery. Meredith confesses her mistake to Burke and faces a meeting with the chief. Burke admits to a past mistake of leaving a sponge inside a patient. Meredith is not fired but will be monitored for a month."
+    "single_episode_progression_string": "Alex dismisses Jerry Frost as a drug seeker and wants to discharge him. Derek insists that Jerry's pain must be treated as real, orders Alex to place a central line, and later reprimands him for letting judgment interfere with care. When Jerry tries to leave, falls, and suffers a subdural hemorrhage, Derek brings Alex into the emergency surgery. During the operation, Alex reveals his father was addicted to heroin. Afterward, Alex takes a more responsible approach by arranging psychological follow-up for Jerry."
   }
 ]

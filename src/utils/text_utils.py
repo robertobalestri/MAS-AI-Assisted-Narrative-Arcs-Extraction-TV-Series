@@ -12,14 +12,22 @@ from typing import Dict
 def load_text(file_path: str) -> str:
     if not os.path.exists(file_path):
         return None
-    with open(file_path, 'r', encoding='utf-8') as f:
-        return f.read()
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            return f.read()
+    except UnicodeDecodeError:
+        with open(file_path, 'r', encoding='cp1252') as f:
+            return f.read()
     
 def load_json(file_path: str) -> List[Dict]:
     if not os.path.exists(file_path):
         return []
-    with open(file_path, 'r') as f:
-        return json.load(f)
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except UnicodeDecodeError:
+        with open(file_path, 'r', encoding='cp1252') as f:
+            return json.load(f)
     
 def jaccard_index(set1: set, set2: set) -> float:
     """

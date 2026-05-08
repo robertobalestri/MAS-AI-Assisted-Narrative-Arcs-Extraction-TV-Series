@@ -1,287 +1,520 @@
-Meredith is asleep in the shower with a toothbrush.
-Meredith wakes up when her arm slips and continues showering.
-Later, Meredith visits the nursing home where her mother lives.
-Meredith talks about having her mother sign everything over while her mother is still clear-minded.
-Meredith watches her mother through the glass and mentions she hasn't slept in 48 hours.
-Meredith is about to perform heart surgery for the first time, is missing rounds, and asks if someone else can handle the situation.
-The nursing home representative explains they are discussing Meredith's mother's estate, finances, and medical care, questioning if Meredith wants to leave these responsibilities to someone else.
-In the operating room, Burke is stitching while Meredith holds a heart.
-Meredith starts to nod off, and Burke notices her waking up suddenly.
-Burke questions Meredith, and she apologizes, saying the heart slipped.
-Burke tells Meredith she can release Mrs. Patterson's heart now.
-As they prepare to take the patient off bypass, George and Cristina watch from the gallery.
-George feels jealous because Meredith got to hold a heart.
-Cristina believes a monkey could hold a heart.
-George thinks Cristina feels this way because Burke didn't ask her to assist.
-Izzie enters looking for George, saying she needs more ice and chips.
-George is surprised and asks how many people Izzie invited.
-Cristina repeats the invite list was for 'jocks only,' meaning surgery, trauma, and plastics.
-Izzie mentions she invited some people from pediatrics too, whom Cristina calls preschoolers.
-Cristina jokes that shrinks are next, and when Izzie turns away, Cristina realizes Izzie already invited them and says the party is already dead on arrival.
-George reminds Izzie that Meredith thinks it's a small, meet-your-boyfriend, cocktail event and asks if Izzie checked with Meredith first.
-Izzie admits she didn't but promises she will.
-Cristina questions why Izzie is spending the one weekend her boyfriend is in town on a party and assumes it's because the boyfriend is bad in bed.
-Izzie denies this and says she just wants him to meet her friends.
-Cristina is paged away despite her doubts.
-Alex arrives and asks about a party at Meredith’s house, taking Cristina's seat.
-Cristina, George, and Izzie deny any party while Alex watches the surgery below.
-In the operating room, an alarm sounds, but the issue is unclear.
-The anesthesiologist informs Burke that the patient's temperature is rising as they massage the heart.
-Burke expects the heart to function on its own by now, but the patient flatlines.
-They continue compressions, and Burke uses paddles to shock the patient twice, restoring a rhythm.
-Burke praises the team and leaves to scrub out.
-Meredith notices her fingernail has punctured her glove and worries she might have caused a problem.
-Derek, while eating, approaches Meredith and asks about the surgery.
-Meredith becomes less enthusiastic when George joins them.
-Derek notices Meredith's change in attitude.
-When the elevator arrives, George and Meredith get on, leaving Derek behind.
-Meredith tells George she might have done something to the heart while holding it.
-Meredith admits she nodded off and might have squeezed it.
-George reassures Meredith, saying the heart is a tough muscle.
-Meredith mentions her fingernail popped a glove and worries she might have punctured the heart.
-George explains that if Meredith had punctured it, they would have known during reperfusion.
-George assures Meredith the heart started again, so the patient is okay.
-Meredith considers telling Burke.
-George questions what there is to tell since nothing happened and the patient is fine.
-Meredith and George both continue to reassure each other that the patient is okay.
-Richard, Bailey, and George are looking at chest X-rays for Mrs. Drake.
-Bailey asks George for his observations.
-George notes that the lungs are hyperinflated, cloudy with bullae, and have reduced capacity.
-George believes Mrs. Drake is likely having breathing difficulties.
-Bailey inquires about George's next steps, and George suggests a bullectomy to relieve pressure.
-Richard mentions they operated on Mrs. Drake in 1999.
-Despite her previous surgery, George needs to explain the procedure to Mrs. Drake and avoid anti-smoking lectures, as she already feels guilty.
-As George leaves, he wonders if putting lung scans on cigarette packs would deter smoking.
-Derek and Alex are with a patient who has back pain.
-Alex asks the patient how long the pain has persisted.
-The patient describes the pain as chronic, meaning it is constant.
-Alex acknowledges understanding "chronic" and requests more details about the pain type.
-The patient describes the pain as feeling like a thousand swords stabbing his spine.
-The patient mentions being allergic to aspirin and most NSAIDs.
-Alex suggests using morphine, but the patient insists that only Demerol or Dilaudid work.
+Meredith is sleeping in the shower with a toothbrush.
+Meredith awakens as Meredith's arm slips from Meredith's knee.
+Meredith continues Meredith's shower.
+Meredith walks into the nursing home where Meredith's mother lives.
+Meredith discusses having Meredith's mother sign everything over to Meredith while Meredith's mother is lucid.
+Meredith watches Meredith's mother through the glass.
+Meredith explains that Meredith has not slept in 48 hours.
+Meredith explains that Meredith is getting Meredith's first shot at heart surgery this morning.
+Meredith explains that Meredith is missing rounds.
+Meredith asks if the nursing home representative is sure there is no one else to handle this instead.
+The nursing home representative explains that the discussion is about Meredith's mother's estate, finances, and medical care.
+The nursing home representative asks if Meredith really wants to leave Meredith's mother's life in someone else's hands.
+In the OR, Burke is placing a stitch.
+Meredith begins to nod off while Meredith is holding the heart in Meredith's hands.
+Burke notices Meredith jerk awake.
+Burke questions Meredith about it.
+Meredith apologizes.
+Meredith says that the heart slipped.
+Burke says that Burke is finished.
+Burke says that Meredith can release Mrs. Patterson's heart now.
+As the team prepares to take the patient off bypass, George and Cristina watch from the gallery.
+George is jealous that Meredith got to hold a heart.
+Cristina says that a monkey could hold a heart.
+George thinks Cristina only feels that way because Cristina is mad that Burke did not ask Cristina to assist.
+Izzie comes in looking for George.
+Izzie tells George that Izzie needs more ice and chips.
+George is surprised.
+George asks Izzie how many people Izzie invited.
+Cristina reiterates that the invite list was jocks only.
+Cristina explains that jocks only means only surgery, trauma, and plastics.
+Izzie tells George and Cristina that Izzie invited some people from peds as well.
+Cristina calls the people from peds preschoolers.
+Cristina thinks shrinks are next.
+When Izzie turns away, Cristina realizes that Izzie already invited shrinks.
+Cristina says that the party is already DOA.
+George reminds Izzie that Meredith thinks this is a small meet-your-boyfriend cocktail thing.
+George asks Izzie if Izzie cleared it with Meredith first.
+Izzie says that Izzie did not.
+Izzie promises that Izzie will.
+Cristina wonders why Izzie is wasting the one weekend that Izzie's boyfriend is in town on a party.
+Cristina assumes that the reason is that Izzie's boyfriend is bad in bed.
+Izzie denies that.
+Izzie says that Izzie just wants Izzie's boyfriend to meet Izzie's friends.
+Cristina doubts that.
+Cristina is paged away.
+Alex comes in asking about the party at Meredith's house.
+Alex takes Cristina's seat.
+Cristina, George, and Izzie all deny that there is a party.
+Alex watches the surgery below.
+In the OR, an alarm is going off.
+The team is not sure what the problem is.
+The anesthesiologist tells Burke that the patient's temperature is rising.
+The team continues to massage the heart.
+Burke says that the patient should be doing that on the patient's own by now.
+The patient flatlines.
+The team continues compressions.
+Burke calls for paddles.
+Burke shocks the patient twice before Burke gets a rhythm.
+Burke compliments the team.
+Burke leaves to scrub out.
+As Meredith turns away from the table, Meredith notices that Meredith's fingernail has punctured Meredith's glove.
+Meredith worries that Meredith may have done something.
+Derek is eating as Derek approaches Meredith.
+Derek asks Meredith how the surgery went.
+Meredith is less enthusiastic.
+George joins Derek and Meredith.
+Derek notices Meredith's attitude.
+When the elevator arrives, George and Meredith get on the elevator.
+George and Meredith leave Derek behind.
+Meredith tells George that Meredith thinks Meredith may have done something to the heart while Meredith was holding it.
+Meredith says that Meredith nodded off a little.
+Meredith thinks that Meredith may have squeezed the heart.
+George dismisses this.
+George says that the heart is a tough muscle.
+Meredith tells George that Meredith's fingernail popped a glove.
+Meredith asks George what if Meredith punctured the patient's heart.
+George tells Meredith that if Meredith had punctured the heart, the team would have known when the team tried to reperfuse.
+George says that the team got the patient's heart started again.
+George says that the patient is okay.
+Meredith wonders if Meredith should tell Burke.
+George asks Meredith what there is to tell.
+George says that nothing happened.
+George says that the woman is okay.
+Meredith and George continue to tell one another that the patient is fine.
+Richard, Bailey, and George are reviewing chest films for Mrs. Drake.
+Bailey asks George what George sees.
+George points out hyperinflated lungs.
+George points out cloudiness with bullae.
+George points out seriously diminished capacity.
+George says that Mrs. Drake must be having trouble breathing.
+Bailey asks George what George's course of action would be.
+George tells Bailey that George would do a bullectomy procedure to reduce the pressure.
+Richard has the chart.
+Richard says that the team operated on Mrs. Drake in 1999.
+Richard says that even though Mrs. Drake has been through this procedure before, George still needs to walk Mrs. Drake through it.
+Richard says that George must resist the anti-smoking lectures.
+Richard says that Mrs. Drake feels bad enough already.
+As George leaves, George asks Bailey if Bailey thinks people would stop smoking if the hospital put this lung scan on packs of cigarettes.
+Derek and Alex are in with a patient who complains of back pain.
+Alex asks the patient how long the patient has been experiencing pain.
+The patient explains that the pain is chronic.
+The patient explains that chronic means that the pain always hurts.
+Alex says that Alex knows what chronic means.
+Alex asks the patient to be more specific about the kind of pain the patient is experiencing.
+The patient says that the pain is like a thousand samurai warriors stabbing swords into the patient's spine.
+The patient explains that the patient is allergic to aspirin and most NSAIDs.
+Alex suggests morphine.
+The patient says that the only things that work are Demerol or Dilaudid.
 Derek notices track marks on the patient's arm.
-Outside the room, Alex thinks the patient is seeking drugs.
-Alex believes the patient exaggerated the pain and calls him a junkie.
-Derek asks Alex what he would do.
-Alex wants to check the patient's history, refer him to a program, and discharge him.
-Derek agrees but insists Alex must first give the patient something for the pain.
-Alex is frustrated, thinking that's what the patient wants.
-Derek explains they must treat the pain as real and that the first rule of pain management is to be cautious.
-Derek instructs Alex to start a central line, noting the patient's veins are damaged, and then Derek is paged away.
-Mrs. Drake mentioned to George that her last surgery was meant to help, but it never felt right.
-George suggested quitting smoking might have been wise.
-Mrs. Drake retorted that she had a 4-pack-a-day habit, quit, and it was very difficult, but it didn’t help.
-George was surprised and said Mrs. Drake's scans made them think she still smoked.
-Mrs. Drake confirmed she quit cold turkey 5 years ago as they prepared her for surgery.
-Mrs. Drake shared that she had to leave her restaurant job because even sitting was painful, but no one believed her.
-George assured Mrs. Drake he saw the films and it wasn’t just in her head.
-Mrs. Drake asked George to come closer and remarked he seemed too young to be a doctor.
-George replied he was older than he looked.
-Mrs. Drake inquired if the procedure would work this time, and George said it was her best option.
-Mrs. Drake appreciated George's straightforwardness.
-Meredith observes as Nurse Tyler helps Mrs. Patterson settle into the hospital bed.
-Meredith then talks to Mr. Patterson to get an update on Mrs. Patterson's condition.
-Meredith assures Mr. Patterson that Mrs. Patterson's levels are stable and explains that heart surgery is very demanding.
-Meredith tells Mr. Patterson they are keeping a close watch on Mrs. Patterson, and she should recover well.
-Izzie closes the curtain and approaches Mr. Sterman, asking about his condition.
-Mr. Sterman replies that he feels okay but doesn't want another bowel obstruction.
-Izzie jokes that many people request them and checks if Mr. Sterman is managing clear fluids and using the bathroom.
-Mr. Sterman hesitates, so Izzie asks if he's passed gas.
-Mr. Sterman lies and says yes, but Izzie knows he's not truthful.
-Mr. Sterman apologizes and reveals he attended medical school but left during his final year of clinical training.
-Mr. Sterman worked too many hours and was going through a divorce.
-Now, Mr. Sterman does research and has a family.
-Mr. Sterman apologizes, saying he meant no offense.
-Izzie assures Mr. Sterman it’s fine.
-Izzie believes one can have both a successful career and a family.
-Mr. Sterman doubts this, thinking a doctor's first responsibility is to their patient.
-As Izzie leaves Mr. Sterman’s room, Burke approaches Cristina at the nurse’s station and gives her a coffee.
-Cristina looks at Burke, confused, while Burke sips his own.
-Burke explains it’s just coffee.
-Cristina awkwardly accepts it, and they part ways.
-As Cristina turns the corner, Burke watches her with a smile.
-Meredith is washing her face in the locker room.
-Richard is doing a 'spaghetti procedure' on Mrs. Drake.
+Derek and Alex leave the room.
+Alex believes that the patient is just drug seeking.
+Alex says that the patient has exaggerated and been overly specific in describing the pain.
+Alex calls the patient a junkie.
+Derek asks Alex what Alex would do.
+Alex wants to check the database for the patient's history.
+Alex wants to refer the patient to a program.
+Alex wants to discharge the patient.
+Derek says that Alex can do that after Derek gives the patient something.
+Alex is annoyed.
+Alex says that giving the patient something is exactly what the patient wants.
+Derek tells Alex that the team still has to treat the pain as if the pain were real.
+Derek says that the first rule of pain management is to always err on the side of caution.
+Derek tells Alex to start a central line.
+Derek says that the patient's veins are shot.
+Derek is paged away.
+Mrs. Drake tells George that Mrs. Drake's last surgery was supposed to help.
+Mrs. Drake says that the surgery never felt right.
+George says that it probably would have been a good idea for Mrs. Drake to quit smoking.
+Mrs. Drake snaps back that Mrs. Drake had a 4-pack-a-day habit.
+Mrs. Drake says that quitting was hell.
+Mrs. Drake says that Mrs. Drake did quit.
+Mrs. Drake says that quitting did not do any damn good.
+This surprises George.
+George tells Mrs. Drake that, based on Mrs. Drake's scans, the team assumed that Mrs. Drake was still smoking.
+Mrs. Drake confirms that Mrs. Drake quit cold-turkey 5 years ago.
+The team starts to move Mrs. Drake.
+The team starts to prep Mrs. Drake for surgery.
+Mrs. Drake tells George that Mrs. Drake had to quit Mrs. Drake's job at the restaurant.
+Mrs. Drake tells George that even sitting hurt.
+Mrs. Drake tells George that no one believed Mrs. Drake.
+George tells Mrs. Drake that George saw the films.
+George tells Mrs. Drake that the problem is definitely not all in Mrs. Drake's head.
+Mrs. Drake urges George to come closer.
+Mrs. Drake tells George that George is too young to be a doctor.
+George says that George is older than George looks.
+Mrs. Drake asks George if George thinks the procedure is going to work this time.
+George replies that the procedure is Mrs. Drake's best option.
+Mrs. Drake says that Mrs. Drake likes a straight shooter.
+Meredith watches from afar as Nurse Tyler gets Mrs. Patterson comfortable in the hospital bed.
+Meredith comes over.
+Meredith greets Mrs. Patterson's husband.
+Meredith gets updated on Mrs. Patterson's status.
+Meredith confirms that Mrs. Patterson's levels are fine.
+Meredith explains that heart surgery takes a lot out of a patient.
+Meredith says that the team is monitoring Mrs. Patterson carefully.
+Meredith says that Mrs. Patterson should be fine.
+Izzie draws the curtain as Izzie approaches Mr. Sterman.
+Izzie asks Mr. Sterman how Mr. Sterman is feeling today.
+Mr. Sterman says that Mr. Sterman is pretty okay.
+Mr. Sterman says that Mr. Sterman does not think that Mr. Sterman wants to have a bowel obstruction again.
+Izzie jokes that the hospital gets people in all the time requesting bowel obstructions.
+Izzie asks Mr. Sterman if Mr. Sterman is keeping down the clear fluids.
+Izzie asks Mr. Sterman if Mr. Sterman has used the bathroom yet.
+Mr. Sterman says that Mr. Sterman is not sure.
+Izzie says that Mr. Sterman would probably know.
+Izzie asks Mr. Sterman if Mr. Sterman has passed gas instead.
+Mr. Sterman says yes.
+Izzie knows that Mr. Sterman is lying.
+Mr. Sterman apologizes for lying.
+Mr. Sterman tells Izzie that Mr. Sterman went to medical school.
+Mr. Sterman tells Izzie that Mr. Sterman dropped out in Mr. Sterman's last year of clinical training.
+Mr. Sterman says that there were just too many hours.
+Mr. Sterman says that Mr. Sterman was getting into a divorce.
+Mr. Sterman says that Mr. Sterman does research now.
+Mr. Sterman says that Mr. Sterman has a life and a family.
+Mr. Sterman apologizes.
+Mr. Sterman says that Mr. Sterman meant no offense.
+Izzie says that it is fine.
+Izzie says that Izzie is one of those people who believe that a person can have both a successful career and a family.
+Mr. Sterman says that Mr. Sterman is not so sure.
+Mr. Sterman says that a doctor's first responsibility will always be the doctor's patient.
+Izzie exits Mr. Sterman's room.
+Burke comes up to Cristina at the nurse's station.
+Burke slides a coffee to Cristina.
+Cristina looks up at Burke.
+Burke is sipping Burke's own coffee.
+Cristina is clearly confused.
+Burke says that the drink is just coffee.
+Cristina awkwardly accepts the coffee.
+Burke and Cristina go their separate ways.
+Cristina turns the corner.
+Burke peers back.
+Burke watches Cristina with a smile.
+Meredith is washing Meredith's face in the locker room.
+Richard is performing a spaghetti procedure on Mrs. Drake.
 Bailey explains the procedure to George.
-George and Bailey notice something unusual, surprising Bailey.
-Richard decides to switch to an open procedure and removes the scopes.
-Richard makes an incision while Bailey assists.
-Richard pulls a towel from inside Mrs. Drake.
-George wonders about the towel's origin.
-Richard guesses it’s from Mrs. Drake's surgery five years ago.
-Bailey comments on the situation and continues to assist Richard.
-Cristina joins Richard, Bailey, and George outside the OR.
-Cristina is surprised about the towel.
-George explains that Mrs. Drake complained of chest pressure, but no one took her seriously.
-Richard emphasizes that the situation is bad for both Mrs. Drake and the hospital as he leaves.
-Bailey instructs Cristina to gather all information about the initial operation, including who was present and who closed.
-Bailey tells George to stay with Mrs. Drake, who seems to like him.
-George asks how long he needs to wait since his shift ends at 6pm.
-Bailey mentions the party and asks if she's invited, and George confirms she is.
-After Bailey leaves, Cristina looks at George with irritation, but George is unsure what else he could have said.
-Izzie is on the phone ordering beer for the party when Alex suggests adding local microbrews and bar nuts.
-Izzie claims she's ordering office supplies but agrees to Alex's request and changes the delivery time from 5 to 7.
-Mr. Sterman passes by and jokes about being invited to the party if he poops.
-Derek hears his pain patient complaining and having trouble with a nurse as Derek walks by.
-Frost asks Derek where Derek has been.
-Derek assures Frost they will help and goes to find Alex.
-Derek criticizes Alex for not starting a central line as instructed.
-Alex explains the patient has been in seven hospitals in four months and is an addict.
-Derek points out the patient has a 3-lumbar fusion, but Alex only sees an addict.
-Derek acknowledges the addiction but insists the pain is real.
-Derek tells Alex to drop the attitude and start the central line.
-George is with Mrs. Drake, who mentions a handsome, older surgeon told her about a towel left inside her.
-George identifies him as Dr. Webber, their chief.
-Mrs. Drake realizes the towel was left after her last surgery and questions how that could happen.
-George agrees with Mrs. Drake's concern.
-Cristina enters an office and searches through files for information on Mrs. Drake’s initial surgery.
-Cristina finds a post-op report naming Dr. John Davies as the surgeon and Dr. Preston Burke as the surgical fellow.
-Cristina takes this information to Bailey and asks what to do next.
-Bailey advises Cristina to keep it private while they figure it out.
-Meredith is at the nurse’s station when Derek approaches.
-Derek notices something is wrong and asks Meredith if she's okay.
-Meredith tells Derek she's just tired from a long procedure.
-Derek invites Meredith to dinner, but Meredith declines.
-Derek mentions forgetting about the party, surprising Meredith since she hadn't told Derek about it.
-Derek sarcastically tHanks Meredith for not inviting him and suggests she consider dinner as he leaves.
-Meredith is then paged and goes to Mrs. Patterson’s bed.
-Nurse Tyler informs Meredith there was swelling over the sternum, followed by heavy bleeding.
-Tyler had already contacted Dr. Preston Burke.
-Mr. Patterson wanted to know if Mrs. Patterson was dying.
-Meredith asked someone to remove Mr. Patterson and apply pressure to the wound.
-When Dr. Preston Burke arrived, Burke instructed Nurse Tyler to call for an operating room and asked Meredith for an update.
-Meredith informed Burke that Mrs. Patterson had received medication without any allergic reactions and updated Burke on Mrs. Patterson's lab results.
-Burke was unsure what went wrong and told the team to move.
-Meredith hesitated but admitted she had torn a glove in the operating room.
-Mr. Patterson heard everything and watched as they moved Mrs. Patterson to surgery.
-In the operating room, Burke criticized Meredith for not speaking up sooner.
-Meredith had the chance to tell Burke before he closed, but instead, Meredith confessed in front of Mr. Patterson.
-Burke says Meredith is unsure if it was her fault and keeps apologizing.
-Burke finds the problem and calls Meredith to the table.
-There is a rupture in the wall, larger than a fingernail.
-Burke explains that Mrs. Patterson's ventricular walls are weak.
-Richard enters from the scrub room and mentions he spoke with Mr. Patterson.
-Richard requests copies of Mrs. Patterson's chart in his office by 5pm.
-Richard informs Burke and Meredith that they will meet with legal tomorrow and must explain the situation.
-As Richard leaves, he complains about mistakes like poking holes in hearts and leaving towels behind.
-Burke tells Meredith he will talk to Mr. Patterson and advises Meredith to review the history and apologize a lot.
-Meredith's job is at risk.
+Richard and Bailey notice something unusual in the field.
+The unusual finding surprises Bailey.
+Richard says that the team needs to convert to an open procedure.
+Richard removes the scopes.
+Richard makes the incision.
+Bailey assists Richard.
+Richard then pulls a towel from inside Mrs. Drake.
+George wonders where the towel came from.
+Richard says that Richard's best guess is that the towel came from Mrs. Drake's surgery 5 years ago.
+Bailey says that something careless this way comes.
+Bailey continues to assist Richard.
+Cristina has joined Richard, Bailey, and George outside the OR.
+Cristina is surprised that Richard and Bailey pulled a towel from a patient.
+George explains that Mrs. Drake complained of pressure on Mrs. Drake's chest.
+George explains that no one took Mrs. Drake seriously.
+Richard reiterates that the situation is not good for the patient.
+Richard reiterates that the situation is not good for the hospital.
+Richard reiterates that the situation is just not good.
+Richard leaves.
+Bailey asks Cristina to hit the files.
+Bailey tells Cristina to find everything Cristina can about Mrs. Drake's initial operation.
+Bailey tells Cristina to include who was in the room.
+Bailey tells Cristina to include who was responsible for closing.
+Bailey tells George to stay with Mrs. Drake.
+Bailey says that Mrs. Drake seems to like George.
+George starts to ask how long George will need to wait.
+George says that George's shift technically ends at 6 p.m.
+Bailey says that Bailey knows about the party.
+Bailey asks George if Bailey is invited.
+George agrees that Bailey is invited, of course.
+Once Bailey is gone, Cristina stares at George in irritation.
+George wonders what George was supposed to say.
+Izzie is on the phone ordering assorted cases of beer for the party.
+Alex comes up.
+Alex requests local microbrews and bar nuts.
+Izzie tells Alex that Izzie is ordering office supplies.
+Izzie makes Alex's request anyway.
+Izzie moves the delivery from 5 to 7.
+Mr. Sterman passes Izzie in the hall.
+Mr. Sterman asks Izzie if, if Mr. Sterman poops, Izzie will invite Mr. Sterman to Izzie's party.
+Derek is walking by when Derek hears Derek's pain patient complaining and struggling with a nurse.
+Mr. Frost asks Derek where Derek has been.
+Derek assures Mr. Frost that the team will help Mr. Frost.
+Derek goes to find Alex.
+Derek berates Alex.
+Derek says that when Derek tells Alex to start a central line, Alex is to do so without judgment or question.
+Alex tells Derek that the patient has been in 7 hospitals in the last 4 months.
+Alex says that the patient is an addict.
+Derek says that the patient has a 3-lumbar fusion.
+Derek says that Alex still only sees a junkie.
+Derek says yes, the patient may be an addict.
+Derek says that the patient's pain is real.
+Derek tells Alex to drop the attitude.
+Derek tells Alex to get down there.
+Derek tells Alex to start the central line.
+George is with Mrs. Drake.
+Mrs. Drake says that a handsome, older, male surgeon told Mrs. Drake that Mrs. Drake had a towel inside Mrs. Drake.
+George tells Mrs. Drake that the surgeon is Dr. Webber.
+George tells Mrs. Drake that Dr. Webber is the chief.
+Mrs. Drake says that Mrs. Drake understands that the towel was left inside Mrs. Drake after Mrs. Drake's last surgery.
+Mrs. Drake asks who would do that.
+Mrs. Drake says that that does not seem right.
+George agrees.
+Cristina enters an office.
+Cristina starts going through files.
+Cristina looks for information on Mrs. Drake's initial surgery.
+Cristina finally finds a post-op report.
+The post-op report lists Dr. John Davies as the surgeon.
+The post-op report lists Dr. Preston Burke as the surgical fellow on the case.
+Cristina brings the information to Bailey.
+Cristina asks Bailey what happens now.
+Bailey tells Cristina to keep the information to Cristina herself while Bailey and the others work it out.
+Meredith is charting at the nurse’s station.
+Derek comes over to Meredith.
+Derek noticed something seemed off.
+Derek asks Meredith if Meredith is okay.
+Meredith assures Derek that Meredith is just tired from a long procedure.
+Derek asks Meredith out for dinner tonight.
+Meredith cannot go to dinner tonight.
+Derek tells Meredith to forget about the party.
+Derek’s comment surprises Meredith because Meredith did not tell Derek about the party.
+Derek sarcastically tHanks Meredith for not inviting Derek.
+Derek says that not being invited felt good.
+Derek tells Meredith to think about dinner.
+Derek leaves.
+Meredith is paged.
+Meredith arrives at Mrs. Patterson’s bed.
+Nurse Tyler tells Meredith that there was swelling over Mrs. Patterson’s sternum.
+Nurse Tyler tells Meredith that blood then started gushing.
+Nurse Tyler tells Meredith that Nurse Tyler already paged Burke.
+Mr. Patterson wants to know if Mrs. Patterson is dying.
+Meredith asks someone to get Mr. Patterson out of there.
+Meredith asks someone to hold pressure over the wound.
+Burke arrives.
+Burke tells Nurse Tyler to call for an OR.
+Burke asks Meredith for an update.
+Meredith says that Mrs. Patterson has received medication.
+Meredith says that Mrs. Patterson has had no allergic, anaphylactic, or histamine responses.
+Meredith updates Burke on Mrs. Patterson’s labs.
+Burke is not sure what went wrong.
+Burke tells the team to move.
+Meredith hesitates.
+Meredith then confesses that Meredith popped a glove in the OR.
+Mr. Patterson has heard all of this.
+Mr. Patterson watches as the team moves Mrs. Patterson to surgery.
+In the OR, Burke berates Meredith for not telling Burke sooner.
+Burke says that Meredith had every opportunity to speak up before Burke closed.
+Burke says that Meredith then confessed in front of Mr. Patterson.
+Burke says that Meredith does not know if this was Meredith’s fault.
+Meredith continues to apologize.
+Burke then finds the problem.
+Burke beckons Meredith to the table.
+Burke says that there is a wall rupture.
+Burke says that the wall rupture is a lot larger than a fingernail.
+Burke tells Meredith that Mrs. Patterson’s ventricular walls are weak.
+Richard comes in from the scrub room.
+Richard tells Burke and Meredith that Richard just spoke with Mr. Patterson.
+Richard wants copies of Mrs. Patterson’s chart in Richard’s office by 5pm.
+Richard says that Burke and Meredith will meet with legal tomorrow.
+Richard says that Burke and Meredith better be able to explain what happened here.
+Richard rants about people poking holes in hearts and leaving towels behind.
+Burke tells Meredith that Burke is going to go back and talk with Mr. Patterson.
+Burke tells Meredith to review the history.
+Burke tells Meredith to apologize profusely.
+Burke tells Meredith that Meredith’s ass is on the line here.
 Meredith is reviewing the chart with Cristina and George.
-Meredith mentions she has to meet with the chief tomorrow morning and might be expelled from the program.
-George believes Meredith won't be expelled, while Cristina thinks Mr. Patterson might sue.
-Cristina questions why Meredith informed Burke.
-George says he advised Meredith not to tell Burke.
-Meredith's phone rings, and she says she needs to answer it, sarcastically tHanking Cristina and George for their support.
-Izzie arrives with coffee, a banana, and chips, mentioning that beer will arrive at 7 pm and some floor nurses are bringing wine.
-Cristina is annoyed that Izzie invited nurses, and George asks if Izzie got Meredith's approval.
-Izzie insists a few more people won't matter, saying a party is a party.
-Cristina agrees, adding that a bigger party means less time for bad sex with her hockey player.
-Izzie tells Cristina to stop, claiming she and Hank have great sex frequently and might even have sex during the party.
-Cristina laughs, and George reminds Cristina to check with Meredith.
-Izzie mentions that Hank needs to see doctors can have fun and aren't just workaholics.
-Cristina disagrees, which annoys Izzie, while George plays with a glove.
-Meredith is on the phone, confirming a notary will arrive at 6:30, along with a doctor to verify her mother's mental state.
-Meredith asks if she needs anything besides her license and checkbook, confirms the time again, and ends the call.
-Derek joins Meredith, having overheard.
-Meredith thinks Derek means her call and tries to cover, but Derek refers to the heart issue and asks if she wants to discuss it.
-Meredith says they are adults but questions when that happened and how to stop it as she leaves.
-Cristina puts a patient chart back while Burke is working at the nurse’s station.
-Cristina and Burke greet each other awkwardly.
-Cristina mentions the heart graft complication.
-Burke says it was manageable.
-Cristina walks away, feeling doubtful.
+Meredith tells Cristina and George that Meredith has to go before the chief tomorrow morning.
+Meredith tells Cristina and George that Meredith could be kicked out of the program.
+George does not think Meredith will be kicked out.
+Cristina thinks Mr. Patterson will sue.
+Cristina wonders why Meredith even told Burke.
+George tells Cristina that George told Meredith not to.
+Meredith’s phone rings.
+Meredith says that Meredith has to take the call.
+Meredith sarcastically tHanks Cristina and George for Cristina’s and George’s comfort.
+Izzie arrives with coffee, a banana, and chips.
+Izzie says that the beer is coming at 7pm.
+Izzie says that some of the floor nurses are bringing wine.
+Cristina is annoyed that Izzie invited nurses.
+George asks Izzie again if Izzie cleared the party with Meredith.
+Izzie says that a few more people will not make a difference.
+Izzie says that a party is a party.
+Cristina says yes.
+Cristina says that the bigger the party, the less time for the bad sex with Cristina’s hockey player.
+Izzie asks Cristina to stop.
+Izzie says that Izzie and Hank have great sex all the time.
+Izzie says that Izzie and Hank will probably have sex after the party.
+Izzie says that Izzie and Hank might even have sex during the party.
+Cristina laughs.
+George again reminds Izzie to clear the party with Meredith.
+Izzie says that Hank just needs to know that doctors can have fun.
+Izzie says that doctors are not all workaholics with God complexes.
+Cristina says that that is exactly what doctors are.
+Cristina annoys Izzie.
+George plays with an inflated glove.
+Meredith is on the phone.
+Meredith confirms that the notary can be there at 6:30.
+Meredith confirms that the home’s doctor will be there to attest to Ellis’s mental competency as well.
+Meredith asks if Meredith needs to bring anything else besides Meredith’s license and Meredith’s checkbook.
+Meredith confirms 6:30 again.
+Meredith ends the call.
+Derek joins Meredith.
+Derek says that Derek heard.
+Meredith thinks Derek is talking about Meredith’s phone call.
+Meredith tries to cover.
+Derek is referring to the heart thing.
+Derek asks Meredith if Meredith wants to talk about it.
+Meredith says that Meredith and Derek are adults.
+Meredith wonders when Meredith and Derek became adults.
+Meredith wonders how to make it stop.
+Meredith leaves.
+Cristina returns a patient chart to the rack.
+Burke is charting at the nurse’s station.
+Cristina and Burke greet one another awkwardly.
+Cristina mentions the complication of the heart graft.
+Burke says that the complication was nothing Burke could not handle.
+Cristina walks away.
+Cristina has doubts.
 Mr. Patterson is on the phone outside the hospital.
-Mr. Patterson ends the call quickly when Meredith approaches.
-Mr. Patterson explains it was his lawyer, who advised against talking to Meredith.
-Meredith understands Mr. Patterson's frustration and anger.
-Meredith asks for information about his wife.
-Meredith explains that Mr. Patterson's wife's heart walls are abnormally thin, which angers Mr. Patterson more.
-Mr. Patterson insists it's not his wife's fault, saying he heard directly from her.
-Mr. Patterson claims she was in the best shape of her life and suggests Meredith talk to his wife's cardiologist.
-Mr. Patterson mentions she had just lost 100 pounds and warns Meredith not to blame her.
-Meredith tries again to talk, but Mr. Patterson refuses and leaves.
+Mr. Patterson quickly ends the call as Meredith comes over.
+Mr. Patterson tells Meredith that the caller was Mr. Patterson’s lawyer.
+Mr. Patterson says that the lawyer advised Mr. Patterson not to talk with Meredith.
+Meredith understands that Mr. Patterson is frustrated and angry.
+Meredith asks Mr. Patterson for information about Mrs. Patterson.
+Meredith tells Mr. Patterson that Mrs. Patterson’s heart walls are abnormally thin.
+Mr. Patterson becomes even angrier.
+Mr. Patterson tells Meredith not to blame this on Mrs. Patterson.
+Mr. Patterson says that Mr. Patterson heard from Meredith’s very mouth what happened.
+Mr. Patterson says that Mrs. Patterson was in the best shape of Mrs. Patterson’s life.
+Mr. Patterson tells Meredith to ask Mrs. Patterson’s cardiologist.
+Mr. Patterson says that Mrs. Patterson had just lost 100lbs.
+Mr. Patterson tells Meredith not to dare hang this on Mrs. Patterson.
+Meredith tries again.
+Mr. Patterson says that Mr. Patterson is done talking.
+Mr. Patterson leaves.
 Alex and Derek are in Jerry Frost's room.
-Alex and Derek tell Jerry they know he's there to get drugs because of his addiction and advise him to go home and seek help.
+Alex and Derek reveal to Jerry Frost that Alex and Derek have discovered that Jerry Frost is there just to beg for drugs because of Jerry Frost's addiction.
+Alex and Derek tell Jerry Frost to go home and get help.
 Meanwhile, Izzie is in Mr. Sterman's room.
-Derek asks Izzie to discharge the drug-addicted patient.
-In the hallway, Izzie and George plan to get beers for the party.
-Izzie asks George to buy them.
-Alex overhears and teasingly suggests Izzie ask her boyfriend.
-Izzie irritably replies that she didn't invite Alex because he's unpleasant.
-Alex says he wouldn't have attended anyway.
-George is concerned that Meredith doesn't know how many people will be at her house.
-Izzie wants to inform Meredith, but Cristina warns that Meredith has already left.
-George asks Izzie to tell Meredith he is not involved with the party.
-Meredith goes to the notary, but her mother, experiencing an Alzheimer's episode, won't sign the house documents.
-Meredith pleads with her mother to focus and sign.
-The notary's secretary informs Meredith that they can't complete the deal that day and suggests she return when her mother is clear-headed.
-Meredith becomes frustrated and leaves angrily.
-Cristina notices Miranda Bailey and Preston Burke talking.
-Cristina realizes Miranda Bailey is giving Preston Burke the files about the surgery where a sponge was left inside Mrs. Drake.
-Preston Burke looks at the files, concerned.
-Meredith arrives home and finds a party happening there.
-At the party, Cristina asks Miranda Bailey for updates on Mrs. Drake's case.
-Miranda Bailey advises Cristina not to get involved.
-At the hospital, Izzie, Alex, and a nurse are escorting Jerry Frost, who suddenly becomes violent.
-Some nurses try to hold Jerry Frost, but he escapes, falls, hits his head, and loses consciousness.
-Derek Shepherd looks at Jerry Frost's CT scan.
-Derek asks Izzie and Alex to identify what they see.
-Izzie and Alex notice a subdural hemorrhage, and Derek says they must operate right away.
-Derek asks Izzie if she was supposed to leave or if she wants to stay for the surgery.
-Izzie says she wants to stay.
-At the party, Meredith sees George and asks about Izzie.
-Meredith scolds George because the party was meant to be a small gathering to meet her boyfriend.
-Meredith says Meredith can't handle the situation, and George offers to make everyone leave.
+Derek asks Izzie to discharge Jerry Frost.
+In the hallway, Izzie and George organize getting beers for the party.
+Izzie asks George to get the beers.
+Meanwhile, Alex overhears Izzie and George.
+Alex provocatively tells Izzie to ask Hank.
+Izzie responds irritably that Izzie did not invite Alex because Alex is unpleasant.
+Alex says that Alex would not have come anyway.
+George is worried that Meredith does not know how many people will be crowding Meredith's house.
+Izzie says that Izzie wants to tell Meredith.
+Cristina warns Izzie that Meredith has already left.
+George asks Izzie to tell Meredith that George has nothing to do with the party.
+Meredith arrives at the notary.
+Meredith's mother is in the throes of an Alzheimer's crisis.
+Meredith's mother refuses to sign the documents for the house.
+Meredith begs Meredith's mother to concentrate and sign the papers.
+The notary's secretary tells Meredith that it will not be possible to finalize the deal that day.
+The notary's secretary asks Meredith to return the next day when Meredith's mother is lucid.
+Meredith gets impatient.
+Meredith leaves angrily.
+Cristina sees Bailey and Burke talking.
+Cristina realizes that Bailey is giving Burke the files related to the surgery in which Burke was involved.
+Cristina realizes that Burke left a sponge inside Mrs. Drake's body.
+Burke examines the files.
+Burke is worried.
+Meredith arrives home.
+Meredith discovers that a party has been organized at Meredith's place.
+At the party, Cristina asks Bailey if there are any updates on Mrs. Drake's sponge case.
+Bailey tells Cristina not to get involved.
+In the hospital, Izzie and Alex are escorting Jerry Frost with a nurse.
+Jerry Frost reacts violently.
+Some nurses try to restrain Jerry Frost.
+Jerry Frost gets up.
+Jerry Frost runs away.
+Jerry Frost falls.
+Jerry Frost hits Jerry Frost's head.
+Jerry Frost passes out.
+Derek observes the CT scan results of Jerry Frost's head.
+Derek asks Izzie and Alex what Izzie and Alex see in the images.
+Izzie and Alex notice a subdural hemorrhage.
+Derek says that Derek, Izzie, and Alex need to operate immediately.
+Derek asks Izzie if Izzie was supposed to leave or if Izzie wanted to stay for the surgery.
+Izzie says that Izzie wants to stay.
+At the party, Meredith sees George.
+Meredith asks George where Izzie is.
+Meredith scolds George because the party was supposed to be a small gathering among friends to meet Hank.
+Meredith says that Meredith cannot handle all of this.
+George offers to kick everyone out.
 Meanwhile, a drunk Cristina greets Meredith.
-Meredith and Cristina start drinking and dancing.
-Meredith and Cristina invite George to join them.
-Derek, Izzie, and Alex are in surgery with Jerry.
-Alex mentions Alex's father was addicted to heroin.
-At the party, Meredith and Cristina continue to have fun while drunk.
-Hank arrives and looks for Izzie Stevens.
-Cristina tells Hank Izzie isn't there and won't return soon.
-Hank is surprised by the large party.
-Hank keeps asking when Izzie will come.
-After surgery, Derek asks Izzie and Alex to finish with the patient.
-Alex offers to handle it and tells Izzie she can go to her boyfriend.
-Izzie tHanks Alex but looks upset.
-Hank waits outside the hospital for Izzie.
-Hank and Izzie kiss when they meet, and Izzie talks about the surgery.
-Hank mentions Hank didn't want a big party and doesn't care to meet Izzie's coworkers.
-Izzie reminds Hank that Hank didn't mind meeting her colleagues when she was a model.
-Hank points out that Izzie used to attend her parties back then.
-Izzie insists her life is different now, and her patients are her priority.
-They argue because Hank traveled far for Izzie, but she focused on work.
-Izzie asks Hank to come to the party, but Hank refuses and leaves.
-Meredith is outside the house, drunk, and notices Derek waiting by a car.
-Meredith and Derek start flirting while discussing tequila.
-They kiss and have sex in the car.
-Miranda Bailey sees them from outside.
-The next morning, the house is messy.
-George brings Meredith a cup.
-Meredith tells George she has to meet the chief in an hour.
-Izzie enters and asks about the mess.
-Meredith, feeling down, jokes that Izzie shouldn't talk to her anymore, but says it's not a big deal since she had nothing else to do.
-George sarcastically reminds Meredith she was supposed to prepare for a meeting that could ruin her.
-They discuss Mrs. Patterson.
-Meredith mentions the heart shouldn't have torn, noting Mrs. Patterson lost 50 pounds and was in great shape.
-Izzie thinks about whether losing 50 pounds in a year affected Mrs. Patterson's muscle mass.
-Meredith attends a meeting while George, Izzie, and Cristina bet on the discussion's outcome.
-Meredith talks to Dr. Webber, taking responsibility for the previous day's events.
-Meredith mentions Mrs. Patterson's condition, who still weighs 100 pounds, as a key factor.
-Mrs. Patterson's muscle mass, including the heart, has reduced due to weight loss.
-Dr. Webber believes this explains the heart tearing after a minor impact.
-The hospital lawyer points out that Meredith didn't report the impact quickly, risking hospital liability.
-Dr. Burke supports Meredith by sharing his experience with Mrs. Drake.
-Dr. Burke recalls not reporting a sponge left inside a patient five years ago due to fear of career consequences.
-Dr. Burke argues that even great doctors make mistakes and should speak up without fear.
-Meredith informs George, Izzie, and Cristina she wasn't fired and will be monitored for a month.
-Miranda tells Cristina that Dr. Burke planned to reveal the secret about Mrs. Drake's case and was waiting for the right time, as "information is power."
-Ellis Grey signs the documents in front of Meredith.
-Alex sets up a meeting for Jerry, who is in bed after surgery, with a psychologist to help with addiction recovery.
+Meredith starts drinking and dancing with Cristina.
+Meredith and Cristina invite George to join Meredith and Cristina.
+Derek, Izzie, and Alex are operating on Jerry.
+Alex reveals that Alex's father was also addicted to heroin.
+At the party, Cristina, Meredith, and George continue to play while drunk.
+Hank arrives.
+Hank asks if Izzie Stevens is there.
+Cristina warns Hank that Izzie is not there and will not be back soon.
+Hank says that Hank did not know there would be such a big party for Hank.
+Hank keeps asking when Izzie will arrive.
+After the surgery, Derek asks Izzie and Alex to finish taking care of Jerry Frost.
+Alex says that Alex will take care of Jerry Frost.
+Alex tells Izzie that Izzie can go to Hank and that Alex will handle everything.
+Izzie tHanks Alex.
+Izzie is visibly troubled.
+Hank is outside the hospital waiting for Izzie.
+Hank and Izzie greet each other with a kiss.
+Izzie starts telling Hank about the surgery.
+Hank says that Hank did not want such a big party.
+Hank says that Hank is not interested in meeting the people Izzie works with.
+Izzie reminds Hank that when Izzie was a model, Hank did not mind meeting Izzie's colleagues.
+Hank says that at least back then, Izzie attended Izzie's parties.
+Izzie emphasizes that Izzie's life has changed.
+Izzie emphasizes that Izzie's patients now come first.
+Izzie and Hank begin arguing about the fact that Hank traveled a long way for Izzie, but Izzie prioritized Izzie's work.
+Izzie asks Hank to come to the party.
+Hank says no.
+Hank leaves.
+Meredith is outside the house.
+Meredith is drunk.
+Meredith sees Derek waiting for Meredith and leaning against a car.
+Meredith and Derek start flirting.
+Meredith and Derek talk about tequila.
+Meredith and Derek kiss.
+Meredith and Derek end up having sex in the car.
+Miranda Bailey sees Meredith and Derek from outside the car.
+The next morning, the house is a mess.
+George brings a cup to Meredith.
+Meredith tells George that Meredith has to meet with the chief in an hour.
+Izzie walks in.
+Izzie asks what happened with all the mess.
+Meredith says dejectedly and jokingly that Meredith should not even talk to Izzie anymore, but what is the big deal, Meredith did not have anything else to do.
+George reminds Meredith sarcastically that Meredith was supposed to prepare for the meeting that could ruin Meredith.
+Meredith, Izzie, and George start talking about Mrs. Patterson.
+Meredith says that Mrs. Patterson's heart should never have torn.
+Meredith says that Mrs. Patterson lost 50 pounds and was in great shape.
+Izzie wonders if Mrs. Patterson's muscle mass might have suffered after Mrs. Patterson lost 50 pounds in a year.
+Meredith is at the meeting.
+In the meantime, George, Izzie, and Cristina are betting on the outcome of the discussion.
+While Meredith is talking with Webber, Meredith takes responsibility for what happened the previous day.
+Meredith also says that Mrs. Patterson's condition is a determining factor.
+Meredith says that Mrs. Patterson still weighs 100 pounds.
+Meredith says that Mrs. Patterson's muscle mass, including Mrs. Patterson's heart muscle, has significantly reduced because of the extreme weight loss.
+For Dr. Webber, this would explain the tearing of Mrs. Patterson's heart after a minor impact.
+However, the hospital lawyer emphasizes that Meredith did not promptly report the minor impact.
+The hospital lawyer says that Meredith exposed the hospital to significant liability.
+Dr. Burke defends Meredith.
+Dr. Burke shares Dr. Burke's own story with patient Mrs. Drake.
+Dr. Burke recalls that, five years earlier, Dr. Burke was a resident.
+Dr. Burke says that Dr. Burke did not report leaving a sponge inside Mrs. Drake.
+Dr. Burke says that Dr. Burke was afraid of facing a meeting where a legal loophole could have ended Dr. Burke's career.
+Dr. Burke says that even great doctors make mistakes.
+Dr. Burke says that great doctors should be free to speak up without fearing repercussions.
+Meredith tells Meredith's colleagues that Meredith was not fired.
+Meredith tells Meredith's colleagues that Meredith will be under observation for a month.
+Miranda tells Cristina that Burke had already decided to reveal the secret about Mrs. Drake's case.
+Miranda tells Cristina that Burke was just waiting for the right moment to do it because information is power.
+Ellis Grey finally signs the documents in front of Meredith.
+Alex arranges for Jerry, who is in bed after the surgery, to meet with a psychologist for addiction recovery.
 Dr. Burke apologizes to Mrs. Drake.
-Miranda looks at Derek disapprovingly.
-Mr. Sterman informs Izzie that he finally had a bowel movement, which makes Izzie happy.
-Alex joins Izzie and makes a joke.
-Cristina and Dr. Burke have sex in the locker room.
+Miranda gives Derek a dirty look.
+Mr. Sterman tells Izzie that Mr. Sterman has finally had a bowel movement.
+Izzie is happy.
+Alex joins Izzie.
+Alex makes a joke.
+Cristina and Burke have sex in the locker room.
 Meredith, George, Izzie, and Cristina clean the house after the party.

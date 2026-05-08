@@ -9,8 +9,8 @@ import re
 from textwrap import dedent
 import logging
 
-from langchain.schema import HumanMessage
-from langchain_openai import AzureChatOpenAI
+from langchain_core.messages import HumanMessage
+from langchain_litellm import ChatLiteLLM
 
 from src.utils.logger_utils import setup_logging
 from src.utils.llm_utils import clean_llm_json_response
@@ -84,7 +84,7 @@ def extract_entities_with_spacy(text: str) -> List[str]:
 def refine_entities(
     entities: List[str],
     plot: str,
-    llm: AzureChatOpenAI,
+    llm: ChatLiteLLM,
     existing_entities: List[EntityLink]
 ) -> List[EntityLink]:
     """
@@ -93,7 +93,7 @@ def refine_entities(
     Args:
         entities (List[str]): The list of extracted entities.
         plot (str): The plot text for context.
-        llm (AzureChatOpenAI): The language model for refining entities.
+        llm (ChatLiteLLM): The language model for refining entities.
         existing_entities (List[EntityLink]): The list of existing entities for reference.
 
     Returns:
@@ -157,7 +157,7 @@ def resolve_duplicate_entities(
     existing_entities: List[EntityLink],
     refined_entities: List[EntityLink],
     plot: str,
-    llm: AzureChatOpenAI
+    llm: ChatLiteLLM
 ) -> List[EntityLink]:
     """
     Resolve duplicate entities that share the same appellation by consulting the language model.
@@ -232,7 +232,7 @@ def resolve_duplicate_entities(
 def substitute_appellations_with_names(
     text: str,
     entities: List[EntityLink],
-    llm: AzureChatOpenAI
+    llm: ChatLiteLLM
 ) -> str:
     """
     Substitute appellations in the text with their corresponding best appellations.
@@ -266,7 +266,7 @@ def normalize_entities_names_to_best_appellation(
 def normalize_names(
     text: str,
     entities: List[EntityLink],
-    llm: AzureChatOpenAI
+    llm: ChatLiteLLM
 ) -> str:
     """Normalize names in the text using substitution and best appellations."""
     substituted_text = substitute_appellations_with_names(text, entities, llm)
@@ -276,7 +276,7 @@ def normalize_names(
 def extract_and_refine_entities(
     text: str,
     series: str,
-    llm: AzureChatOpenAI,
+    llm: ChatLiteLLM,
     refined_output_path: str,
     raw_output_path: str,
     season_entities_path: str

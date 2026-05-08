@@ -2,9 +2,25 @@
   min-height: 100vh;
 }
 
+.appShell {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  min-height: 100vh;
+}
+
+.sidebar {
+  padding: 1.5rem 1rem;
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  align-self: start;
+  min-height: 100vh;
+}
+
 .mainContent {
   max-width: 100%;
   margin: 0 auto;
+  padding: 1.5rem 0;
 }
 
 .header {

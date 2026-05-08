@@ -7,7 +7,7 @@ from src.narrative_storage_management.llm_service import LLMService
 from src.narrative_storage_management.vector_store_service import VectorStoreService
 from src.narrative_storage_management.character_service import CharacterService
 from src.narrative_storage_management.arc_progression_service import ArcProgressionService
-from langchain.schema import Document
+from langchain_core.documents import Document
 import uuid
 import logging
 from contextlib import contextmanager

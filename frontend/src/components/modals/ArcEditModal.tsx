@@ -17,7 +17,6 @@ import {
   Box,
   Checkbox,
   Text,
-  useColorModeValue,
 } from '@chakra-ui/react';
 import { DeleteIcon } from '@chakra-ui/icons';
 import { ArcType } from '@/architecture/types/arc';
@@ -45,7 +44,6 @@ export const ArcEditModal: React.FC<ArcEditModalProps> = ({
   const [description, setDescription] = useState('');
   const [arcType, setArcType] = useState<ArcType>(ArcType.SoapArc);
   const [mainCharacters, setMainCharacters] = useState<string[]>([]);
-  const bgColor = useColorModeValue('gray.50', 'gray.700');
 
   useEffect(() => {
     if (arc) {

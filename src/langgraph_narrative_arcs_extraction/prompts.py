@@ -1,6 +1,6 @@
 # prompts.pys
 
-from langchain.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 from textwrap import dedent
 
 # ==============================
@@ -109,7 +109,7 @@ PRESENT_SEASON_ARCS_IDENTIFIER_PROMPT = ChatPromptTemplate.from_template(
     """You are a Season Arc Continuity Expert. Determine if the given season arc is present in the episode based on the plot below.
 
 **Episode Plot:**
-{summarized_episode_plot}
+{episode_plot}
 
 **Season Arc to Check:**
 Title: {arc_title}

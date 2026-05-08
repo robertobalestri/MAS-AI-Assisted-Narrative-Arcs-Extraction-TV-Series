@@ -1,10 +1,6 @@
 import re
 from datetime import datetime
 from typing import List
-import os
-from path_handler import path_from_backslash_to_slash
-from ffmpeg_custom_functions import extract_subtitles
-
 
 # Regular expression pattern for parsing subtitle files (.srt).
 SRT_PATTERN = r'(\d+)\n(\d{2}:\d{2}:\d{2},\d{3}) --> (\d{2}:\d{2}:\d{2},\d{3})\n(.*?)\n'

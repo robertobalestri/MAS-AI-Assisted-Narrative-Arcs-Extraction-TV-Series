@@ -5,7 +5,6 @@ import {
   Text,
   Button,
   Badge,
-  useColorModeValue,
   Slider,
   SliderTrack,
   SliderFilledTrack,
@@ -16,18 +15,13 @@ import {
   Radio,
   Stack,
 } from '@chakra-ui/react';
+import type { Character } from '@/architecture/types';
 import styles from '@/styles/components/SimilarCharactersPanel.module.css';
 
 interface SimilarCharacterPair {
   character1: Character;
   character2: Character;
   similarity: number;
-}
-
-interface Character {
-  entity_name: string;
-  best_appellation: string;
-  appellations: string[];
 }
 
 interface SimilarCharactersPanelProps {

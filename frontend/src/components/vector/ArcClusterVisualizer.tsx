@@ -68,27 +68,6 @@ interface ClusterArc {
   cluster_probability: number;
 }
 
-interface PlotFigure {
-  data: any[];
-  layout: any;
-}
-
-// Add type for Plot event handler
-interface PlotlyEventData {
-  data: any[];
-  layout: any;
-}
-
-// Add proper type for Plot props
-interface PlotParams {
-  data: any[];
-  layout: any;
-  style?: React.CSSProperties;
-  config?: any;
-  useResizeHandler?: boolean;
-  onInitialized?: (figure: any) => void;
-}
-
 export const ArcClusterVisualizer: React.FC<ArcClusterVisualizerProps> = ({
   entries,
   clusters,
@@ -122,7 +101,6 @@ export const ArcClusterVisualizer: React.FC<ArcClusterVisualizerProps> = ({
     if (clusters.length > 0) {
       calculateClusterVisualization(clusters);
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [clusters]);
 
   // Function to calculate cluster visualization

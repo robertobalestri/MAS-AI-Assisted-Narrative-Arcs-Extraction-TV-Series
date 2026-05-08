@@ -86,5 +86,9 @@ class PathHandler:
         season_path = os.path.join(base_dir, series, season)
         if not os.path.exists(season_path):
             return []
-        return sorted([d for d in os.listdir(season_path) 
+        return sorted([d for d in os.listdir(season_path)
                       if os.path.isdir(os.path.join(season_path, d)) and d.startswith('E')])
+
+    @staticmethod
+    def file_exists(path: str) -> bool:
+        return os.path.exists(path)

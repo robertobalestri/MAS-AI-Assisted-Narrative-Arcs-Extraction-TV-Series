@@ -58,7 +58,7 @@ class PresentSeasonArcsProcessor(BaseAsyncProcessor):
     async def process_season_arc(
         self,
         arc: Dict,
-        summarized_plot: str,
+        episode_plot: str,
         llm: Any
     ) -> Optional[Dict]:
         """Process a single season arc."""
@@ -68,7 +68,7 @@ class PresentSeasonArcsProcessor(BaseAsyncProcessor):
 
             response = await llm.ainvoke(
                 PRESENT_SEASON_ARCS_IDENTIFIER_PROMPT.format_messages(
-                    summarized_episode_plot=summarized_plot,
+                    episode_plot=episode_plot,
                     arc_title=arc['title'],
                     arc_description=arc['description']
                 )
@@ -88,9 +88,9 @@ class PresentSeasonArcsProcessor(BaseAsyncProcessor):
 
         return await self._process_with_retries(_process)
 
-    def add_task(self, arc: Dict, summarized_plot: str, llm: Any):
+    def add_task(self, arc: Dict, episode_plot: str, llm: Any):
         """Add a task to process a season arc."""
         task = asyncio.create_task(
-            self.process_season_arc(arc, summarized_plot, llm)
+            self.process_season_arc(arc, episode_plot, llm)
         )
         self.tasks.append(task)

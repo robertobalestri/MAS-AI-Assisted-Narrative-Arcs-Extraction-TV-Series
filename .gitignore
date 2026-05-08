@@ -13,3 +13,9 @@ data/FIABA/
 new_frontend/
 agent_logs/
 .git -*
+start_open_claude*
+.openclaude/
+.pytest*/
+.vscode/
+CLAUDE.md
+data

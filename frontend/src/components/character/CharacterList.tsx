@@ -4,22 +4,15 @@ import {
   VStack,
   HStack,
   Text,
-  Button,
   IconButton,
   useDisclosure,
   useToast,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
   Badge,
 } from '@chakra-ui/react';
-import { EditIcon, DeleteIcon, ChevronDownIcon } from '@chakra-ui/icons';
-import { Character } from '@/architecture/types';
+import { EditIcon, DeleteIcon } from '@chakra-ui/icons';
+import type { Character } from '@/architecture/types';
 import { useApi } from '@/hooks/useApi';
 import { ApiClient } from '@/services/api/ApiClient';
-import { CharacterEditModal } from './CharacterEditModal';
-import { CharacterMergeModal } from './CharacterMergeModal';
 
 interface CharacterListProps {
   series: string;
@@ -38,19 +31,11 @@ export const CharacterList: React.FC<CharacterListProps> = ({
 
   // Modals
   const {
-    isOpen: isEditModalOpen,
     onOpen: openEditModal,
-    onClose: closeEditModal,
-  } = useDisclosure();
-  const {
-    isOpen: isMergeModalOpen,
-    onOpen: openMergeModal,
-    onClose: closeMergeModal,
   } = useDisclosure();
 
   // State
   const [selectedCharacter, setSelectedCharacter] = useState<Character | null>(null);
-  const [selectedForMerge, setSelectedForMerge] = useState<Character[]>([]);
 
   // Handlers
   const handleEdit = (character: Character) => {
@@ -61,7 +46,7 @@ export const CharacterList: React.FC<CharacterListProps> = ({
   const handleDelete = async (character: Character) => {
     if (window.confirm(`Are you sure you want to delete ${character.best_appellation}?`)) {
       try {
-        await request(() => api.deleteCharacter(series, character.id));
+        await request(() => api.deleteCharacter(series, character.entity_name));
         toast({
           title: 'Character deleted',
           status: 'success',
@@ -79,50 +64,12 @@ export const CharacterList: React.FC<CharacterListProps> = ({
     }
   };
 
-  const handleMergeSelect = (character: Character) => {
-    if (selectedForMerge.length < 2) {
-      setSelectedForMerge([...selectedForMerge, character]);
-      if (selectedForMerge.length === 1) {
-        openMergeModal();
-      }
-    }
-  };
-
-  const handleMergeComplete = async (data: {
-    character1_id: string;
-    character2_id: string;
-    keep_character: 'character1' | 'character2';
-  }) => {
-    try {
-      const mergeData = {
-        character1_id: data.character1_id,
-        character2_id: data.character2_id,
-        keep_character: data.keep_character
-      };
-      await request(() => api.mergeCharacters(series, mergeData));
-      toast({
-        title: 'Characters merged successfully',
-        status: 'success',
-        duration: 3000,
-      });
-      setSelectedForMerge([]);
-      closeMergeModal();
-      onCharacterUpdated();
-    } catch (error) {
-      toast({
-        title: 'Error merging characters',
-        description: error instanceof Error ? error.message : 'Unknown error',
-        status: 'error',
-        duration: 5000,
-      });
-    }
-  };
 
   return (
     <VStack spacing={4} align="stretch">
       {characters.map((character) => (
         <Box
-          key={character.id}
+          key={character.entity_name}
           p={4}
           borderWidth={1}
           borderRadius="md"
@@ -153,65 +100,15 @@ export const CharacterList: React.FC<CharacterListProps> = ({
                 colorScheme="red"
                 onClick={() => handleDelete(character)}
               />
-              <Menu>
-                <MenuButton
-                  as={Button}
-                  rightIcon={<ChevronDownIcon />}
-                  size="sm"
-                  isDisabled={selectedForMerge.includes(character)}
-                >
-                  Merge
-                </MenuButton>
-                <MenuList>
-                  <MenuItem onClick={() => handleMergeSelect(character)}>
-                    Select for merge ({selectedForMerge.length}/2)
-                  </MenuItem>
-                </MenuList>
-              </Menu>
             </HStack>
           </HStack>
         </Box>
       ))}
 
-      {/* Modals */}
       {selectedCharacter && (
-        <CharacterEditModal
-          isOpen={isEditModalOpen}
-          onClose={closeEditModal}
-          character={selectedCharacter}
-          onSave={async (data) => {
-            try {
-              await request(() => api.updateCharacter(series, data));
-              toast({
-                title: 'Character updated',
-                status: 'success',
-                duration: 3000,
-              });
-              closeEditModal();
-              onCharacterUpdated();
-            } catch (error) {
-              toast({
-                title: 'Error updating character',
-                description: error instanceof Error ? error.message : 'Unknown error',
-                status: 'error',
-                duration: 5000,
-              });
-            }
-          }}
-        />
-      )}
-
-      {selectedForMerge.length === 2 && (
-        <CharacterMergeModal
-          isOpen={isMergeModalOpen}
-          onClose={() => {
-            closeMergeModal();
-            setSelectedForMerge([]);
-          }}
-          character1={selectedForMerge[0]}
-          character2={selectedForMerge[1]}
-          onMergeComplete={handleMergeComplete}
-        />
+        <Box p={4} borderWidth={1} borderRadius="md">
+          <Text fontWeight="medium">Editing is handled in the character manager panel.</Text>
+        </Box>
       )}
     </VStack>
   );

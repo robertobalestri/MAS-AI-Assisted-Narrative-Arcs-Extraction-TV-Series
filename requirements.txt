@@ -86,6 +86,8 @@ langchain-chroma==0.1.4
 langchain-core==0.3.7
 langchain-openai==0.2.1
 langchain-text-splitters==0.3.0
+langchain-litellm==0.6.4
+litellm==1.83.14
 langcodes==3.4.1
 langgraph==0.2.32
 langgraph-checkpoint==2.0.0

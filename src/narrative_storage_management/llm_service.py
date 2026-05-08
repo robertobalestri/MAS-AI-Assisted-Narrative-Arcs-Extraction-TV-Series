@@ -4,7 +4,7 @@ from textwrap import dedent
 from typing import Optional, Dict, List
 from src.narrative_storage_management.narrative_models import NarrativeArc
 from src.ai_models.ai_models import get_llm, LLMType
-from langchain.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 from src.utils.llm_utils import clean_llm_json_response
 from src.utils.logger_utils import setup_logging
 import logging

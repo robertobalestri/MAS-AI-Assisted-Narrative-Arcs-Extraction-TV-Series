@@ -25,7 +25,7 @@ interface CharacterEditModalProps {
   onClose: () => void;
   onSubmit: () => void;
   onDeleteCharacter?: (character: any) => void;
-  onMergeCharacters?: (char1: any, char2: any) => void;
+  onMergeCharacters?: (char1: any, char2: any, keepCharacter: 'character1' | 'character2') => void;
   character: any | null;
   entityName: string;
   bestAppellation: string;

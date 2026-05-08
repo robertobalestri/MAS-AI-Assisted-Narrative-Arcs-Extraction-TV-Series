@@ -1,7 +1,5 @@
 import React from 'react';
 import {
-  Grid,
-  GridItem,
   Box,
   VStack,
   HStack,
@@ -55,7 +53,6 @@ export const ArcFilters: React.FC<ArcFiltersProps> = ({
     .sort();
 
   const bgColor = useColorModeValue('white', 'gray.800');
-  const borderColor = useColorModeValue('gray.200', 'gray.600');
 
   const arcTypeColors = {
     [ArcType.SoapArc]: '#F687B3',

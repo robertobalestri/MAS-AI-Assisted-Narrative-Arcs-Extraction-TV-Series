@@ -15,21 +15,14 @@ import {
 import { AddIcon, EditIcon, DeleteIcon } from '@chakra-ui/icons';
 import { useApi } from '@/hooks/useApi';
 import { ApiClient } from '@/services/api/ApiClient';
+import type { Character } from '@/architecture/types';
 import { CharacterEditModal } from './CharacterEditModal';
-import { CharacterMergeModal } from './CharacterMergeModal';
 import { SimilarCharactersPanel } from './SimilarCharactersPanel';
 import styles from '@/styles/components/Character.module.css';
 
 interface CharacterManagerProps {
   series: string;
   onCharacterUpdated?: () => void;
-}
-
-interface Character {
-  entity_name: string;
-  best_appellation: string;
-  series: string;
-  appellations: string[];
 }
 
 interface SimilarCharacterPair {
@@ -44,19 +37,17 @@ export const CharacterManager: React.FC<CharacterManagerProps> = ({
 }) => {
   // State
   const [characters, setCharacters] = useState<Character[]>([]);
-  const [selectedCharacters, setSelectedCharacters] = useState<Character[]>([]);
   const [editingCharacter, setEditingCharacter] = useState<Character | null>(null);
   const [newAppellation, setNewAppellation] = useState('');
   const [entityName, setEntityName] = useState('');
   const [bestAppellation, setBestAppellation] = useState('');
   const [appellations, setAppellations] = useState<string[]>([]);
-  const [isMergeMode, setIsMergeMode] = useState(false);
   const [similarCharacters, setSimilarCharacters] = useState<SimilarCharacterPair[]>([]);
   const [similarityThreshold, setSimilarityThreshold] = useState(0.5);
 
   // Hooks
   const toast = useToast();
-  const { request, isLoading } = useApi();
+  const { request } = useApi();
   const api = new ApiClient();
   const { isOpen, onOpen, onClose } = useDisclosure();
   const bgColor = useColorModeValue('white', 'gray.800');

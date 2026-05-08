@@ -16,6 +16,8 @@ declare module 'react-plotly.js' {
     onSelected?: (event: any) => void;
     onDeselect?: (event: any) => void;
     onDoubleClick?: (event: any) => void;
+    onInitialized?: (figure: any, graphDiv: any) => void;
+    onUpdate?: (figure: any, graphDiv: any) => void;
     style?: React.CSSProperties;
     className?: string;
     useResizeHandler?: boolean;

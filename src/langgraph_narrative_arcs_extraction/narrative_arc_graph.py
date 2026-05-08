@@ -70,7 +70,6 @@ class NarrativeArcsExtractionState(TypedDict):
     episode: str
     existing_season_entities: List[EntityLink]
     episode_plot: str
-    summarized_plot: str
     season_plot: str
     optimized_arcs: List[IntermediateNarrativeArc]
 
@@ -79,6 +78,14 @@ class ExtractedArcBase(BaseModel):
     title: str = Field(..., description="The title of the narrative arc")
     description: str = Field(..., description="A brief description of the narrative arc")
     arc_type: str = Field(..., description="Type of the arc")
+
+async def process_with_semaphore(items, process_func, max_concurrent=5):
+    """Helper function to process a list of items concurrently with a semaphore."""
+    semaphore = asyncio.Semaphore(max_concurrent)
+    async def sem_task(item):
+        async with semaphore:
+            return await process_func(item)
+    return await asyncio.gather(*(sem_task(item) for item in items), return_exceptions=True)
 
 def initialize_state(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionState:
     """Initialize the state by loading necessary data from files."""
@@ -94,8 +101,6 @@ def initialize_state(state: NarrativeArcsExtractionState) -> NarrativeArcsExtrac
     if os.path.exists(state['file_paths']['episode_plot_path']):
         state['episode_plot'] = load_text(state['file_paths']['episode_plot_path'])
 
-    if os.path.exists(state['file_paths']['summarized_plot_path']):
-        state['summarized_plot'] = load_text(state['file_paths']['summarized_plot_path'])
 
     if os.path.exists(state['file_paths']['season_plot_path']):
         state['season_plot'] = load_text(state['file_paths']['season_plot_path'])
@@ -146,7 +151,7 @@ def log_agent_output(agent_name: str, output_data: dict, log_dir: str = "agent_l
     
     logger.info(f"Logged output from {agent_name}")
 
-def identify_present_season_arcs(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionState:
+async def identify_present_season_arcs(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionState:
     """Identify which existing season arcs are clearly present in the current episode."""
     logger.info("Identifying present season arcs in the episode.")
 
@@ -183,37 +188,37 @@ def identify_present_season_arcs(state: NarrativeArcsExtractionState) -> Narrati
         state['present_season_arcs'] = []
         return state
 
+    async def _process_arc(arc):
+        if arc['arc_type'] == "Anthology Arc":
+            return None
+        response = await llm.ainvoke(PRESENT_SEASON_ARCS_IDENTIFIER_PROMPT.format_messages(
+            episode_plot=state['episode_plot'],
+            arc_title=arc['title'],
+            arc_description=arc['description']
+        ))
+        arc_data = clean_llm_json_response(response.content)
+        if isinstance(arc_data, list):
+            arc_data = arc_data[0]
+        if arc_data['is_present']:
+            return {
+                "title": arc_data['title'],
+                "description": arc_data['description'],
+                "presence_explanation": arc_data['explanation']
+            }
+        return None
+
+    results = await process_with_semaphore(state['season_arcs'], _process_arc, max_concurrent=5)
+
     present_arcs = []
-    # Process each arc individually
-    for arc in state['season_arcs']:
-        try:
-            #do not consider anthology arcs for individuation in other episodes
-            if arc['arc_type'] == "Anthology Arc":
-                continue
-
-            response = llm.invoke(PRESENT_SEASON_ARCS_IDENTIFIER_PROMPT.format_messages(
-                summarized_episode_plot=state['summarized_plot'],
-                arc_title=arc['title'],
-                arc_description=arc['description']
-            ))
-
-            arc_data = clean_llm_json_response(response.content)
-            if isinstance(arc_data, list):
-                arc_data = arc_data[0]
-
-            if arc_data['is_present']:
-                present_arcs.append({
-                    "title": arc_data['title'],
-                    "description": arc_data['description'],
-                    "presence_explanation": arc_data['explanation']
-                })
-                logger.warning(f"Arc '{arc['title']}' identified as present in episode.")
-            else:
+    for arc, result in zip(state['season_arcs'], results):
+        if isinstance(result, Exception):
+            logger.error(f"Error processing arc '{arc['title']}': {result}")
+        elif result is not None:
+            present_arcs.append(result)
+            logger.warning(f"Arc '{arc['title']}' identified as present in episode.")
+        else:
+            if arc['arc_type'] != "Anthology Arc":
                 logger.info(f"Arc '{arc['title']}' not present in episode.")
-
-        except Exception as e:
-            logger.error(f"Error processing arc '{arc['title']}': {e}")
-            continue
 
     state['present_season_arcs'] = present_arcs
     logger.info(f"Identified {len(present_arcs)} season arcs present in the episode.")
@@ -226,11 +231,11 @@ def identify_present_season_arcs(state: NarrativeArcsExtractionState) -> Narrati
     
     return state
 
-def extract_anthology_arcs(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionState:
+async def extract_anthology_arcs(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionState:
     """Extract self-contained anthology arcs from the episode plot."""
     logger.info("Extracting anthology arcs.")
 
-    response = llm.invoke(ANTHOLOGY_ARC_EXTRACTOR_PROMPT.format_messages(
+    response = await llm.ainvoke(ANTHOLOGY_ARC_EXTRACTOR_PROMPT.format_messages(
         episode_plot=state['episode_plot'],
         season_plot=state['season_plot'],
         output_json_format=BRIEF_OUTPUT_JSON_FORMAT,
@@ -259,11 +264,11 @@ def extract_anthology_arcs(state: NarrativeArcsExtractionState) -> NarrativeArcs
     
     return state
 
-def extract_soap_and_genre_arcs(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionState:
+async def extract_soap_and_genre_arcs(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionState:
     """Extract both soap and genre-specific arcs from the episode plot."""
     logger.info("Extracting soap and genre-specific arcs.")
 
-    response = llm.invoke(SOAP_AND_GENRE_ARC_EXTRACTOR_PROMPT.format_messages(
+    response = await llm.ainvoke(SOAP_AND_GENRE_ARC_EXTRACTOR_PROMPT.format_messages(
         episode_plot=state['episode_plot'],
         present_season_arcs_summaries=json.dumps(state['present_season_arcs'], indent=2),
         anthology_arcs=json.dumps([arc.model_dump() for arc in state['anthology_arcs']], indent=2),
@@ -302,37 +307,37 @@ def extract_soap_and_genre_arcs(state: NarrativeArcsExtractionState) -> Narrativ
     
     return state
 
-def verify_arc_progression(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionState:
+async def verify_arc_progression(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionState:
     """Verify and adjust the progression and description of each arc."""
     logger.info("Verifying arc progressions.")
 
-    combined_arcs = state['episode_arcs']
-
-    verified_arcs = []
-    for arc in combined_arcs:
-        response = llm.invoke(ARC_PROGRESSION_VERIFIER_PROMPT.format_messages(
+    async def _process_arc(arc):
+        response = await llm.ainvoke(ARC_PROGRESSION_VERIFIER_PROMPT.format_messages(
             episode_plot=state['episode_plot'],
             arc_to_verify=arc.model_dump(),
             output_json_format=DETAILED_OUTPUT_JSON_FORMAT
         ))
+        verified_arc_data = clean_llm_json_response(response.content)
+        if isinstance(verified_arc_data, list):
+            verified_arc_data = verified_arc_data[0]
+        return IntermediateNarrativeArc(
+            title=verified_arc_data['title'],
+            arc_type=verified_arc_data['arc_type'],
+            description=verified_arc_data['description'],
+            main_characters=verified_arc_data.get('main_characters', ''),
+            interfering_episode_characters=verified_arc_data.get('interfering_episode_characters', ''),
+            single_episode_progression_string=verified_arc_data['single_episode_progression_string']
+        )
 
-        try:
-            verified_arc_data = clean_llm_json_response(response.content)
-            if isinstance(verified_arc_data, list):
-                verified_arc_data = verified_arc_data[0]
+    results = await process_with_semaphore(state['episode_arcs'], _process_arc, max_concurrent=5)
 
-            verified_arc = IntermediateNarrativeArc(
-                title=verified_arc_data['title'],
-                arc_type=verified_arc_data['arc_type'],
-                description=verified_arc_data['description'],
-                main_characters=verified_arc_data['main_characters'] if 'main_characters' in verified_arc_data else '',
-                interfering_episode_characters=verified_arc_data['interfering_episode_characters'] if 'interfering_episode_characters' in verified_arc_data else '',
-                single_episode_progression_string=verified_arc_data['single_episode_progression_string']
-            )
-            verified_arcs.append(verified_arc)
-        except Exception as e:
-            logger.error(f"Error verifying arc progression: {e}")
-            verified_arcs.append(arc)  # Keep the original arc if verification fails
+    verified_arcs = []
+    for arc, result in zip(state['episode_arcs'], results):
+        if isinstance(result, Exception):
+            logger.error(f"Error verifying arc progression: {result}")
+            verified_arcs.append(arc)
+        else:
+            verified_arcs.append(result)
 
     state['episode_arcs'] = verified_arcs
     logger.info(f"Verified progressions for {len(verified_arcs)} arcs.")
@@ -344,35 +349,37 @@ def verify_arc_progression(state: NarrativeArcsExtractionState) -> NarrativeArcs
     
     return state
 
-def verify_character_roles(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionState:
+async def verify_character_roles(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionState:
     """Verify and correctly categorize characters as either main or interfering for each arc."""
     logger.info("Verifying character roles in arcs.")
 
-    verified_arcs = []
-    for arc in state['episode_arcs']:
-        response = llm.invoke(CHARACTER_VERIFIER_PROMPT.format_messages(
+    async def _process_arc(arc):
+        response = await llm.ainvoke(CHARACTER_VERIFIER_PROMPT.format_messages(
             episode_plot=state['episode_plot'],
             arc_to_verify=arc.model_dump(),
             output_json_format=DETAILED_OUTPUT_JSON_FORMAT
         ))
+        verified_arc_data = clean_llm_json_response(response.content)
+        if isinstance(verified_arc_data, list):
+            verified_arc_data = verified_arc_data[0]
+        return IntermediateNarrativeArc(
+            title=verified_arc_data['title'],
+            arc_type=verified_arc_data['arc_type'],
+            description=verified_arc_data['description'],
+            main_characters=verified_arc_data['main_characters'],
+            interfering_episode_characters=verified_arc_data['interfering_episode_characters'],
+            single_episode_progression_string=verified_arc_data['single_episode_progression_string']
+        )
 
-        try:
-            verified_arc_data = clean_llm_json_response(response.content)
-            if isinstance(verified_arc_data, list):
-                verified_arc_data = verified_arc_data[0]
+    results = await process_with_semaphore(state['episode_arcs'], _process_arc, max_concurrent=5)
 
-            verified_arc = IntermediateNarrativeArc(
-                title=verified_arc_data['title'],
-                arc_type=verified_arc_data['arc_type'],
-                description=verified_arc_data['description'],
-                main_characters=verified_arc_data['main_characters'],
-                interfering_episode_characters=verified_arc_data['interfering_episode_characters'],
-                single_episode_progression_string=verified_arc_data['single_episode_progression_string']
-            )
-            verified_arcs.append(verified_arc)
-        except Exception as e:
-            logger.error(f"Error verifying character roles: {e}")
-            verified_arcs.append(arc)  # Keep original arc if verification fails
+    verified_arcs = []
+    for arc, result in zip(state['episode_arcs'], results):
+        if isinstance(result, Exception):
+            logger.error(f"Error verifying character roles: {result}")
+            verified_arcs.append(arc)
+        else:
+            verified_arcs.append(result)
 
     state['episode_arcs'] = verified_arcs
     logger.info(f"Verified character roles for {len(verified_arcs)} arcs.")
@@ -384,7 +391,7 @@ def verify_character_roles(state: NarrativeArcsExtractionState) -> NarrativeArcs
     
     return state
 
-def deduplicate_arcs(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionState:
+async def deduplicate_arcs(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionState:
     """Deduplicate and merge similar arcs from different extraction methods."""
     logger.info("Deduplicating and merging similar arcs from different extraction methods.")
 
@@ -392,7 +399,7 @@ def deduplicate_arcs(state: NarrativeArcsExtractionState) -> NarrativeArcsExtrac
     non_anthology_arcs = [arc for arc in state['optimized_arcs'] if arc.arc_type != "Anthology Arc"]
     anthology_arcs = [arc for arc in state['optimized_arcs'] if arc.arc_type == "Anthology Arc"]
 
-    response = llm.invoke(ARC_DEDUPLICATOR_PROMPT.format_messages(
+    response = await llm.ainvoke(ARC_DEDUPLICATOR_PROMPT.format_messages(
         episode_plot=state['episode_plot'],
         arcs_to_deduplicate=[arc.model_dump() for arc in non_anthology_arcs],
         anthology_arcs=[arc.model_dump() for arc in anthology_arcs],  # Added anthology arcs as context
@@ -427,45 +434,45 @@ def deduplicate_arcs(state: NarrativeArcsExtractionState) -> NarrativeArcsExtrac
     
     return state
 
-def enhance_arc_details(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionState:
+async def enhance_arc_details(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionState:
     """Enhance deduplicated arcs with additional details."""
     logger.info("Enhancing arcs with additional details.")
 
-    enhanced_arcs = []
-    for arc in state['episode_arcs']:
-        response = llm.invoke(ARC_ENHANCER_PROMPT.format_messages(
+    async def _process_arc(arc):
+        response = await llm.ainvoke(ARC_ENHANCER_PROMPT.format_messages(
             episode_plot=state['episode_plot'],
             arc_to_enhance=arc.model_dump(),
             guidelines=NARRATIVE_ARC_GUIDELINES,
             output_json_format=DETAILED_OUTPUT_JSON_FORMAT
         ))
+        enhanced_arc_data = clean_llm_json_response(response.content)
+        if isinstance(enhanced_arc_data, list):
+            enhanced_arc_data = enhanced_arc_data[0]
+        return IntermediateNarrativeArc(
+            title=arc.title,
+            arc_type=arc.arc_type,
+            description=arc.description,
+            main_characters=enhanced_arc_data['main_characters'],
+            interfering_episode_characters=enhanced_arc_data['interfering_episode_characters'],
+            single_episode_progression_string=enhanced_arc_data['single_episode_progression_string']
+        )
 
-        try:
-            enhanced_arc_data = clean_llm_json_response(response.content)
-            if isinstance(enhanced_arc_data, list):
-                enhanced_arc_data = enhanced_arc_data[0]
+    results = await process_with_semaphore(state['episode_arcs'], _process_arc, max_concurrent=5)
 
-            enhanced_arc = IntermediateNarrativeArc(
-                title=arc.title,
-                arc_type=arc.arc_type,
-                description=arc.description,
-                main_characters=enhanced_arc_data['main_characters'],
-                interfering_episode_characters=enhanced_arc_data['interfering_episode_characters'],
-                single_episode_progression_string=enhanced_arc_data['single_episode_progression_string']
-            )
-            enhanced_arcs.append(enhanced_arc)
-        except Exception as e:
-            logger.error(f"Error enhancing arc details: {e}")
-            # Create a basic enhanced arc if enhancement fails
-            enhanced_arc = IntermediateNarrativeArc(
+    enhanced_arcs = []
+    for arc, result in zip(state['episode_arcs'], results):
+        if isinstance(result, Exception):
+            logger.error(f"Error enhancing arc details: {result}")
+            enhanced_arcs.append(IntermediateNarrativeArc(
                 title=arc.title,
                 arc_type=arc.arc_type,
                 description=arc.description,
                 main_characters="",
                 interfering_episode_characters="",
                 single_episode_progression_string=""
-            )
-            enhanced_arcs.append(enhanced_arc)
+            ))
+        else:
+            enhanced_arcs.append(result)
 
     state['episode_arcs'] = enhanced_arcs
     logger.info(f"Enhanced {len(enhanced_arcs)} arcs with additional details.")
@@ -477,11 +484,11 @@ def enhance_arc_details(state: NarrativeArcsExtractionState) -> NarrativeArcsExt
     
     return state
 
-def verify_arcs(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionState:
+async def verify_arcs(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionState:
     """Verify the arcs to ensure they are consistent with the episode plot and present season arcs."""
     logger.info("Verifying arcs.")
 
-    response = llm.invoke(ARC_VERIFIER_PROMPT.format_messages(
+    response = await llm.ainvoke(ARC_VERIFIER_PROMPT.format_messages(
         episode_plot=state['episode_plot'],
         season_plot=state['season_plot'],
         arcs_to_verify=json.dumps([arc.model_dump() for arc in state['episode_arcs']], indent=2),
@@ -529,7 +536,7 @@ def verify_arcs(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionS
     
     return state
 
-def optimize_arcs_with_season_context(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionState:
+async def optimize_arcs_with_season_context(state: NarrativeArcsExtractionState) -> NarrativeArcsExtractionState:
     """Optimize arc titles and descriptions based on seasonal context and merge related arcs."""
     logger.info("Starting seasonal arc optimization.")
 
@@ -540,7 +547,7 @@ def optimize_arcs_with_season_context(state: NarrativeArcsExtractionState) -> Na
         logger.info("No arcs to optimize.")
         return state
 
-    response = llm.invoke(SEASONAL_ARC_OPTIMIZER_PROMPT.format_messages(
+    response = await llm.ainvoke(SEASONAL_ARC_OPTIMIZER_PROMPT.format_messages(
         season_plot=state['season_plot'],
         present_season_arcs=json.dumps(state['present_season_arcs'], indent=2),
         new_arcs=json.dumps([arc.model_dump() for arc in arcs_to_optimize], indent=2),
@@ -606,10 +613,11 @@ def create_narrative_arc_graph():
 
     return workflow.compile()
 
-def extract_narrative_arcs(file_paths: Dict[str, str], series: str, season: str, episode: str) -> None:
-    """Extract narrative arcs from the provided file paths and save the results to a JSON file."""
+async def extract_narrative_arcs(file_paths: Dict[str, str], series: str, season: str, episode: str):
+    """
+    Entry point for extracting narrative arcs using LangGraph.
+    """
     logger.info("Starting extract_narrative_arcs function")
-    
     # Create a unique timestamp for this run
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     log_dir = Path("agent_logs")
@@ -631,12 +639,11 @@ def extract_narrative_arcs(file_paths: Dict[str, str], series: str, season: str,
         episode=episode,
         existing_season_entities=[],
         episode_plot="",
-        summarized_plot="",
         season_plot="",
         optimized_arcs=[]
     )
     logger.info("Invoking the graph")
-    result = graph.invoke(initial_state)
+    result = await graph.ainvoke(initial_state)
     logger.info("Graph execution completed")
 
     # Save the results to a JSON file

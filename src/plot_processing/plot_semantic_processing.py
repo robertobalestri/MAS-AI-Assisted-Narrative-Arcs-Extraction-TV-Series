@@ -1,6 +1,6 @@
 from src.utils.logger_utils import setup_logging
 from typing import List
-from langchain_openai import AzureChatOpenAI
+from langchain_litellm import ChatLiteLLM
 import re
 from langchain_core.messages import HumanMessage
 from src.utils.text_utils import split_into_sentences, clean_text
@@ -10,7 +10,7 @@ from textwrap import dedent
 # Set up colored logging
 logger = setup_logging(__name__)
 
-def split_text(window_text: str, llm: AzureChatOpenAI) -> List[str]:
+def split_text(window_text: str, llm: ChatLiteLLM) -> List[str]:
     prompt = dedent(f"""
     Analyze the following text and insert <BOS> (Begin of Scene) tags only where a new semantic scene begins.
     If the text starts with an incomplete scene from a previous section, continue that scene and only add <BOS> tags for new scenes after it.
@@ -39,7 +39,7 @@ def split_text(window_text: str, llm: AzureChatOpenAI) -> List[str]:
     
     return segments
 
-def correct_segments(segments: List[str], llm: AzureChatOpenAI, batch_size: int = 3) -> List[str]:
+def correct_segments(segments: List[str], llm: ChatLiteLLM, batch_size: int = 3) -> List[str]:
     logger.info("Starting segment correction")
     corrected_segments = []
 
@@ -78,7 +78,7 @@ def correct_segments(segments: List[str], llm: AzureChatOpenAI, batch_size: int 
     logger.info(f"Segment correction complete. Total segments: {len(corrected_segments)}")
     return corrected_segments
 
-def semantic_split(text: str, llm: AzureChatOpenAI, window_size: int = 20, correction_batch_size: int = 3) -> List[str]:
+def semantic_split(text: str, llm: ChatLiteLLM, window_size: int = 20, correction_batch_size: int = 3) -> List[str]:
     logger.info("Starting semantic split")
 
     sentences = split_into_sentences(text)

@@ -1,4 +1,5 @@
 import { useState, useCallback } from 'react';
+import { isApiSuccess } from '@/architecture/types/api';
 import type { NarrativeArc } from '@/architecture/types';
 import { ApiClient } from '@/services/api/ApiClient';
 
@@ -15,7 +16,7 @@ export const useArcManagement = (series: string) => {
     
     try {
       const response = await api.request<NarrativeArc[]>(`/arcs/series/${series}`);
-      if (response.error) {
+      if (!isApiSuccess<NarrativeArc[]>(response)) {
         throw new Error(response.error);
       }
       setArcs(response.data);
@@ -35,7 +36,7 @@ export const useArcManagement = (series: string) => {
         method: 'POST',
         body: JSON.stringify(arcData),
       });
-      if (response.error) {
+      if (!isApiSuccess<NarrativeArc>(response)) {
         throw new Error(response.error);
       }
       setArcs((prev: NarrativeArc[]) => [...prev, response.data]);

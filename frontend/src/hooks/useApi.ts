@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react';
+import { isApiSuccess } from '@/architecture/types/api';
 import type { ApiResponse } from '@/architecture/types';
-import { ApiClient } from '@/services/api/ApiClient';
 
 export function useApi() {
   const [isLoading, setIsLoading] = useState(false);
@@ -14,7 +14,7 @@ export function useApi() {
 
     try {
       const response = await apiCall();
-      if (response.error) {
+      if (!isApiSuccess<T>(response)) {
         throw new Error(response.error);
       }
       return response.data;

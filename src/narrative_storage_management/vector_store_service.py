@@ -1,7 +1,7 @@
 # vector_store_service.py
 
 from typing import List, Dict, Optional, Any, Union
-from langchain.schema import Document
+from langchain_core.documents import Document
 from langchain_chroma import Chroma
 from src.ai_models.ai_models import get_embedding_model
 import logging
@@ -266,7 +266,7 @@ class VectorStoreService:
                 metric='precomputed',
                 core_dist_n_jobs=-1,
                 cluster_selection_method='leaf',
-                prediction_data=True,
+                prediction_data=False,
                 allow_single_cluster=True
             )
             

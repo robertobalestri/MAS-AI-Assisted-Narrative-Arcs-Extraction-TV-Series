@@ -36,12 +36,8 @@ export const VectorStoreExplorer: React.FC<VectorStoreExplorerProps> = ({
 }) => {
   // 1. First, all useContext hooks
   const plotBgColor = useColorModeValue('white', 'gray.800');
-  const bgColor = useColorModeValue('gray.50', 'gray.700');
   const progressionBgColor = useColorModeValue('gray.50', 'gray.700');
   const filtersBgColor = useColorModeValue('white', 'gray.800');
-  const progressionsBgColor = useColorModeValue('gray.50', 'gray.700');
-  const progressionsTextColor = useColorModeValue('gray.700', 'gray.200');
-  const progressionsBorderColor = useColorModeValue('gray.200', 'gray.600');
 
   // 2. All useState hooks
   const [visualizationData, setVisualizationData] = useState<any>(null);
@@ -87,7 +83,6 @@ export const VectorStoreExplorer: React.FC<VectorStoreExplorerProps> = ({
     if (entries.length > 0) {
       calculateVisualization(entries, showOnlyMainArcs, selectedSeason, selectedEpisode);
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [entries, showOnlyMainArcs, selectedSeason, selectedEpisode]);
 
   // Helper functions and constants

@@ -1,8 +1,7 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Box,
   VStack,
-  Text,
   Input,
   Button,
   useToast,
@@ -16,12 +15,11 @@ import {
   AlertIcon,
   AlertTitle,
   AlertDescription,
-  useColorModeValue,
 } from '@chakra-ui/react';
 import { SearchIcon } from '@chakra-ui/icons';
 import { useApi } from '@/hooks/useApi';
 import { ApiClient } from '@/services/api/ApiClient';
-import type { VectorStoreEntry, ArcCluster, NarrativeArc } from '@/architecture/types';
+import type { VectorStoreEntry, ArcCluster } from '@/architecture/types';
 import { ArcClusterVisualizer } from './ArcClusterVisualizer';
 import { VectorStoreExplorer } from './VectorStoreExplorer';
 
@@ -32,10 +30,7 @@ interface VectorStoreTabManagerProps {
 
 export const VectorStoreTabManager: React.FC<VectorStoreTabManagerProps> = ({
   series,
-  onArcUpdated,
 }) => {
-  // Color mode hooks
-  const bgColor = useColorModeValue('white', 'gray.700');
 
   // State hooks
   const [entries, setEntries] = useState<VectorStoreEntry[]>([]);
@@ -54,7 +49,6 @@ export const VectorStoreTabManager: React.FC<VectorStoreTabManagerProps> = ({
     if (series) {
       fetchEntries();
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [series]);
 
   // Fetch clusters or calculate visualization when active tab changes
@@ -62,7 +56,6 @@ export const VectorStoreTabManager: React.FC<VectorStoreTabManagerProps> = ({
     if (activeTab === 0 && entries.length > 0) {
       fetchClusters();
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeTab, entries]);
 
   // Fetch entries from API

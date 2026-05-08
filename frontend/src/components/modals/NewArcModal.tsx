@@ -19,7 +19,6 @@ import {
   Tag,
   TagLabel,
   TagCloseButton,
-  useColorModeValue,
   useToast,
   Tabs,
   TabList,
@@ -28,7 +27,7 @@ import {
   TabPanel,
 } from '@chakra-ui/react';
 import { ArcType } from '@/architecture/types';
-import type { NarrativeArc, ArcProgression, Episode, CreateArcData } from '@/architecture/types';
+import type { ArcProgression, Episode, CreateArcData } from '@/architecture/types';
 import { StarIcon } from '@chakra-ui/icons';
 import { ApiClient } from '@/services/api/ApiClient';
 
@@ -49,7 +48,6 @@ export const NewArcModal: React.FC<NewArcModalProps> = ({
   series,
   episodes,
 }) => {
-  const bgColor = useColorModeValue('gray.50', 'gray.700');
   const toast = useToast();
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
@@ -61,7 +59,7 @@ export const NewArcModal: React.FC<NewArcModalProps> = ({
   const [interferingCharacters, setInterferingCharacters] = useState<string[]>([]);
   const [isGeneratingAll, setIsGeneratingAll] = useState(false);
   const api = new ApiClient();
-  const [activeTab, setActiveTab] = useState(0);
+  const [, setActiveTab] = useState(0);
 
   const handleSubmit = () => {
     const initialProgression: Omit<Partial<ArcProgression>, 'id'> = {
@@ -134,9 +132,9 @@ export const NewArcModal: React.FC<NewArcModalProps> = ({
         description
       );
 
-      if (response.data) {
-        setProgressionContent(response.data.content);
-        setInterferingCharacters(response.data.interfering_characters);
+      if (!('error' in response)) {
+        setProgressionContent(response.content);
+        setInterferingCharacters(response.interfering_characters);
         toast({
           title: 'Content generated',
           description: 'AI has generated progression content and characters',
@@ -182,7 +180,7 @@ export const NewArcModal: React.FC<NewArcModalProps> = ({
       console.log('Processing episodes:', seasonEpisodes);
       const allProgressions: Omit<Partial<ArcProgression>, 'id'>[] = [];
       let generatedCount = 0;
-      let noProgressionCount = 0;
+      const noProgressionCount = 0;
       let errorCount = 0;
 
       for (const ep of seasonEpisodes) {
@@ -196,26 +194,22 @@ export const NewArcModal: React.FC<NewArcModalProps> = ({
           description
         );
 
-        if (response.error) {
+        if ('error' in response) {
           console.warn(`Error for episode ${ep.episode}:`, response.error);
           errorCount++;
           continue;
         }
 
-        if (response.data) {
-          allProgressions.push({
-            content: response.data.content,
-            season: ep.season,
-            episode: ep.episode,
-            series,
-            ordinal_position: parseInt(ep.episode.replace('E', '')),
-            interfering_characters: response.data.interfering_characters
-          });
-          generatedCount++;
-          console.log(`Added progression for episode ${ep.episode}, total now: ${allProgressions.length}`);
-        } else {
-          noProgressionCount++;
-        }
+        allProgressions.push({
+          content: response.content,
+          season: ep.season,
+          episode: ep.episode,
+          series,
+          ordinal_position: parseInt(ep.episode.replace('E', '')),
+          interfering_characters: response.interfering_characters
+        });
+        generatedCount++;
+        console.log(`Added progression for episode ${ep.episode}, total now: ${allProgressions.length}`);
 
         toast.update(loadingToast, {
           description: `Processing episode ${ep.episode}... (${generatedCount} generated, ${noProgressionCount} skipped, ${errorCount} errors)`,

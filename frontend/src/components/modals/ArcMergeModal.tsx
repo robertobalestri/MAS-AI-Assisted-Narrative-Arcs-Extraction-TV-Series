@@ -19,11 +19,8 @@ import {
   Grid,
   Badge,
   useColorModeValue,
-  Checkbox,
-  HStack,
   Tooltip,
 } from '@chakra-ui/react';
-import { AddIcon } from '@chakra-ui/icons';
 import { ArcType } from '@/architecture/types/arc';
 import type { NarrativeArc, ArcProgression } from '@/architecture/types';
 import { ArcProgressionEditModal } from './ArcProgressionEditModal';
@@ -56,7 +53,6 @@ export const ArcMergeModal: React.FC<ArcMergeModalProps> = ({
   const [mergedArcType, setMergedArcType] = useState<ArcType>(arc1.arc_type as ArcType);
   const [mainCharacters, setMainCharacters] = useState<string[]>([]);
   const [progressionMappings, setProgressionMappings] = useState<Record<string, ProgressionMapping>>({});
-  const [showNewProgressionForm, setShowNewProgressionForm] = useState(false);
   const [selectedProgression, setSelectedProgression] = useState<ProgressionMapping | null>(null);
   const [isProgressionModalOpen, setIsProgressionModalOpen] = useState(false);
 
@@ -360,6 +356,8 @@ export const ArcMergeModal: React.FC<ArcMergeModalProps> = ({
         progression={selectedProgression}
         onSave={handleProgressionSave}
         availableCharacters={[...new Set([...arc1.main_characters, ...arc2.main_characters])]}
+        arcId={arc1.id}
+        series={arc1.series}
       />
     </Modal>
   );

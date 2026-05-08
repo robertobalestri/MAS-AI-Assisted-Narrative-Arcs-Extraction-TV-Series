@@ -16,7 +16,15 @@ logger = setup_logging(__name__)
 class DatabaseSessionManager:
     """Manages the database session."""
 
-    def __init__(self, db_url: str = f'sqlite:///{os.getenv("DATABASE_NAME", "narrative_db.sqlite")}'):
+    def __init__(self, db_url: str = None):
+        if db_url is None:
+            db_path = os.getenv("DATABASE_NAME", "narrative_db.sqlite")
+            db_url = f'sqlite:///{db_path}'
+            # Ensure the directory for the SQLite database exists
+            db_dir = os.path.dirname(db_path)
+            if db_dir:
+                os.makedirs(db_dir, exist_ok=True)
+
         self.engine = create_engine(
             db_url,
             echo=False,

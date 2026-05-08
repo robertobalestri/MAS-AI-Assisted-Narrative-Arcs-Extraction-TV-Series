@@ -1,12 +1,15 @@
-import type { 
-  ApiResponse, 
-  NarrativeArc, 
-  Character, 
-  VectorStoreEntry, 
-  ArcProgression, 
+import type {
+  ApiResponse,
+  NarrativeArc,
+  Character,
+  VectorStoreEntry,
+  ArcProgression,
   ArcCluster,
-  CreateArcData 
+  CreateArcData,
+  LibrarySeriesSummary,
+  LibrarySeriesStatus
 } from '@/architecture/types';
+import { isApiError } from '@/architecture/types/api';
 
 // Add interface for arc creation data
 interface ArcCreateData extends Omit<Partial<NarrativeArc>, 'progressions' | 'main_characters'> {
@@ -24,10 +27,7 @@ interface GenerateProgressionResponse {
   interfering_characters: string[];
 }
 
-interface ApiProgressionResponse {
-  data: GenerateProgressionResponse | null;
-  error?: string;
-}
+type GenerateProgressionResult = GenerateProgressionResponse | { content: null; error: string };
 
 // Update the createProgression interface to match API expectations
 interface CreateProgressionData {
@@ -48,27 +48,94 @@ export class ApiClient {
 
   public async request<T>(endpoint: string, options: RequestInit = {}): Promise<ApiResponse<T>> {
     try {
+      const headers = new Headers(options.headers ?? {});
+      if (!headers.has('Accept')) {
+        headers.set('Accept', 'application/json');
+      }
+      if (!(options.body instanceof FormData) && !headers.has('Content-Type')) {
+        headers.set('Content-Type', 'application/json');
+      }
+
       const response = await fetch(`${this.baseUrl}${endpoint}`, {
         ...options,
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json',
-          ...options.headers,
-        },
+        headers,
       });
 
       if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+        let detail = `HTTP error! status: ${response.status}`;
+        try {
+          const errorBody = await response.json();
+          if (typeof errorBody?.detail === 'string') {
+            detail = errorBody.detail;
+          }
+        } catch {
+          // Keep the generic HTTP status message when no JSON detail is available.
+        }
+        throw new Error(detail);
       }
 
       const data = await response.json();
       return { data };
     } catch (error) {
       return {
-        data: null as any,
         error: error instanceof Error ? error.message : 'Unknown error occurred'
       };
     }
+  }
+
+  async getLibrarySeries(): Promise<ApiResponse<LibrarySeriesSummary[]>> {
+    return this.request<LibrarySeriesSummary[]>('/library/series');
+  }
+
+  async getSeries(): Promise<ApiResponse<string[]>> {
+    return this.request<string[]>('/series');
+  }
+
+  async createLibrarySeries(code: string, displayName: string): Promise<ApiResponse<LibrarySeriesStatus>> {
+    return this.request<LibrarySeriesStatus>('/library/series', {
+      method: 'POST',
+      body: JSON.stringify({ code, display_name: displayName }),
+    });
+  }
+
+  async createLibrarySeasons(series: string, seasons: string[]): Promise<ApiResponse<LibrarySeriesStatus>> {
+    return this.request<LibrarySeriesStatus>(`/library/series/${series}/seasons`, {
+      method: 'POST',
+      body: JSON.stringify({ seasons }),
+    });
+  }
+
+  async createLibraryEpisodes(series: string, season: string, episodes: string[]): Promise<ApiResponse<LibrarySeriesStatus>> {
+    return this.request<LibrarySeriesStatus>(`/library/series/${series}/${season}/episodes`, {
+      method: 'POST',
+      body: JSON.stringify({ episodes }),
+    });
+  }
+
+  async uploadLibraryPlots(series: string, files: File[]): Promise<ApiResponse<LibrarySeriesStatus>> {
+    const formData = new FormData();
+    files.forEach((file) => formData.append('files', file));
+    return this.request<LibrarySeriesStatus>(`/library/series/${series}/uploads`, {
+      method: 'POST',
+      body: formData,
+    });
+  }
+
+  async assignLibraryUpload(series: string, uploadId: string, season: string, episode: string): Promise<ApiResponse<LibrarySeriesStatus>> {
+    return this.request<LibrarySeriesStatus>(`/library/series/${series}/uploads/assign`, {
+      method: 'POST',
+      body: JSON.stringify({ upload_id: uploadId, season, episode }),
+    });
+  }
+
+  async analyzeLibrarySeries(series: string): Promise<ApiResponse<LibrarySeriesStatus>> {
+    return this.request<LibrarySeriesStatus>(`/library/series/${series}/analyze`, {
+      method: 'POST',
+    });
+  }
+
+  async getLibrarySeriesStatus(series: string): Promise<ApiResponse<LibrarySeriesStatus>> {
+    return this.request<LibrarySeriesStatus>(`/library/series/${series}/status`);
   }
 
   // Arc endpoints
@@ -140,7 +207,7 @@ export class ApiClient {
     });
 
     // Check for error response
-    if ('error' in response) {
+    if (isApiError(response)) {
       return response;
     }
 
@@ -337,7 +404,7 @@ export class ApiClient {
     episode: string,
     title?: string,
     description?: string
-  ): Promise<ApiProgressionResponse> {
+  ): Promise<GenerateProgressionResult> {
     try {
       const response = await this.request<GenerateProgressionResponse>(
         `/progressions/generate?series=${series}&season=${season}&episode=${episode}`,
@@ -352,42 +419,36 @@ export class ApiClient {
         }
       );
 
-      // Handle error response
-      if ('error' in response) {
+      if (isApiError(response)) {
         console.error('Generation error:', response.error);
         return {
-          data: null,
+          content: null,
           error: response.error
         };
       }
 
-      // Handle NO_PROGRESSION case
-      if (response.data?.content === "NO_PROGRESSION") {
+      if (response.data.content === "NO_PROGRESSION") {
         return {
-          data: null,
+          content: null,
           error: "No progression found for this arc in this episode"
         };
       }
 
-      // Handle missing or invalid content
-      if (!response.data?.content) {
+      if (!response.data.content) {
         return {
-          data: null,
+          content: null,
           error: "Failed to generate progression content"
         };
       }
 
-      // Return successful response
       return {
-        data: {
-          content: response.data.content,
-          interfering_characters: response.data.interfering_characters || []
-        }
+        content: response.data.content,
+        interfering_characters: response.data.interfering_characters || []
       };
     } catch (error) {
       console.error('Generation error:', error);
       return {
-        data: null,
+        content: null,
         error: error instanceof Error ? error.message : 'Unknown error occurred'
       };
     }
