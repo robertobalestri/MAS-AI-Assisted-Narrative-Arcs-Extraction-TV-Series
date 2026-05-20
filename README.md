@@ -1,3 +1,6 @@
+> [!WARNING]  
+> **This repository is discontinued.** An enhanced, multi-agent version of this framework is now available. For advanced capabilities and the complete pipeline, please check out the new repository: [ANTS: Analysis of Narrative in Television Seriality - An AI Multiagent framework for media scholars](https://github.com/robertobalestri/ANTS-Analysis-of-Narrative-in-Television-Seriality---An-AI-Multiagent-framework-for-media-scholars#-recommended-end-to-end-workflow).
+
 # Narrative Arc Analysis System
 
 A Python-based system for extracting, analyzing and visualizing narrative arcs from TV series plots, with a React-based frontend for visualization and management.
